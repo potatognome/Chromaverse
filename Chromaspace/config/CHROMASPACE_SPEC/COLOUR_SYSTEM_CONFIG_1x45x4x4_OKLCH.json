@@ -1,0 +1,16 @@
+{
+  "COLOUR_METHOD"      : "oklch",
+  "HSL_OFFSETS"        : [0, 0.0, 0.0],
+  "HUE_ANCHORS"        : ["h01", "h02", "h03", "h04", "h05", "h06", "h07", "h08", "h09", "h10", "h11", "h12", "h13", "h14", "h15", "h16", "h17", "h18", "h19", "h20", "h21", "h22", "h23", "h24", "h25", "h26", "h27", "h28", "h29", "h30", "h31", "h32", "h33", "h34", "h35", "h36", "h37", "h38", "h39", "h40", "h41", "h42", "h43", "h44", "h45"],
+  "HUE_VARIANTS"       : ["v1"],
+  "GREY_BAND"          : ["grey"],
+  "GREY_VARIANT"       : ["neutral"],
+  "SAT_BANDS"          : [["washed", 0.07], ["soft", 0.12], ["natural", 0.17], ["bold", 0.22]],
+  "LUM_BANDS"          : [["deep", 0.35], ["dark", 0.50], ["mid", 0.66], ["light", 0.84]],
+  "SAT_BANDS_GREY"     : [["neutral", 0.0]],
+  "LUM_BANDS_GREY"     : [["deep", 0.35], ["dark", 0.50], ["mid", 0.66], ["light", 0.84]],
+  "COLOUR_NAME_FORMAT" : "{lum} {sat} {variant} {hue}",
+  "GREYSCALE_FORMAT"   : "{lum} {sat} {hue}"
+    
+  
+} 

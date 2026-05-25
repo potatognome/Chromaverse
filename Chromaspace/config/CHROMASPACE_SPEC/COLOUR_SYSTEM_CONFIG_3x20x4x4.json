@@ -1,0 +1,110 @@
+{
+  "HSL_OFFSETS": [
+    0,
+    0.0,
+    0.0
+  ],
+  "HUE_ANCHORS": [
+    "A1",
+    "B2",
+    "C3",
+    "D4",
+    "E5",
+    "F6",
+    "G7",
+    "H8",
+    "I9",
+    "J10",
+    "K11",
+    "L12",
+    "M13",
+    "N14",
+    "O15",
+    "P16",
+    "Q17",
+    "R18",
+    "S19",
+    "T20",
+    "U21",
+    "V22",
+    "W23",
+    "X24"
+  ],
+  "HUE_VARIANTS": [
+    "cool",
+    "medium",
+    "warm"
+  ],
+  "GREY_BAND": [
+    "grey"
+  ],
+  "GREY_VARIANT": [
+    "neutral"
+  ],
+  "SAT_BANDS": [
+    [
+      "washed",
+      0.4
+    ],
+    [
+      "soft",
+      0.6
+    ],
+    [
+      "bold",
+      0.8
+    ],
+    [
+      "vivid",
+      1.0
+    ]
+  ],
+  "LUM_BANDS": [
+    [
+      "dark",
+      0.4
+    ],
+    [
+      "mid",
+      0.6
+    ],
+    [
+      "light",
+      0.8
+    ],
+    [
+      "bright",
+      1.0
+    ]
+  ],
+  "SAT_BANDS_GREY": [
+    [
+      "neutral",
+      0.0
+    ]
+  ],
+  "LUM_BANDS_GREY": [
+    [
+      "deep",
+      0.2
+    ],
+    [
+      "dark",
+      0.38
+    ],
+    [
+      "mid",
+      0.54
+    ],
+    [
+      "light",
+      0.7
+    ],
+    [
+      "bright",
+      0.85
+    ]
+  ],
+  "COLOUR_NAME_FORMAT": "{lum} {sat} {variant} {hue}",
+  "GREYSCALE_FORMAT": "{lum} {sat} {hue}"
+}

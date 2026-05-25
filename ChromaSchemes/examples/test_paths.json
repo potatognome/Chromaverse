@@ -1,0 +1,12 @@
+{
+  "tuilkit_config_file": "C:\\Repository\\Daniel\\dev_local\\Core\\tUilKit\\config\\tUilKit_CONFIG.json",
+  "project_name": "Chromaschemes",
+  "config_file": "C:\\Repository\\Daniel\\dev_local\\Core\\ChromaSchemes\\config\\ChromaSchemes_CONFIG.json",
+  "project_root": "C:\\Repository\\Daniel\\dev_local\\Core\\ChromaSchemes",
+  "workspace_root": "C:\\Repository\\Daniel\\dev_local",
+  "config_folder": "C:\\Repository\\Daniel\\dev_local\\Core\\ChromaSchemes\\config",
+  "test_logs_folder": "C:\\Repository\\Daniel\\dev_local\\.tests_logs\\ChromaSchemes",
+  "logs_folder": "C:\\Repository\\Daniel\\dev_local\\.logs\\ChromaSchemes",
+  "tests_inputs_folder": "C:\\Repository\\Daniel\\dev_local\\.tests_data",
+  "tests_outputs_folder": "C:\\Repository\\Daniel\\dev_local\\.tests_data\\output"
+}

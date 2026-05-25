@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Chromagrams"
+version = "0.3.9"
+description = "Temporal animation engine for Chromaspace"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["tUilKit"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+
+
+

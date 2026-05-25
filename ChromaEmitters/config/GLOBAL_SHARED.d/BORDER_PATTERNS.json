@@ -1,0 +1,70 @@
+{
+    "BORDER_PATTERNS": {
+        "SINGLE_LINE": {
+            "TOP": ["─"],
+            "BOTTOM": ["─"],
+            "LEFT": ["│"],
+            "RIGHT": ["│"]
+        },
+        "DOUBLE_LINE": {
+            "TOP": ["═"],
+            "BOTTOM": ["═"],
+            "LEFT": ["║"],
+            "RIGHT": ["║"]
+        },
+        "BOLD": {
+            "TOP": ["━"],
+            "BOTTOM": ["━"],
+            "LEFT": ["┃"],
+            "RIGHT": ["┃"]
+        },
+        "DASHED": {
+            "TOP": ["-"],
+            "BOTTOM": ["-"],
+            "LEFT": ["|"],
+            "RIGHT": ["|"]
+        },
+        "THICK_DASHED": {
+            "TOP": ["="],
+            "BOTTOM": ["="],
+            "LEFT": ["||"],
+            "RIGHT": ["||"]
+        },
+        "ASCII_BOX": {
+            "TOP": ["+", "-", "+"],
+            "BOTTOM": ["+", "-", "+"],
+            "LEFT": ["|"],
+            "RIGHT": ["|"]
+        },
+        "ROUNDED": {
+            "TOP": ["╭", "─", "╮"],
+            "BOTTOM": ["╰", "─", "╯"],
+            "LEFT": ["│"],
+            "RIGHT": ["│"]
+        },
+        "HEAVY_CONTOUR": {
+            "TOP": ["█"],
+            "BOTTOM": ["█"],
+            "LEFT": ["█"],
+            "RIGHT": ["█"]
+        },
+        "LIGHT_CONTOUR": {
+            "TOP": ["░"],
+            "BOTTOM": ["░"],
+            "LEFT": ["░"],
+            "RIGHT": ["░"]
+        },
+        "THICK_ASCII": {
+            "TOP": ["#"],
+            "BOTTOM": ["#"],
+            "LEFT": ["#"],
+            "RIGHT": ["#"]
+        },
+        "ZIGZAG": {
+            "TOP": ["/", "~", "\\"],
+            "BOTTOM": ["/", "~", "\\"],
+            "LEFT": ["/"],
+            "RIGHT": ["\\"]
+        }
+    }
+}

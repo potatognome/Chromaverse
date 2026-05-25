@@ -1,0 +1,12 @@
+{
+  "tuilkit_config_file": "C:\\Repository\\Daniel\\dev_local\\Core\\tUilKit\\config\\tUilKit_CONFIG.json",
+  "project_name": "Chromaspace",
+  "config_file": "C:\\Repository\\Daniel\\dev_local\\Core\\Chromaspace\\config\\Chromaspace_CONFIG.json",
+  "project_root": "C:\\Repository\\Daniel\\dev_local\\Core\\Chromaspace",
+  "workspace_root": "C:\\Repository\\Daniel\\dev_local",
+  "config_folder": "C:\\Repository\\Daniel\\dev_local\\Core\\Chromaspace\\config",
+  "test_logs_folder": "C:\\Repository\\Daniel\\dev_local\\.tests_logs\\Chromaspace",
+  "logs_folder": "C:\\Repository\\Daniel\\dev_local\\.logs\\Chromaspace",
+  "tests_inputs_folder": "C:\\Repository\\Daniel\\dev_local\\.tests_data",
+  "tests_outputs_folder": "C:\\Repository\\Daniel\\dev_local\\.tests_data\\output"
+}

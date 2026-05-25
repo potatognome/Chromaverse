@@ -1,0 +1,12 @@
+{
+  "tuilkit_config_file": "C:\\Repository\\Daniel\\dev_local\\Core\\tUilKit\\config\\tUilKit_CONFIG.json",
+  "project_name": "Chromagrams",
+  "config_file": "C:\\Repository\\Daniel\\dev_local\\Core\\Chromagrams\\config\\Chromagrams_CONFIG.json",
+  "project_root": "C:\\Repository\\Daniel\\dev_local\\Core\\Chromagrams",
+  "workspace_root": "C:\\Repository\\Daniel\\dev_local",
+  "config_folder": "C:\\Repository\\Daniel\\dev_local\\Core\\Chromagrams\\config",
+  "test_logs_folder": "C:\\Repository\\Daniel\\dev_local\\.tests_logs\\Chromagrams",
+  "logs_folder": "C:\\Repository\\Daniel\\dev_local\\.logs\\Chromagrams",
+  "tests_inputs_folder": "C:\\Repository\\Daniel\\dev_local\\.tests_data",
+  "tests_outputs_folder": "C:\\Repository\\Daniel\\dev_local\\.tests_data\\output"
+}

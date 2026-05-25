@@ -1,0 +1,22 @@
+{
+  "COLOUR_FSTR": "!project",
+  "COLOUR_SYSTEM_POINTER": {
+    "COLOUR_SYSTEM_NAME": "1x45x4x4-oklch",
+    "DESCRIPTION": "A colour system with 1 variant, 45 unnamed hue anchors, 4 chroma bands, and 4 lightness bands in OKLCH.",
+    "CONFIG_PATH": "COLOUR_SYSTEM_CONFIG_1x45x4x4_OKLCH.json"
+  },
+  "PATHS": {
+    "FOLDERS": {
+      "HTML_OUTPUT": "HTML",
+      "JSON_OUTPUT": "JSON",
+      "DICT_OUTPUT": "dict"
+    },
+    "FILE_TEMPLATES": {
+      "COLOUR_SYSTEM_JSON": "colour_system.json",
+      "XKCD_JSON": "xkcd_colors.json",
+      "PREVIEW_HTML": "preview.html",
+      "HUE_SQUARES_HTML": "hue_squares.html",
+      "HUE_WHEEL_HTML": "hue_wheel.html"
+    }
+  }
+}

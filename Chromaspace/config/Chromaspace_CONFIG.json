@@ -1,0 +1,112 @@
+{
+    "INFO": {
+        "PROJECT_NAME": "Chromaspace",
+        "PROJECT_FOLDER": "/Core/Chromaspace/",
+        "PROJECT_DESCRIPTION": "Perceptually-structured colour taxonomy with semantic naming, multi-space generation, and JSON export",
+        "AUTHOR": "Daniel Austin <the.potato.gnome@gmail.com>",
+        "VERSION": "0.3.10",
+        "LICENSE_TYPE": "MIT",
+        "BUILD_TYPE": "Core",
+        "MAIN_ENTRY_POINT": "Chromaspace.main:main",
+        "COLOUR_FSTR": "!project",
+        "LICENSE": "$PROJECT_LICENSE"
+    },
+    "ROOTS": {
+        "WORKSPACE": "C:/Repository/Daniel/dev_local",
+        "PROJECT": "C:/Repository/Daniel/dev_local/Core/Chromaspace",
+        "TUILKit": "C:/Repository/Daniel/dev_local/Core/tUilKit"
+    },
+    "ROOT_MODES": {
+        "CONFIG": "workspace",
+        "LOGS": "workspace",
+        "INPUTS": "workspace",
+        "OUTPUTS": "workspace",
+        "TESTS_CONFIG": "project",
+        "TESTS_LOGS": "project",
+        "TESTS_INPUTS": "project",
+        "TESTS_OUTPUTS": "project"
+    },
+    "PATHS": {
+        "CONFIG": ".projects_config/",
+        "LOGS": ".logs/Chromaspace/",
+        "INPUTS": ".projects_data/inputData//Chromaspace/",
+        "OUTPUTS": ".projects_data/outputData//Chromaspace/",
+        "TESTS_CONFIG": "tests/.config/",
+        "TESTS_LOGS": "tests/.logs/",
+        "TESTS_INPUTS": "tests/.inputData/",
+        "TESTS_OUTPUTS": "tests/.outputData/"
+    },
+    "ALT_CONFIG": {
+        "FILE_PATHS": [],
+        "ENABLED": false
+    },
+    "LOG_FILES": {
+        "MASTER": "Chromaspace_MASTER.log",
+        "SESSION": "Chromaspace_SESSION.log",
+        "RUNTIME": "Chromaspace_RUNTIME.log",
+        "TRY": "Chromaspace_TRY.log",
+        "INIT": "Chromaspace_INIT.log",
+        "FS": "Chromaspace_FS.log",
+        "CONFIG_READ": "Chromaspace_CONFIG_READ.log",
+        "ERROR": "Chromaspace_ERROR.log"
+    },
+    "SECONDARY": {
+        "FILE": "CHROMASPACE.d/Chromaspace_SECONDARY.json"
+    },
+    "LOG_CATEGORIES": {
+        "default": [
+            "MASTER",
+            "SESSION"
+        ],
+        "runtime": [
+            "MASTER",
+            "SESSION",
+            "RUNTIME"
+        ],
+        "error": [
+            "MASTER",
+            "SESSION",
+            "ERROR"
+        ],
+        "init": [
+            "MASTER",
+            "SESSION",
+            "INIT"
+        ],
+        "fs": [
+            "MASTER",
+            "SESSION",
+            "FS"
+        ],
+        "config_read": [
+            "MASTER",
+            "SESSION",
+            "CONFIG_READ"
+        ],
+        "try": [
+            "MASTER",
+            "SESSION",
+            "TRY"
+        ],
+        "all": [
+            "MASTER",
+            "SESSION",
+            "RUNTIME",
+            "TRY",
+            "INIT",
+            "FS",
+            "CONFIG_READ",
+            "ERROR"
+        ]
+    },
+    "SHARED_CONFIG": {
+        "ENABLED": true,
+        "PATH": "GLOBAL_SHARED.d/",
+        "FILES": {
+            "COLOURS": "COLOURS.json",
+            "BORDER_PATTERNS": "BORDER_PATTERNS.json",
+            "TESTS_OPTIONS": "TESTS_OPTIONS.json",
+            "TIME_STAMP_OPTIONS": "TIME_STAMP_OPTIONS.json"
+        }
+    }
+}

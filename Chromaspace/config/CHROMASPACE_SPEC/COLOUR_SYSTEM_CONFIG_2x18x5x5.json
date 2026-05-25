@@ -1,0 +1,111 @@
+{
+  "HSL_OFFSETS": [
+    0,
+    0.0,
+    0.0
+  ],
+  "HUE_ANCHORS": [
+    "red",
+    "red-orange",
+    "orange",
+    "yellow",
+    "yellow-green",
+    "chartreuse",
+    "green",
+    "spring-green",
+    "cyan-green",
+    "cyan",
+    "azure",
+    "blue",
+    "indigo",
+    "violet",
+    "purple",
+    "magenta",
+    "rose",
+    "red-magenta"
+  ],
+  "HUE_VARIANTS": [
+    "warm",
+    "cool"
+  ],
+  "GREY_BAND": [
+    "grey"
+  ],
+  "GREY_VARIANT": [
+    "neutral"
+  ],
+  "SAT_BANDS": [
+    [
+      "washed",
+      0.28
+    ],
+    [
+      "soft",
+      0.5
+    ],
+    [
+      "natural",
+      0.68
+    ],
+    [
+      "bold",
+      0.84
+    ],
+    [
+      "vivid",
+      1.0
+    ]
+  ],
+  "LUM_BANDS": [
+    [
+      "deep",
+      0.24
+    ],
+    [
+      "dark",
+      0.46
+    ],
+    [
+      "mid",
+      0.66
+    ],
+    [
+      "light",
+      0.84
+    ],
+    [
+      "bright",
+      1.0
+    ]
+  ],
+  "SAT_BANDS_GREY": [
+    [
+      "neutral",
+      0.0
+    ]
+  ],
+  "LUM_BANDS_GREY": [
+    [
+      "deep",
+      0.2
+    ],
+    [
+      "dark",
+      0.38
+    ],
+    [
+      "mid",
+      0.54
+    ],
+    [
+      "light",
+      0.7
+    ],
+    [
+      "bright",
+      0.85
+    ]
+  ],
+  "COLOUR_NAME_FORMAT": "{lum} {sat} {variant} {hue}",
+  "GREYSCALE_FORMAT": "{lum} {sat} {hue}"
+}

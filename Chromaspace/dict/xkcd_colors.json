@@ -1,0 +1,6645 @@
+{
+  "cloudy blue": {
+    "rgb": [
+      172,
+      194,
+      217
+    ]
+  },
+  "dark pastel green": {
+    "rgb": [
+      86,
+      174,
+      87
+    ]
+  },
+  "dust": {
+    "rgb": [
+      178,
+      153,
+      110
+    ]
+  },
+  "electric lime": {
+    "rgb": [
+      168,
+      255,
+      4
+    ]
+  },
+  "fresh green": {
+    "rgb": [
+      105,
+      216,
+      79
+    ]
+  },
+  "light eggplant": {
+    "rgb": [
+      137,
+      69,
+      133
+    ]
+  },
+  "nasty green": {
+    "rgb": [
+      112,
+      178,
+      63
+    ]
+  },
+  "really light blue": {
+    "rgb": [
+      212,
+      255,
+      255
+    ]
+  },
+  "tea": {
+    "rgb": [
+      101,
+      171,
+      124
+    ]
+  },
+  "warm purple": {
+    "rgb": [
+      149,
+      46,
+      143
+    ]
+  },
+  "yellowish tan": {
+    "rgb": [
+      252,
+      252,
+      129
+    ]
+  },
+  "cement": {
+    "rgb": [
+      165,
+      163,
+      145
+    ]
+  },
+  "dark grass green": {
+    "rgb": [
+      56,
+      128,
+      4
+    ]
+  },
+  "dusty teal": {
+    "rgb": [
+      76,
+      144,
+      133
+    ]
+  },
+  "grey teal": {
+    "rgb": [
+      94,
+      155,
+      138
+    ]
+  },
+  "macaroni and cheese": {
+    "rgb": [
+      239,
+      180,
+      53
+    ]
+  },
+  "pinkish tan": {
+    "rgb": [
+      217,
+      155,
+      130
+    ]
+  },
+  "spruce": {
+    "rgb": [
+      10,
+      95,
+      56
+    ]
+  },
+  "strong blue": {
+    "rgb": [
+      12,
+      6,
+      247
+    ]
+  },
+  "toxic green": {
+    "rgb": [
+      97,
+      222,
+      42
+    ]
+  },
+  "windows blue": {
+    "rgb": [
+      55,
+      120,
+      191
+    ]
+  },
+  "blue blue": {
+    "rgb": [
+      34,
+      66,
+      199
+    ]
+  },
+  "blue with a hint of purple": {
+    "rgb": [
+      83,
+      60,
+      198
+    ]
+  },
+  "booger": {
+    "rgb": [
+      155,
+      181,
+      60
+    ]
+  },
+  "bright sea green": {
+    "rgb": [
+      5,
+      255,
+      166
+    ]
+  },
+  "dark green blue": {
+    "rgb": [
+      31,
+      99,
+      87
+    ]
+  },
+  "deep turquoise": {
+    "rgb": [
+      1,
+      115,
+      116
+    ]
+  },
+  "green teal": {
+    "rgb": [
+      12,
+      181,
+      119
+    ]
+  },
+  "strong pink": {
+    "rgb": [
+      255,
+      7,
+      137
+    ]
+  },
+  "bland": {
+    "rgb": [
+      175,
+      168,
+      139
+    ]
+  },
+  "deep aqua": {
+    "rgb": [
+      8,
+      120,
+      127
+    ]
+  },
+  "lavender pink": {
+    "rgb": [
+      221,
+      133,
+      215
+    ]
+  },
+  "light moss green": {
+    "rgb": [
+      166,
+      200,
+      117
+    ]
+  },
+  "light seafoam green": {
+    "rgb": [
+      167,
+      255,
+      181
+    ]
+  },
+  "olive yellow": {
+    "rgb": [
+      194,
+      183,
+      9
+    ]
+  },
+  "pig pink": {
+    "rgb": [
+      231,
+      142,
+      165
+    ]
+  },
+  "deep lilac": {
+    "rgb": [
+      150,
+      110,
+      189
+    ]
+  },
+  "desert": {
+    "rgb": [
+      204,
+      173,
+      96
+    ]
+  },
+  "dusty lavender": {
+    "rgb": [
+      172,
+      134,
+      168
+    ]
+  },
+  "purpley grey": {
+    "rgb": [
+      148,
+      126,
+      148
+    ]
+  },
+  "purply": {
+    "rgb": [
+      152,
+      63,
+      178
+    ]
+  },
+  "candy pink": {
+    "rgb": [
+      255,
+      99,
+      233
+    ]
+  },
+  "light pastel green": {
+    "rgb": [
+      178,
+      251,
+      165
+    ]
+  },
+  "boring green": {
+    "rgb": [
+      99,
+      179,
+      101
+    ]
+  },
+  "kiwi green": {
+    "rgb": [
+      142,
+      229,
+      63
+    ]
+  },
+  "light grey green": {
+    "rgb": [
+      183,
+      225,
+      161
+    ]
+  },
+  "orange pink": {
+    "rgb": [
+      255,
+      111,
+      82
+    ]
+  },
+  "tea green": {
+    "rgb": [
+      189,
+      248,
+      163
+    ]
+  },
+  "very light brown": {
+    "rgb": [
+      211,
+      182,
+      131
+    ]
+  },
+  "egg shell": {
+    "rgb": [
+      255,
+      252,
+      196
+    ]
+  },
+  "eggplant purple": {
+    "rgb": [
+      67,
+      5,
+      65
+    ]
+  },
+  "powder pink": {
+    "rgb": [
+      255,
+      178,
+      208
+    ]
+  },
+  "reddish grey": {
+    "rgb": [
+      153,
+      117,
+      112
+    ]
+  },
+  "baby shit brown": {
+    "rgb": [
+      173,
+      144,
+      13
+    ]
+  },
+  "liliac": {
+    "rgb": [
+      196,
+      142,
+      253
+    ]
+  },
+  "stormy blue": {
+    "rgb": [
+      80,
+      123,
+      156
+    ]
+  },
+  "ugly brown": {
+    "rgb": [
+      125,
+      113,
+      3
+    ]
+  },
+  "custard": {
+    "rgb": [
+      255,
+      253,
+      120
+    ]
+  },
+  "darkish pink": {
+    "rgb": [
+      218,
+      70,
+      125
+    ]
+  },
+  "deep brown": {
+    "rgb": [
+      65,
+      2,
+      0
+    ]
+  },
+  "greenish beige": {
+    "rgb": [
+      201,
+      209,
+      121
+    ]
+  },
+  "manilla": {
+    "rgb": [
+      255,
+      250,
+      134
+    ]
+  },
+  "off blue": {
+    "rgb": [
+      86,
+      132,
+      174
+    ]
+  },
+  "battleship grey": {
+    "rgb": [
+      107,
+      124,
+      133
+    ]
+  },
+  "browny green": {
+    "rgb": [
+      111,
+      108,
+      10
+    ]
+  },
+  "bruise": {
+    "rgb": [
+      126,
+      64,
+      113
+    ]
+  },
+  "kelley green": {
+    "rgb": [
+      0,
+      147,
+      55
+    ]
+  },
+  "sickly yellow": {
+    "rgb": [
+      208,
+      228,
+      41
+    ]
+  },
+  "sunny yellow": {
+    "rgb": [
+      255,
+      249,
+      23
+    ]
+  },
+  "azul": {
+    "rgb": [
+      29,
+      93,
+      236
+    ]
+  },
+  "darkgreen": {
+    "rgb": [
+      5,
+      73,
+      7
+    ]
+  },
+  "green/yellow": {
+    "rgb": [
+      181,
+      206,
+      8
+    ]
+  },
+  "lichen": {
+    "rgb": [
+      143,
+      182,
+      123
+    ]
+  },
+  "light light green": {
+    "rgb": [
+      200,
+      255,
+      176
+    ]
+  },
+  "pale gold": {
+    "rgb": [
+      253,
+      222,
+      108
+    ]
+  },
+  "sun yellow": {
+    "rgb": [
+      255,
+      223,
+      34
+    ]
+  },
+  "tan green": {
+    "rgb": [
+      169,
+      190,
+      112
+    ]
+  },
+  "burple": {
+    "rgb": [
+      104,
+      50,
+      227
+    ]
+  },
+  "butterscotch": {
+    "rgb": [
+      253,
+      177,
+      71
+    ]
+  },
+  "toupe": {
+    "rgb": [
+      199,
+      172,
+      125
+    ]
+  },
+  "dark cream": {
+    "rgb": [
+      255,
+      243,
+      154
+    ]
+  },
+  "indian red": {
+    "rgb": [
+      133,
+      14,
+      4
+    ]
+  },
+  "light lavendar": {
+    "rgb": [
+      239,
+      192,
+      254
+    ]
+  },
+  "poison green": {
+    "rgb": [
+      64,
+      253,
+      20
+    ]
+  },
+  "baby puke green": {
+    "rgb": [
+      182,
+      196,
+      6
+    ]
+  },
+  "bright yellow green": {
+    "rgb": [
+      157,
+      255,
+      0
+    ]
+  },
+  "charcoal grey": {
+    "rgb": [
+      60,
+      65,
+      66
+    ]
+  },
+  "squash": {
+    "rgb": [
+      242,
+      171,
+      21
+    ]
+  },
+  "cinnamon": {
+    "rgb": [
+      172,
+      79,
+      6
+    ]
+  },
+  "light pea green": {
+    "rgb": [
+      196,
+      254,
+      130
+    ]
+  },
+  "radioactive green": {
+    "rgb": [
+      44,
+      250,
+      31
+    ]
+  },
+  "raw sienna": {
+    "rgb": [
+      154,
+      98,
+      0
+    ]
+  },
+  "baby purple": {
+    "rgb": [
+      202,
+      155,
+      247
+    ]
+  },
+  "cocoa": {
+    "rgb": [
+      135,
+      95,
+      66
+    ]
+  },
+  "light royal blue": {
+    "rgb": [
+      58,
+      46,
+      254
+    ]
+  },
+  "orangeish": {
+    "rgb": [
+      253,
+      141,
+      73
+    ]
+  },
+  "rust brown": {
+    "rgb": [
+      139,
+      49,
+      3
+    ]
+  },
+  "sand brown": {
+    "rgb": [
+      203,
+      165,
+      96
+    ]
+  },
+  "swamp": {
+    "rgb": [
+      105,
+      131,
+      57
+    ]
+  },
+  "tealish green": {
+    "rgb": [
+      12,
+      220,
+      115
+    ]
+  },
+  "burnt siena": {
+    "rgb": [
+      183,
+      82,
+      3
+    ]
+  },
+  "camo": {
+    "rgb": [
+      127,
+      143,
+      78
+    ]
+  },
+  "dusk blue": {
+    "rgb": [
+      38,
+      83,
+      141
+    ]
+  },
+  "fern": {
+    "rgb": [
+      99,
+      169,
+      80
+    ]
+  },
+  "old rose": {
+    "rgb": [
+      200,
+      127,
+      137
+    ]
+  },
+  "pale light green": {
+    "rgb": [
+      177,
+      252,
+      153
+    ]
+  },
+  "peachy pink": {
+    "rgb": [
+      255,
+      154,
+      138
+    ]
+  },
+  "rosy pink": {
+    "rgb": [
+      246,
+      104,
+      142
+    ]
+  },
+  "light bluish green": {
+    "rgb": [
+      118,
+      253,
+      168
+    ]
+  },
+  "light bright green": {
+    "rgb": [
+      83,
+      254,
+      92
+    ]
+  },
+  "light neon green": {
+    "rgb": [
+      78,
+      253,
+      84
+    ]
+  },
+  "light seafoam": {
+    "rgb": [
+      160,
+      254,
+      191
+    ]
+  },
+  "tiffany blue": {
+    "rgb": [
+      123,
+      242,
+      218
+    ]
+  },
+  "washed out green": {
+    "rgb": [
+      188,
+      245,
+      166
+    ]
+  },
+  "browny orange": {
+    "rgb": [
+      202,
+      107,
+      2
+    ]
+  },
+  "nice blue": {
+    "rgb": [
+      16,
+      122,
+      176
+    ]
+  },
+  "sapphire": {
+    "rgb": [
+      33,
+      56,
+      171
+    ]
+  },
+  "greyish teal": {
+    "rgb": [
+      113,
+      159,
+      145
+    ]
+  },
+  "orangey yellow": {
+    "rgb": [
+      253,
+      185,
+      21
+    ]
+  },
+  "parchment": {
+    "rgb": [
+      254,
+      252,
+      175
+    ]
+  },
+  "straw": {
+    "rgb": [
+      252,
+      246,
+      121
+    ]
+  },
+  "very dark brown": {
+    "rgb": [
+      29,
+      2,
+      0
+    ]
+  },
+  "terracota": {
+    "rgb": [
+      203,
+      104,
+      67
+    ]
+  },
+  "ugly blue": {
+    "rgb": [
+      49,
+      102,
+      138
+    ]
+  },
+  "clear blue": {
+    "rgb": [
+      36,
+      122,
+      253
+    ]
+  },
+  "creme": {
+    "rgb": [
+      255,
+      255,
+      182
+    ]
+  },
+  "foam green": {
+    "rgb": [
+      144,
+      253,
+      169
+    ]
+  },
+  "grey/green": {
+    "rgb": [
+      134,
+      161,
+      125
+    ]
+  },
+  "light gold": {
+    "rgb": [
+      253,
+      220,
+      92
+    ]
+  },
+  "seafoam blue": {
+    "rgb": [
+      120,
+      209,
+      182
+    ]
+  },
+  "topaz": {
+    "rgb": [
+      19,
+      187,
+      175
+    ]
+  },
+  "violet pink": {
+    "rgb": [
+      251,
+      95,
+      252
+    ]
+  },
+  "wintergreen": {
+    "rgb": [
+      32,
+      249,
+      134
+    ]
+  },
+  "yellow tan": {
+    "rgb": [
+      255,
+      227,
+      110
+    ]
+  },
+  "dark fuchsia": {
+    "rgb": [
+      157,
+      7,
+      89
+    ]
+  },
+  "indigo blue": {
+    "rgb": [
+      58,
+      24,
+      177
+    ]
+  },
+  "light yellowish green": {
+    "rgb": [
+      194,
+      255,
+      137
+    ]
+  },
+  "pale magenta": {
+    "rgb": [
+      215,
+      103,
+      173
+    ]
+  },
+  "rich purple": {
+    "rgb": [
+      114,
+      0,
+      88
+    ]
+  },
+  "sunflower yellow": {
+    "rgb": [
+      255,
+      218,
+      3
+    ]
+  },
+  "green/blue": {
+    "rgb": [
+      1,
+      192,
+      141
+    ]
+  },
+  "leather": {
+    "rgb": [
+      172,
+      116,
+      52
+    ]
+  },
+  "racing green": {
+    "rgb": [
+      1,
+      70,
+      0
+    ]
+  },
+  "vivid purple": {
+    "rgb": [
+      153,
+      0,
+      250
+    ]
+  },
+  "dark royal blue": {
+    "rgb": [
+      2,
+      6,
+      111
+    ]
+  },
+  "hazel": {
+    "rgb": [
+      142,
+      118,
+      24
+    ]
+  },
+  "muted pink": {
+    "rgb": [
+      209,
+      118,
+      143
+    ]
+  },
+  "booger green": {
+    "rgb": [
+      150,
+      180,
+      3
+    ]
+  },
+  "canary": {
+    "rgb": [
+      253,
+      255,
+      99
+    ]
+  },
+  "cool grey": {
+    "rgb": [
+      149,
+      163,
+      166
+    ]
+  },
+  "dark taupe": {
+    "rgb": [
+      127,
+      104,
+      78
+    ]
+  },
+  "darkish purple": {
+    "rgb": [
+      117,
+      25,
+      115
+    ]
+  },
+  "true green": {
+    "rgb": [
+      8,
+      148,
+      4
+    ]
+  },
+  "coral pink": {
+    "rgb": [
+      255,
+      97,
+      99
+    ]
+  },
+  "dark sage": {
+    "rgb": [
+      89,
+      133,
+      86
+    ]
+  },
+  "dark slate blue": {
+    "rgb": [
+      33,
+      71,
+      97
+    ]
+  },
+  "flat blue": {
+    "rgb": [
+      60,
+      115,
+      168
+    ]
+  },
+  "mushroom": {
+    "rgb": [
+      186,
+      158,
+      136
+    ]
+  },
+  "rich blue": {
+    "rgb": [
+      2,
+      27,
+      249
+    ]
+  },
+  "dirty purple": {
+    "rgb": [
+      115,
+      74,
+      101
+    ]
+  },
+  "greenblue": {
+    "rgb": [
+      35,
+      196,
+      139
+    ]
+  },
+  "icky green": {
+    "rgb": [
+      143,
+      174,
+      34
+    ]
+  },
+  "light khaki": {
+    "rgb": [
+      230,
+      242,
+      162
+    ]
+  },
+  "warm blue": {
+    "rgb": [
+      75,
+      87,
+      219
+    ]
+  },
+  "dark hot pink": {
+    "rgb": [
+      217,
+      1,
+      102
+    ]
+  },
+  "deep sea blue": {
+    "rgb": [
+      1,
+      84,
+      130
+    ]
+  },
+  "carmine": {
+    "rgb": [
+      157,
+      2,
+      22
+    ]
+  },
+  "dark yellow green": {
+    "rgb": [
+      114,
+      143,
+      2
+    ]
+  },
+  "pale peach": {
+    "rgb": [
+      255,
+      229,
+      173
+    ]
+  },
+  "plum purple": {
+    "rgb": [
+      78,
+      5,
+      80
+    ]
+  },
+  "golden rod": {
+    "rgb": [
+      249,
+      188,
+      8
+    ]
+  },
+  "neon red": {
+    "rgb": [
+      255,
+      7,
+      58
+    ]
+  },
+  "old pink": {
+    "rgb": [
+      199,
+      121,
+      134
+    ]
+  },
+  "very pale blue": {
+    "rgb": [
+      214,
+      255,
+      254
+    ]
+  },
+  "blood orange": {
+    "rgb": [
+      254,
+      75,
+      3
+    ]
+  },
+  "grapefruit": {
+    "rgb": [
+      253,
+      89,
+      86
+    ]
+  },
+  "sand yellow": {
+    "rgb": [
+      252,
+      225,
+      102
+    ]
+  },
+  "clay brown": {
+    "rgb": [
+      178,
+      113,
+      61
+    ]
+  },
+  "dark blue grey": {
+    "rgb": [
+      31,
+      59,
+      77
+    ]
+  },
+  "flat green": {
+    "rgb": [
+      105,
+      157,
+      76
+    ]
+  },
+  "light green blue": {
+    "rgb": [
+      86,
+      252,
+      162
+    ]
+  },
+  "warm pink": {
+    "rgb": [
+      251,
+      85,
+      129
+    ]
+  },
+  "dodger blue": {
+    "rgb": [
+      62,
+      130,
+      252
+    ]
+  },
+  "gross green": {
+    "rgb": [
+      160,
+      191,
+      22
+    ]
+  },
+  "ice": {
+    "rgb": [
+      214,
+      255,
+      250
+    ]
+  },
+  "metallic blue": {
+    "rgb": [
+      79,
+      115,
+      142
+    ]
+  },
+  "pale salmon": {
+    "rgb": [
+      255,
+      177,
+      154
+    ]
+  },
+  "sap green": {
+    "rgb": [
+      92,
+      139,
+      21
+    ]
+  },
+  "algae": {
+    "rgb": [
+      84,
+      172,
+      104
+    ]
+  },
+  "bluey grey": {
+    "rgb": [
+      137,
+      160,
+      176
+    ]
+  },
+  "greeny grey": {
+    "rgb": [
+      126,
+      160,
+      122
+    ]
+  },
+  "highlighter green": {
+    "rgb": [
+      27,
+      252,
+      6
+    ]
+  },
+  "light light blue": {
+    "rgb": [
+      202,
+      255,
+      251
+    ]
+  },
+  "light mint": {
+    "rgb": [
+      182,
+      255,
+      187
+    ]
+  },
+  "raw umber": {
+    "rgb": [
+      167,
+      94,
+      9
+    ]
+  },
+  "vivid blue": {
+    "rgb": [
+      21,
+      46,
+      255
+    ]
+  },
+  "deep lavender": {
+    "rgb": [
+      141,
+      94,
+      183
+    ]
+  },
+  "dull teal": {
+    "rgb": [
+      95,
+      158,
+      143
+    ]
+  },
+  "light greenish blue": {
+    "rgb": [
+      99,
+      247,
+      180
+    ]
+  },
+  "mud green": {
+    "rgb": [
+      96,
+      102,
+      2
+    ]
+  },
+  "pinky": {
+    "rgb": [
+      252,
+      134,
+      170
+    ]
+  },
+  "red wine": {
+    "rgb": [
+      140,
+      0,
+      52
+    ]
+  },
+  "shit green": {
+    "rgb": [
+      117,
+      128,
+      0
+    ]
+  },
+  "tan brown": {
+    "rgb": [
+      171,
+      126,
+      76
+    ]
+  },
+  "darkblue": {
+    "rgb": [
+      3,
+      7,
+      100
+    ]
+  },
+  "rosa": {
+    "rgb": [
+      254,
+      134,
+      164
+    ]
+  },
+  "lipstick": {
+    "rgb": [
+      213,
+      23,
+      78
+    ]
+  },
+  "pale mauve": {
+    "rgb": [
+      254,
+      208,
+      252
+    ]
+  },
+  "claret": {
+    "rgb": [
+      104,
+      0,
+      24
+    ]
+  },
+  "dandelion": {
+    "rgb": [
+      254,
+      223,
+      8
+    ]
+  },
+  "orangered": {
+    "rgb": [
+      254,
+      66,
+      15
+    ]
+  },
+  "poop green": {
+    "rgb": [
+      111,
+      124,
+      0
+    ]
+  },
+  "ruby": {
+    "rgb": [
+      202,
+      1,
+      71
+    ]
+  },
+  "dark": {
+    "rgb": [
+      27,
+      36,
+      49
+    ]
+  },
+  "greenish turquoise": {
+    "rgb": [
+      0,
+      251,
+      176
+    ]
+  },
+  "pastel red": {
+    "rgb": [
+      219,
+      88,
+      86
+    ]
+  },
+  "piss yellow": {
+    "rgb": [
+      221,
+      214,
+      24
+    ]
+  },
+  "bright cyan": {
+    "rgb": [
+      65,
+      253,
+      254
+    ]
+  },
+  "dark coral": {
+    "rgb": [
+      207,
+      82,
+      78
+    ]
+  },
+  "algae green": {
+    "rgb": [
+      33,
+      195,
+      111
+    ]
+  },
+  "darkish red": {
+    "rgb": [
+      169,
+      3,
+      8
+    ]
+  },
+  "reddy brown": {
+    "rgb": [
+      110,
+      16,
+      5
+    ]
+  },
+  "blush pink": {
+    "rgb": [
+      254,
+      130,
+      140
+    ]
+  },
+  "camouflage green": {
+    "rgb": [
+      75,
+      97,
+      19
+    ]
+  },
+  "lawn green": {
+    "rgb": [
+      77,
+      164,
+      9
+    ]
+  },
+  "putty": {
+    "rgb": [
+      190,
+      174,
+      138
+    ]
+  },
+  "vibrant blue": {
+    "rgb": [
+      3,
+      57,
+      248
+    ]
+  },
+  "dark sand": {
+    "rgb": [
+      168,
+      143,
+      89
+    ]
+  },
+  "purple/blue": {
+    "rgb": [
+      93,
+      33,
+      208
+    ]
+  },
+  "saffron": {
+    "rgb": [
+      254,
+      178,
+      9
+    ]
+  },
+  "twilight": {
+    "rgb": [
+      78,
+      81,
+      139
+    ]
+  },
+  "warm brown": {
+    "rgb": [
+      150,
+      78,
+      2
+    ]
+  },
+  "bluegrey": {
+    "rgb": [
+      133,
+      163,
+      178
+    ]
+  },
+  "bubble gum pink": {
+    "rgb": [
+      255,
+      105,
+      175
+    ]
+  },
+  "duck egg blue": {
+    "rgb": [
+      195,
+      251,
+      244
+    ]
+  },
+  "greenish cyan": {
+    "rgb": [
+      42,
+      254,
+      183
+    ]
+  },
+  "petrol": {
+    "rgb": [
+      0,
+      95,
+      106
+    ]
+  },
+  "royal": {
+    "rgb": [
+      12,
+      23,
+      147
+    ]
+  },
+  "butter": {
+    "rgb": [
+      255,
+      255,
+      129
+    ]
+  },
+  "dusty orange": {
+    "rgb": [
+      240,
+      131,
+      58
+    ]
+  },
+  "off yellow": {
+    "rgb": [
+      241,
+      243,
+      63
+    ]
+  },
+  "pale olive green": {
+    "rgb": [
+      177,
+      210,
+      123
+    ]
+  },
+  "orangish": {
+    "rgb": [
+      252,
+      130,
+      74
+    ]
+  },
+  "leaf": {
+    "rgb": [
+      113,
+      170,
+      52
+    ]
+  },
+  "light blue grey": {
+    "rgb": [
+      183,
+      201,
+      226
+    ]
+  },
+  "dried blood": {
+    "rgb": [
+      75,
+      1,
+      1
+    ]
+  },
+  "lightish purple": {
+    "rgb": [
+      165,
+      82,
+      230
+    ]
+  },
+  "rusty red": {
+    "rgb": [
+      175,
+      47,
+      13
+    ]
+  },
+  "lavender blue": {
+    "rgb": [
+      139,
+      136,
+      248
+    ]
+  },
+  "light grass green": {
+    "rgb": [
+      154,
+      247,
+      100
+    ]
+  },
+  "light mint green": {
+    "rgb": [
+      166,
+      251,
+      178
+    ]
+  },
+  "sunflower": {
+    "rgb": [
+      255,
+      197,
+      18
+    ]
+  },
+  "velvet": {
+    "rgb": [
+      117,
+      8,
+      81
+    ]
+  },
+  "brick orange": {
+    "rgb": [
+      193,
+      74,
+      9
+    ]
+  },
+  "lightish red": {
+    "rgb": [
+      254,
+      47,
+      74
+    ]
+  },
+  "pure blue": {
+    "rgb": [
+      2,
+      3,
+      226
+    ]
+  },
+  "twilight blue": {
+    "rgb": [
+      10,
+      67,
+      122
+    ]
+  },
+  "violet red": {
+    "rgb": [
+      165,
+      0,
+      85
+    ]
+  },
+  "yellowy brown": {
+    "rgb": [
+      174,
+      139,
+      12
+    ]
+  },
+  "carnation": {
+    "rgb": [
+      253,
+      121,
+      143
+    ]
+  },
+  "muddy yellow": {
+    "rgb": [
+      191,
+      172,
+      5
+    ]
+  },
+  "dark seafoam green": {
+    "rgb": [
+      62,
+      175,
+      118
+    ]
+  },
+  "deep rose": {
+    "rgb": [
+      199,
+      71,
+      103
+    ]
+  },
+  "dusty red": {
+    "rgb": [
+      185,
+      72,
+      78
+    ]
+  },
+  "grey/blue": {
+    "rgb": [
+      100,
+      125,
+      142
+    ]
+  },
+  "lemon lime": {
+    "rgb": [
+      191,
+      254,
+      40
+    ]
+  },
+  "purple/pink": {
+    "rgb": [
+      215,
+      37,
+      222
+    ]
+  },
+  "brown yellow": {
+    "rgb": [
+      178,
+      151,
+      5
+    ]
+  },
+  "purple brown": {
+    "rgb": [
+      103,
+      58,
+      63
+    ]
+  },
+  "wisteria": {
+    "rgb": [
+      168,
+      125,
+      194
+    ]
+  },
+  "banana yellow": {
+    "rgb": [
+      250,
+      254,
+      75
+    ]
+  },
+  "lipstick red": {
+    "rgb": [
+      192,
+      2,
+      47
+    ]
+  },
+  "water blue": {
+    "rgb": [
+      14,
+      135,
+      204
+    ]
+  },
+  "brown grey": {
+    "rgb": [
+      141,
+      132,
+      104
+    ]
+  },
+  "vibrant purple": {
+    "rgb": [
+      173,
+      3,
+      222
+    ]
+  },
+  "baby green": {
+    "rgb": [
+      140,
+      255,
+      158
+    ]
+  },
+  "barf green": {
+    "rgb": [
+      148,
+      172,
+      2
+    ]
+  },
+  "eggshell blue": {
+    "rgb": [
+      196,
+      255,
+      247
+    ]
+  },
+  "sandy yellow": {
+    "rgb": [
+      253,
+      238,
+      115
+    ]
+  },
+  "cool green": {
+    "rgb": [
+      51,
+      184,
+      100
+    ]
+  },
+  "pale": {
+    "rgb": [
+      255,
+      249,
+      208
+    ]
+  },
+  "blue/grey": {
+    "rgb": [
+      117,
+      141,
+      163
+    ]
+  },
+  "hot magenta": {
+    "rgb": [
+      245,
+      4,
+      201
+    ]
+  },
+  "greyblue": {
+    "rgb": [
+      119,
+      161,
+      181
+    ]
+  },
+  "purpley": {
+    "rgb": [
+      135,
+      86,
+      228
+    ]
+  },
+  "baby shit green": {
+    "rgb": [
+      136,
+      151,
+      23
+    ]
+  },
+  "brownish pink": {
+    "rgb": [
+      194,
+      126,
+      121
+    ]
+  },
+  "dark aquamarine": {
+    "rgb": [
+      1,
+      115,
+      113
+    ]
+  },
+  "diarrhea": {
+    "rgb": [
+      159,
+      131,
+      3
+    ]
+  },
+  "light mustard": {
+    "rgb": [
+      247,
+      213,
+      96
+    ]
+  },
+  "pale sky blue": {
+    "rgb": [
+      189,
+      246,
+      254
+    ]
+  },
+  "turtle green": {
+    "rgb": [
+      117,
+      184,
+      79
+    ]
+  },
+  "bright olive": {
+    "rgb": [
+      156,
+      187,
+      4
+    ]
+  },
+  "dark grey blue": {
+    "rgb": [
+      41,
+      70,
+      91
+    ]
+  },
+  "greeny brown": {
+    "rgb": [
+      105,
+      96,
+      6
+    ]
+  },
+  "lemon green": {
+    "rgb": [
+      173,
+      248,
+      2
+    ]
+  },
+  "light periwinkle": {
+    "rgb": [
+      193,
+      198,
+      252
+    ]
+  },
+  "seaweed green": {
+    "rgb": [
+      53,
+      173,
+      107
+    ]
+  },
+  "sunshine yellow": {
+    "rgb": [
+      255,
+      253,
+      55
+    ]
+  },
+  "ugly purple": {
+    "rgb": [
+      164,
+      66,
+      160
+    ]
+  },
+  "medium pink": {
+    "rgb": [
+      243,
+      97,
+      150
+    ]
+  },
+  "puke brown": {
+    "rgb": [
+      148,
+      119,
+      6
+    ]
+  },
+  "very light pink": {
+    "rgb": [
+      255,
+      244,
+      242
+    ]
+  },
+  "viridian": {
+    "rgb": [
+      30,
+      145,
+      103
+    ]
+  },
+  "bile": {
+    "rgb": [
+      181,
+      195,
+      6
+    ]
+  },
+  "faded yellow": {
+    "rgb": [
+      254,
+      255,
+      127
+    ]
+  },
+  "very pale green": {
+    "rgb": [
+      207,
+      253,
+      188
+    ]
+  },
+  "vibrant green": {
+    "rgb": [
+      10,
+      221,
+      8
+    ]
+  },
+  "bright lime": {
+    "rgb": [
+      135,
+      253,
+      5
+    ]
+  },
+  "spearmint": {
+    "rgb": [
+      30,
+      248,
+      118
+    ]
+  },
+  "light aquamarine": {
+    "rgb": [
+      123,
+      253,
+      199
+    ]
+  },
+  "light sage": {
+    "rgb": [
+      188,
+      236,
+      172
+    ]
+  },
+  "yellowgreen": {
+    "rgb": [
+      187,
+      249,
+      15
+    ]
+  },
+  "baby poo": {
+    "rgb": [
+      171,
+      144,
+      4
+    ]
+  },
+  "dark seafoam": {
+    "rgb": [
+      31,
+      181,
+      122
+    ]
+  },
+  "deep teal": {
+    "rgb": [
+      0,
+      85,
+      90
+    ]
+  },
+  "heather": {
+    "rgb": [
+      164,
+      132,
+      172
+    ]
+  },
+  "rust orange": {
+    "rgb": [
+      196,
+      85,
+      8
+    ]
+  },
+  "dirty blue": {
+    "rgb": [
+      63,
+      130,
+      157
+    ]
+  },
+  "fern green": {
+    "rgb": [
+      84,
+      141,
+      68
+    ]
+  },
+  "bright lilac": {
+    "rgb": [
+      201,
+      94,
+      251
+    ]
+  },
+  "weird green": {
+    "rgb": [
+      58,
+      229,
+      127
+    ]
+  },
+  "peacock blue": {
+    "rgb": [
+      1,
+      103,
+      149
+    ]
+  },
+  "avocado green": {
+    "rgb": [
+      135,
+      169,
+      34
+    ]
+  },
+  "faded orange": {
+    "rgb": [
+      240,
+      148,
+      77
+    ]
+  },
+  "grape purple": {
+    "rgb": [
+      93,
+      20,
+      81
+    ]
+  },
+  "hot green": {
+    "rgb": [
+      37,
+      255,
+      41
+    ]
+  },
+  "lime yellow": {
+    "rgb": [
+      208,
+      254,
+      29
+    ]
+  },
+  "mango": {
+    "rgb": [
+      255,
+      166,
+      43
+    ]
+  },
+  "shamrock": {
+    "rgb": [
+      1,
+      180,
+      76
+    ]
+  },
+  "bubblegum": {
+    "rgb": [
+      255,
+      108,
+      181
+    ]
+  },
+  "purplish brown": {
+    "rgb": [
+      107,
+      66,
+      71
+    ]
+  },
+  "vomit yellow": {
+    "rgb": [
+      199,
+      193,
+      12
+    ]
+  },
+  "pale cyan": {
+    "rgb": [
+      183,
+      255,
+      250
+    ]
+  },
+  "key lime": {
+    "rgb": [
+      174,
+      255,
+      110
+    ]
+  },
+  "tomato red": {
+    "rgb": [
+      236,
+      45,
+      1
+    ]
+  },
+  "lightgreen": {
+    "rgb": [
+      118,
+      255,
+      123
+    ]
+  },
+  "merlot": {
+    "rgb": [
+      115,
+      0,
+      57
+    ]
+  },
+  "night blue": {
+    "rgb": [
+      4,
+      3,
+      72
+    ]
+  },
+  "purpleish pink": {
+    "rgb": [
+      223,
+      78,
+      200
+    ]
+  },
+  "apple": {
+    "rgb": [
+      110,
+      203,
+      60
+    ]
+  },
+  "baby poop green": {
+    "rgb": [
+      143,
+      152,
+      5
+    ]
+  },
+  "green apple": {
+    "rgb": [
+      94,
+      220,
+      31
+    ]
+  },
+  "heliotrope": {
+    "rgb": [
+      217,
+      79,
+      245
+    ]
+  },
+  "yellow/green": {
+    "rgb": [
+      200,
+      253,
+      61
+    ]
+  },
+  "almost black": {
+    "rgb": [
+      7,
+      13,
+      13
+    ]
+  },
+  "cool blue": {
+    "rgb": [
+      73,
+      132,
+      184
+    ]
+  },
+  "leafy green": {
+    "rgb": [
+      81,
+      183,
+      59
+    ]
+  },
+  "mustard brown": {
+    "rgb": [
+      172,
+      126,
+      4
+    ]
+  },
+  "dusk": {
+    "rgb": [
+      78,
+      84,
+      129
+    ]
+  },
+  "dull brown": {
+    "rgb": [
+      135,
+      110,
+      75
+    ]
+  },
+  "frog green": {
+    "rgb": [
+      88,
+      188,
+      8
+    ]
+  },
+  "vivid green": {
+    "rgb": [
+      47,
+      239,
+      16
+    ]
+  },
+  "bright light green": {
+    "rgb": [
+      45,
+      254,
+      84
+    ]
+  },
+  "fluro green": {
+    "rgb": [
+      10,
+      255,
+      2
+    ]
+  },
+  "kiwi": {
+    "rgb": [
+      156,
+      239,
+      67
+    ]
+  },
+  "seaweed": {
+    "rgb": [
+      24,
+      209,
+      123
+    ]
+  },
+  "navy green": {
+    "rgb": [
+      53,
+      83,
+      10
+    ]
+  },
+  "ultramarine blue": {
+    "rgb": [
+      24,
+      5,
+      219
+    ]
+  },
+  "iris": {
+    "rgb": [
+      98,
+      88,
+      196
+    ]
+  },
+  "pastel orange": {
+    "rgb": [
+      255,
+      150,
+      79
+    ]
+  },
+  "yellowish orange": {
+    "rgb": [
+      255,
+      171,
+      15
+    ]
+  },
+  "perrywinkle": {
+    "rgb": [
+      143,
+      140,
+      231
+    ]
+  },
+  "tealish": {
+    "rgb": [
+      36,
+      188,
+      168
+    ]
+  },
+  "dark plum": {
+    "rgb": [
+      63,
+      1,
+      44
+    ]
+  },
+  "pear": {
+    "rgb": [
+      203,
+      248,
+      95
+    ]
+  },
+  "pinkish orange": {
+    "rgb": [
+      255,
+      114,
+      76
+    ]
+  },
+  "midnight purple": {
+    "rgb": [
+      40,
+      1,
+      55
+    ]
+  },
+  "light urple": {
+    "rgb": [
+      179,
+      111,
+      246
+    ]
+  },
+  "dark mint": {
+    "rgb": [
+      72,
+      192,
+      114
+    ]
+  },
+  "greenish tan": {
+    "rgb": [
+      188,
+      203,
+      122
+    ]
+  },
+  "light burgundy": {
+    "rgb": [
+      168,
+      65,
+      91
+    ]
+  },
+  "turquoise blue": {
+    "rgb": [
+      6,
+      177,
+      196
+    ]
+  },
+  "ugly pink": {
+    "rgb": [
+      205,
+      117,
+      132
+    ]
+  },
+  "sandy": {
+    "rgb": [
+      241,
+      218,
+      122
+    ]
+  },
+  "electric pink": {
+    "rgb": [
+      255,
+      4,
+      144
+    ]
+  },
+  "muted purple": {
+    "rgb": [
+      128,
+      91,
+      135
+    ]
+  },
+  "mid green": {
+    "rgb": [
+      80,
+      167,
+      71
+    ]
+  },
+  "greyish": {
+    "rgb": [
+      168,
+      164,
+      149
+    ]
+  },
+  "neon yellow": {
+    "rgb": [
+      207,
+      255,
+      4
+    ]
+  },
+  "banana": {
+    "rgb": [
+      255,
+      255,
+      126
+    ]
+  },
+  "carnation pink": {
+    "rgb": [
+      255,
+      127,
+      167
+    ]
+  },
+  "tomato": {
+    "rgb": [
+      239,
+      64,
+      38
+    ]
+  },
+  "sea": {
+    "rgb": [
+      60,
+      153,
+      146
+    ]
+  },
+  "muddy brown": {
+    "rgb": [
+      136,
+      104,
+      6
+    ]
+  },
+  "turquoise green": {
+    "rgb": [
+      4,
+      244,
+      137
+    ]
+  },
+  "buff": {
+    "rgb": [
+      254,
+      246,
+      158
+    ]
+  },
+  "fawn": {
+    "rgb": [
+      207,
+      175,
+      123
+    ]
+  },
+  "muted blue": {
+    "rgb": [
+      59,
+      113,
+      159
+    ]
+  },
+  "pale rose": {
+    "rgb": [
+      253,
+      193,
+      197
+    ]
+  },
+  "dark mint green": {
+    "rgb": [
+      32,
+      192,
+      115
+    ]
+  },
+  "amethyst": {
+    "rgb": [
+      155,
+      95,
+      192
+    ]
+  },
+  "blue/green": {
+    "rgb": [
+      15,
+      155,
+      142
+    ]
+  },
+  "chestnut": {
+    "rgb": [
+      116,
+      40,
+      2
+    ]
+  },
+  "sick green": {
+    "rgb": [
+      157,
+      185,
+      44
+    ]
+  },
+  "pea": {
+    "rgb": [
+      164,
+      191,
+      32
+    ]
+  },
+  "rusty orange": {
+    "rgb": [
+      205,
+      89,
+      9
+    ]
+  },
+  "stone": {
+    "rgb": [
+      173,
+      165,
+      135
+    ]
+  },
+  "rose red": {
+    "rgb": [
+      190,
+      1,
+      60
+    ]
+  },
+  "pale aqua": {
+    "rgb": [
+      184,
+      255,
+      235
+    ]
+  },
+  "deep orange": {
+    "rgb": [
+      220,
+      77,
+      1
+    ]
+  },
+  "earth": {
+    "rgb": [
+      162,
+      101,
+      62
+    ]
+  },
+  "mossy green": {
+    "rgb": [
+      99,
+      139,
+      39
+    ]
+  },
+  "grassy green": {
+    "rgb": [
+      65,
+      156,
+      3
+    ]
+  },
+  "pale lime green": {
+    "rgb": [
+      177,
+      255,
+      101
+    ]
+  },
+  "light grey blue": {
+    "rgb": [
+      157,
+      188,
+      212
+    ]
+  },
+  "pale grey": {
+    "rgb": [
+      253,
+      253,
+      254
+    ]
+  },
+  "asparagus": {
+    "rgb": [
+      119,
+      171,
+      86
+    ]
+  },
+  "blueberry": {
+    "rgb": [
+      70,
+      65,
+      150
+    ]
+  },
+  "purple red": {
+    "rgb": [
+      153,
+      1,
+      71
+    ]
+  },
+  "pale lime": {
+    "rgb": [
+      190,
+      253,
+      115
+    ]
+  },
+  "greenish teal": {
+    "rgb": [
+      50,
+      191,
+      132
+    ]
+  },
+  "caramel": {
+    "rgb": [
+      175,
+      111,
+      9
+    ]
+  },
+  "deep magenta": {
+    "rgb": [
+      160,
+      2,
+      92
+    ]
+  },
+  "light peach": {
+    "rgb": [
+      255,
+      216,
+      177
+    ]
+  },
+  "milk chocolate": {
+    "rgb": [
+      127,
+      78,
+      30
+    ]
+  },
+  "ocher": {
+    "rgb": [
+      191,
+      155,
+      12
+    ]
+  },
+  "off green": {
+    "rgb": [
+      107,
+      163,
+      83
+    ]
+  },
+  "purply pink": {
+    "rgb": [
+      240,
+      117,
+      230
+    ]
+  },
+  "lightblue": {
+    "rgb": [
+      123,
+      200,
+      246
+    ]
+  },
+  "dusky blue": {
+    "rgb": [
+      71,
+      95,
+      148
+    ]
+  },
+  "golden": {
+    "rgb": [
+      245,
+      191,
+      3
+    ]
+  },
+  "light beige": {
+    "rgb": [
+      255,
+      254,
+      182
+    ]
+  },
+  "butter yellow": {
+    "rgb": [
+      255,
+      253,
+      116
+    ]
+  },
+  "dusky purple": {
+    "rgb": [
+      137,
+      91,
+      123
+    ]
+  },
+  "french blue": {
+    "rgb": [
+      67,
+      107,
+      173
+    ]
+  },
+  "ugly yellow": {
+    "rgb": [
+      208,
+      193,
+      1
+    ]
+  },
+  "greeny yellow": {
+    "rgb": [
+      198,
+      248,
+      8
+    ]
+  },
+  "orangish red": {
+    "rgb": [
+      244,
+      54,
+      5
+    ]
+  },
+  "shamrock green": {
+    "rgb": [
+      2,
+      193,
+      77
+    ]
+  },
+  "orangish brown": {
+    "rgb": [
+      178,
+      95,
+      3
+    ]
+  },
+  "tree green": {
+    "rgb": [
+      42,
+      126,
+      25
+    ]
+  },
+  "deep violet": {
+    "rgb": [
+      73,
+      6,
+      72
+    ]
+  },
+  "gunmetal": {
+    "rgb": [
+      83,
+      98,
+      103
+    ]
+  },
+  "blue/purple": {
+    "rgb": [
+      90,
+      6,
+      239
+    ]
+  },
+  "cherry": {
+    "rgb": [
+      207,
+      2,
+      52
+    ]
+  },
+  "sandy brown": {
+    "rgb": [
+      196,
+      166,
+      97
+    ]
+  },
+  "warm grey": {
+    "rgb": [
+      151,
+      138,
+      132
+    ]
+  },
+  "dark indigo": {
+    "rgb": [
+      31,
+      9,
+      84
+    ]
+  },
+  "midnight": {
+    "rgb": [
+      3,
+      1,
+      45
+    ]
+  },
+  "bluey green": {
+    "rgb": [
+      43,
+      177,
+      121
+    ]
+  },
+  "grey pink": {
+    "rgb": [
+      195,
+      144,
+      155
+    ]
+  },
+  "soft purple": {
+    "rgb": [
+      166,
+      111,
+      181
+    ]
+  },
+  "blood": {
+    "rgb": [
+      119,
+      0,
+      1
+    ]
+  },
+  "brown red": {
+    "rgb": [
+      146,
+      43,
+      5
+    ]
+  },
+  "medium grey": {
+    "rgb": [
+      125,
+      127,
+      124
+    ]
+  },
+  "berry": {
+    "rgb": [
+      153,
+      15,
+      75
+    ]
+  },
+  "poo": {
+    "rgb": [
+      143,
+      115,
+      3
+    ]
+  },
+  "purpley pink": {
+    "rgb": [
+      200,
+      60,
+      185
+    ]
+  },
+  "light salmon": {
+    "rgb": [
+      254,
+      169,
+      147
+    ]
+  },
+  "snot": {
+    "rgb": [
+      172,
+      187,
+      13
+    ]
+  },
+  "easter purple": {
+    "rgb": [
+      192,
+      113,
+      254
+    ]
+  },
+  "light yellow green": {
+    "rgb": [
+      204,
+      253,
+      127
+    ]
+  },
+  "dark navy blue": {
+    "rgb": [
+      0,
+      2,
+      46
+    ]
+  },
+  "drab": {
+    "rgb": [
+      130,
+      131,
+      68
+    ]
+  },
+  "light rose": {
+    "rgb": [
+      255,
+      197,
+      203
+    ]
+  },
+  "rouge": {
+    "rgb": [
+      171,
+      18,
+      57
+    ]
+  },
+  "purplish red": {
+    "rgb": [
+      176,
+      5,
+      75
+    ]
+  },
+  "slime green": {
+    "rgb": [
+      153,
+      204,
+      4
+    ]
+  },
+  "baby poop": {
+    "rgb": [
+      147,
+      124,
+      0
+    ]
+  },
+  "irish green": {
+    "rgb": [
+      1,
+      149,
+      41
+    ]
+  },
+  "pink/purple": {
+    "rgb": [
+      239,
+      29,
+      231
+    ]
+  },
+  "dark navy": {
+    "rgb": [
+      0,
+      4,
+      53
+    ]
+  },
+  "greeny blue": {
+    "rgb": [
+      66,
+      179,
+      149
+    ]
+  },
+  "light plum": {
+    "rgb": [
+      157,
+      87,
+      131
+    ]
+  },
+  "pinkish grey": {
+    "rgb": [
+      200,
+      172,
+      169
+    ]
+  },
+  "dirty orange": {
+    "rgb": [
+      200,
+      118,
+      6
+    ]
+  },
+  "rust red": {
+    "rgb": [
+      170,
+      39,
+      4
+    ]
+  },
+  "pale lilac": {
+    "rgb": [
+      228,
+      203,
+      255
+    ]
+  },
+  "orangey red": {
+    "rgb": [
+      250,
+      66,
+      36
+    ]
+  },
+  "primary blue": {
+    "rgb": [
+      8,
+      4,
+      249
+    ]
+  },
+  "kermit green": {
+    "rgb": [
+      92,
+      178,
+      0
+    ]
+  },
+  "brownish purple": {
+    "rgb": [
+      118,
+      66,
+      78
+    ]
+  },
+  "murky green": {
+    "rgb": [
+      108,
+      122,
+      14
+    ]
+  },
+  "wheat": {
+    "rgb": [
+      251,
+      221,
+      126
+    ]
+  },
+  "very dark purple": {
+    "rgb": [
+      42,
+      1,
+      52
+    ]
+  },
+  "bottle green": {
+    "rgb": [
+      4,
+      74,
+      5
+    ]
+  },
+  "watermelon": {
+    "rgb": [
+      253,
+      70,
+      89
+    ]
+  },
+  "deep sky blue": {
+    "rgb": [
+      13,
+      117,
+      248
+    ]
+  },
+  "fire engine red": {
+    "rgb": [
+      254,
+      0,
+      2
+    ]
+  },
+  "yellow ochre": {
+    "rgb": [
+      203,
+      157,
+      6
+    ]
+  },
+  "pumpkin orange": {
+    "rgb": [
+      251,
+      125,
+      7
+    ]
+  },
+  "pale olive": {
+    "rgb": [
+      185,
+      204,
+      129
+    ]
+  },
+  "light lilac": {
+    "rgb": [
+      237,
+      200,
+      255
+    ]
+  },
+  "lightish green": {
+    "rgb": [
+      97,
+      225,
+      96
+    ]
+  },
+  "carolina blue": {
+    "rgb": [
+      138,
+      184,
+      254
+    ]
+  },
+  "mulberry": {
+    "rgb": [
+      146,
+      10,
+      78
+    ]
+  },
+  "shocking pink": {
+    "rgb": [
+      254,
+      2,
+      162
+    ]
+  },
+  "auburn": {
+    "rgb": [
+      154,
+      48,
+      1
+    ]
+  },
+  "bright lime green": {
+    "rgb": [
+      101,
+      254,
+      8
+    ]
+  },
+  "celadon": {
+    "rgb": [
+      190,
+      253,
+      183
+    ]
+  },
+  "pinkish brown": {
+    "rgb": [
+      177,
+      114,
+      97
+    ]
+  },
+  "poo brown": {
+    "rgb": [
+      136,
+      95,
+      1
+    ]
+  },
+  "bright sky blue": {
+    "rgb": [
+      2,
+      204,
+      254
+    ]
+  },
+  "celery": {
+    "rgb": [
+      193,
+      253,
+      149
+    ]
+  },
+  "dirt brown": {
+    "rgb": [
+      131,
+      101,
+      57
+    ]
+  },
+  "strawberry": {
+    "rgb": [
+      251,
+      41,
+      67
+    ]
+  },
+  "dark lime": {
+    "rgb": [
+      132,
+      183,
+      1
+    ]
+  },
+  "copper": {
+    "rgb": [
+      182,
+      99,
+      37
+    ]
+  },
+  "medium brown": {
+    "rgb": [
+      127,
+      81,
+      18
+    ]
+  },
+  "muted green": {
+    "rgb": [
+      95,
+      160,
+      82
+    ]
+  },
+  "robin's egg": {
+    "rgb": [
+      109,
+      237,
+      253
+    ]
+  },
+  "bright aqua": {
+    "rgb": [
+      11,
+      249,
+      234
+    ]
+  },
+  "bright lavender": {
+    "rgb": [
+      199,
+      96,
+      255
+    ]
+  },
+  "ivory": {
+    "rgb": [
+      255,
+      255,
+      203
+    ]
+  },
+  "very light purple": {
+    "rgb": [
+      246,
+      206,
+      252
+    ]
+  },
+  "light navy": {
+    "rgb": [
+      21,
+      80,
+      132
+    ]
+  },
+  "pink red": {
+    "rgb": [
+      245,
+      5,
+      79
+    ]
+  },
+  "olive brown": {
+    "rgb": [
+      100,
+      84,
+      3
+    ]
+  },
+  "poop brown": {
+    "rgb": [
+      122,
+      89,
+      1
+    ]
+  },
+  "mustard green": {
+    "rgb": [
+      168,
+      181,
+      4
+    ]
+  },
+  "ocean green": {
+    "rgb": [
+      61,
+      153,
+      115
+    ]
+  },
+  "very dark blue": {
+    "rgb": [
+      0,
+      1,
+      51
+    ]
+  },
+  "dusty green": {
+    "rgb": [
+      118,
+      169,
+      115
+    ]
+  },
+  "light navy blue": {
+    "rgb": [
+      46,
+      90,
+      136
+    ]
+  },
+  "minty green": {
+    "rgb": [
+      11,
+      247,
+      125
+    ]
+  },
+  "adobe": {
+    "rgb": [
+      189,
+      108,
+      72
+    ]
+  },
+  "barney": {
+    "rgb": [
+      172,
+      29,
+      184
+    ]
+  },
+  "jade green": {
+    "rgb": [
+      43,
+      175,
+      106
+    ]
+  },
+  "bright light blue": {
+    "rgb": [
+      38,
+      247,
+      253
+    ]
+  },
+  "light lime": {
+    "rgb": [
+      174,
+      253,
+      108
+    ]
+  },
+  "dark khaki": {
+    "rgb": [
+      155,
+      143,
+      85
+    ]
+  },
+  "orange yellow": {
+    "rgb": [
+      255,
+      173,
+      1
+    ]
+  },
+  "ocre": {
+    "rgb": [
+      198,
+      156,
+      4
+    ]
+  },
+  "maize": {
+    "rgb": [
+      244,
+      208,
+      84
+    ]
+  },
+  "faded pink": {
+    "rgb": [
+      222,
+      157,
+      172
+    ]
+  },
+  "british racing green": {
+    "rgb": [
+      5,
+      72,
+      13
+    ]
+  },
+  "sandstone": {
+    "rgb": [
+      201,
+      174,
+      116
+    ]
+  },
+  "mud brown": {
+    "rgb": [
+      96,
+      70,
+      15
+    ]
+  },
+  "light sea green": {
+    "rgb": [
+      152,
+      246,
+      176
+    ]
+  },
+  "robin egg blue": {
+    "rgb": [
+      138,
+      241,
+      254
+    ]
+  },
+  "aqua marine": {
+    "rgb": [
+      46,
+      232,
+      187
+    ]
+  },
+  "dark sea green": {
+    "rgb": [
+      17,
+      135,
+      93
+    ]
+  },
+  "soft pink": {
+    "rgb": [
+      253,
+      176,
+      192
+    ]
+  },
+  "orangey brown": {
+    "rgb": [
+      177,
+      96,
+      2
+    ]
+  },
+  "cherry red": {
+    "rgb": [
+      247,
+      2,
+      42
+    ]
+  },
+  "burnt yellow": {
+    "rgb": [
+      213,
+      171,
+      9
+    ]
+  },
+  "brownish grey": {
+    "rgb": [
+      134,
+      119,
+      95
+    ]
+  },
+  "camel": {
+    "rgb": [
+      198,
+      159,
+      89
+    ]
+  },
+  "purplish grey": {
+    "rgb": [
+      122,
+      104,
+      127
+    ]
+  },
+  "marine": {
+    "rgb": [
+      4,
+      46,
+      96
+    ]
+  },
+  "greyish pink": {
+    "rgb": [
+      200,
+      141,
+      148
+    ]
+  },
+  "pale turquoise": {
+    "rgb": [
+      165,
+      251,
+      213
+    ]
+  },
+  "pastel yellow": {
+    "rgb": [
+      255,
+      254,
+      113
+    ]
+  },
+  "bluey purple": {
+    "rgb": [
+      98,
+      65,
+      199
+    ]
+  },
+  "canary yellow": {
+    "rgb": [
+      255,
+      254,
+      64
+    ]
+  },
+  "faded red": {
+    "rgb": [
+      211,
+      73,
+      78
+    ]
+  },
+  "sepia": {
+    "rgb": [
+      152,
+      94,
+      43
+    ]
+  },
+  "coffee": {
+    "rgb": [
+      166,
+      129,
+      76
+    ]
+  },
+  "bright magenta": {
+    "rgb": [
+      255,
+      8,
+      232
+    ]
+  },
+  "mocha": {
+    "rgb": [
+      157,
+      118,
+      81
+    ]
+  },
+  "ecru": {
+    "rgb": [
+      254,
+      255,
+      202
+    ]
+  },
+  "purpleish": {
+    "rgb": [
+      152,
+      86,
+      141
+    ]
+  },
+  "cranberry": {
+    "rgb": [
+      158,
+      0,
+      58
+    ]
+  },
+  "darkish green": {
+    "rgb": [
+      40,
+      124,
+      55
+    ]
+  },
+  "brown orange": {
+    "rgb": [
+      185,
+      105,
+      2
+    ]
+  },
+  "dusky rose": {
+    "rgb": [
+      186,
+      104,
+      115
+    ]
+  },
+  "melon": {
+    "rgb": [
+      255,
+      120,
+      85
+    ]
+  },
+  "sickly green": {
+    "rgb": [
+      148,
+      178,
+      28
+    ]
+  },
+  "silver": {
+    "rgb": [
+      197,
+      201,
+      199
+    ]
+  },
+  "purply blue": {
+    "rgb": [
+      102,
+      26,
+      238
+    ]
+  },
+  "purpleish blue": {
+    "rgb": [
+      97,
+      64,
+      239
+    ]
+  },
+  "hospital green": {
+    "rgb": [
+      155,
+      229,
+      170
+    ]
+  },
+  "shit brown": {
+    "rgb": [
+      123,
+      88,
+      4
+    ]
+  },
+  "mid blue": {
+    "rgb": [
+      39,
+      106,
+      179
+    ]
+  },
+  "amber": {
+    "rgb": [
+      254,
+      179,
+      8
+    ]
+  },
+  "easter green": {
+    "rgb": [
+      140,
+      253,
+      126
+    ]
+  },
+  "soft blue": {
+    "rgb": [
+      100,
+      136,
+      234
+    ]
+  },
+  "cerulean blue": {
+    "rgb": [
+      5,
+      110,
+      238
+    ]
+  },
+  "golden brown": {
+    "rgb": [
+      178,
+      122,
+      1
+    ]
+  },
+  "bright turquoise": {
+    "rgb": [
+      15,
+      254,
+      249
+    ]
+  },
+  "red pink": {
+    "rgb": [
+      250,
+      42,
+      85
+    ]
+  },
+  "red purple": {
+    "rgb": [
+      130,
+      7,
+      71
+    ]
+  },
+  "greyish brown": {
+    "rgb": [
+      122,
+      106,
+      79
+    ]
+  },
+  "vermillion": {
+    "rgb": [
+      244,
+      50,
+      12
+    ]
+  },
+  "russet": {
+    "rgb": [
+      161,
+      57,
+      5
+    ]
+  },
+  "steel grey": {
+    "rgb": [
+      111,
+      130,
+      138
+    ]
+  },
+  "lighter purple": {
+    "rgb": [
+      165,
+      90,
+      244
+    ]
+  },
+  "bright violet": {
+    "rgb": [
+      173,
+      10,
+      253
+    ]
+  },
+  "prussian blue": {
+    "rgb": [
+      0,
+      69,
+      119
+    ]
+  },
+  "slate green": {
+    "rgb": [
+      101,
+      141,
+      109
+    ]
+  },
+  "dirty pink": {
+    "rgb": [
+      202,
+      123,
+      128
+    ]
+  },
+  "dark blue green": {
+    "rgb": [
+      0,
+      82,
+      73
+    ]
+  },
+  "pine": {
+    "rgb": [
+      43,
+      93,
+      52
+    ]
+  },
+  "yellowy green": {
+    "rgb": [
+      191,
+      241,
+      40
+    ]
+  },
+  "dark gold": {
+    "rgb": [
+      181,
+      148,
+      16
+    ]
+  },
+  "bluish": {
+    "rgb": [
+      41,
+      118,
+      187
+    ]
+  },
+  "darkish blue": {
+    "rgb": [
+      1,
+      65,
+      130
+    ]
+  },
+  "dull red": {
+    "rgb": [
+      187,
+      63,
+      63
+    ]
+  },
+  "pinky red": {
+    "rgb": [
+      252,
+      38,
+      71
+    ]
+  },
+  "bronze": {
+    "rgb": [
+      168,
+      121,
+      0
+    ]
+  },
+  "pale teal": {
+    "rgb": [
+      130,
+      203,
+      178
+    ]
+  },
+  "military green": {
+    "rgb": [
+      102,
+      124,
+      62
+    ]
+  },
+  "barbie pink": {
+    "rgb": [
+      254,
+      70,
+      165
+    ]
+  },
+  "bubblegum pink": {
+    "rgb": [
+      254,
+      131,
+      204
+    ]
+  },
+  "pea soup green": {
+    "rgb": [
+      148,
+      166,
+      23
+    ]
+  },
+  "dark mustard": {
+    "rgb": [
+      168,
+      137,
+      5
+    ]
+  },
+  "shit": {
+    "rgb": [
+      127,
+      95,
+      0
+    ]
+  },
+  "medium purple": {
+    "rgb": [
+      158,
+      67,
+      162
+    ]
+  },
+  "very dark green": {
+    "rgb": [
+      6,
+      46,
+      3
+    ]
+  },
+  "dirt": {
+    "rgb": [
+      138,
+      110,
+      69
+    ]
+  },
+  "dusky pink": {
+    "rgb": [
+      204,
+      122,
+      139
+    ]
+  },
+  "red violet": {
+    "rgb": [
+      158,
+      1,
+      104
+    ]
+  },
+  "lemon yellow": {
+    "rgb": [
+      253,
+      255,
+      56
+    ]
+  },
+  "pistachio": {
+    "rgb": [
+      192,
+      250,
+      139
+    ]
+  },
+  "dull yellow": {
+    "rgb": [
+      238,
+      220,
+      91
+    ]
+  },
+  "dark lime green": {
+    "rgb": [
+      126,
+      189,
+      1
+    ]
+  },
+  "denim blue": {
+    "rgb": [
+      59,
+      91,
+      146
+    ]
+  },
+  "teal blue": {
+    "rgb": [
+      1,
+      136,
+      159
+    ]
+  },
+  "lightish blue": {
+    "rgb": [
+      61,
+      122,
+      253
+    ]
+  },
+  "purpley blue": {
+    "rgb": [
+      95,
+      52,
+      231
+    ]
+  },
+  "light indigo": {
+    "rgb": [
+      109,
+      90,
+      207
+    ]
+  },
+  "swamp green": {
+    "rgb": [
+      116,
+      133,
+      0
+    ]
+  },
+  "brown green": {
+    "rgb": [
+      112,
+      108,
+      17
+    ]
+  },
+  "dark maroon": {
+    "rgb": [
+      60,
+      0,
+      8
+    ]
+  },
+  "hot purple": {
+    "rgb": [
+      203,
+      0,
+      245
+    ]
+  },
+  "dark forest green": {
+    "rgb": [
+      0,
+      45,
+      4
+    ]
+  },
+  "faded blue": {
+    "rgb": [
+      101,
+      140,
+      187
+    ]
+  },
+  "drab green": {
+    "rgb": [
+      116,
+      149,
+      81
+    ]
+  },
+  "light lime green": {
+    "rgb": [
+      185,
+      255,
+      102
+    ]
+  },
+  "snot green": {
+    "rgb": [
+      157,
+      193,
+      0
+    ]
+  },
+  "yellowish": {
+    "rgb": [
+      250,
+      238,
+      102
+    ]
+  },
+  "light blue green": {
+    "rgb": [
+      126,
+      251,
+      179
+    ]
+  },
+  "bordeaux": {
+    "rgb": [
+      123,
+      0,
+      44
+    ]
+  },
+  "light mauve": {
+    "rgb": [
+      194,
+      146,
+      161
+    ]
+  },
+  "ocean": {
+    "rgb": [
+      1,
+      123,
+      146
+    ]
+  },
+  "marigold": {
+    "rgb": [
+      252,
+      192,
+      6
+    ]
+  },
+  "muddy green": {
+    "rgb": [
+      101,
+      116,
+      50
+    ]
+  },
+  "dull orange": {
+    "rgb": [
+      216,
+      134,
+      59
+    ]
+  },
+  "steel": {
+    "rgb": [
+      115,
+      133,
+      149
+    ]
+  },
+  "electric purple": {
+    "rgb": [
+      170,
+      35,
+      255
+    ]
+  },
+  "fluorescent green": {
+    "rgb": [
+      8,
+      255,
+      8
+    ]
+  },
+  "yellowish brown": {
+    "rgb": [
+      155,
+      122,
+      1
+    ]
+  },
+  "blush": {
+    "rgb": [
+      242,
+      158,
+      142
+    ]
+  },
+  "soft green": {
+    "rgb": [
+      111,
+      194,
+      118
+    ]
+  },
+  "bright orange": {
+    "rgb": [
+      255,
+      91,
+      0
+    ]
+  },
+  "lemon": {
+    "rgb": [
+      253,
+      255,
+      82
+    ]
+  },
+  "purple grey": {
+    "rgb": [
+      134,
+      111,
+      133
+    ]
+  },
+  "acid green": {
+    "rgb": [
+      143,
+      254,
+      9
+    ]
+  },
+  "pale lavender": {
+    "rgb": [
+      238,
+      207,
+      254
+    ]
+  },
+  "violet blue": {
+    "rgb": [
+      81,
+      10,
+      201
+    ]
+  },
+  "light forest green": {
+    "rgb": [
+      79,
+      145,
+      83
+    ]
+  },
+  "burnt red": {
+    "rgb": [
+      159,
+      35,
+      5
+    ]
+  },
+  "khaki green": {
+    "rgb": [
+      114,
+      134,
+      57
+    ]
+  },
+  "cerise": {
+    "rgb": [
+      222,
+      12,
+      98
+    ]
+  },
+  "faded purple": {
+    "rgb": [
+      145,
+      110,
+      153
+    ]
+  },
+  "apricot": {
+    "rgb": [
+      255,
+      177,
+      109
+    ]
+  },
+  "dark olive green": {
+    "rgb": [
+      60,
+      77,
+      3
+    ]
+  },
+  "grey brown": {
+    "rgb": [
+      127,
+      112,
+      83
+    ]
+  },
+  "green grey": {
+    "rgb": [
+      119,
+      146,
+      111
+    ]
+  },
+  "true blue": {
+    "rgb": [
+      1,
+      15,
+      204
+    ]
+  },
+  "pale violet": {
+    "rgb": [
+      206,
+      174,
+      250
+    ]
+  },
+  "periwinkle blue": {
+    "rgb": [
+      143,
+      153,
+      251
+    ]
+  },
+  "light sky blue": {
+    "rgb": [
+      198,
+      252,
+      255
+    ]
+  },
+  "blurple": {
+    "rgb": [
+      85,
+      57,
+      204
+    ]
+  },
+  "green brown": {
+    "rgb": [
+      84,
+      78,
+      3
+    ]
+  },
+  "bluegreen": {
+    "rgb": [
+      1,
+      122,
+      121
+    ]
+  },
+  "bright teal": {
+    "rgb": [
+      1,
+      249,
+      198
+    ]
+  },
+  "brownish yellow": {
+    "rgb": [
+      201,
+      176,
+      3
+    ]
+  },
+  "pea soup": {
+    "rgb": [
+      146,
+      153,
+      1
+    ]
+  },
+  "forest": {
+    "rgb": [
+      11,
+      85,
+      9
+    ]
+  },
+  "barney purple": {
+    "rgb": [
+      160,
+      4,
+      152
+    ]
+  },
+  "ultramarine": {
+    "rgb": [
+      32,
+      0,
+      177
+    ]
+  },
+  "purplish": {
+    "rgb": [
+      148,
+      86,
+      140
+    ]
+  },
+  "puke yellow": {
+    "rgb": [
+      194,
+      190,
+      14
+    ]
+  },
+  "bluish grey": {
+    "rgb": [
+      116,
+      139,
+      151
+    ]
+  },
+  "dark periwinkle": {
+    "rgb": [
+      102,
+      95,
+      209
+    ]
+  },
+  "dark lilac": {
+    "rgb": [
+      156,
+      109,
+      165
+    ]
+  },
+  "reddish": {
+    "rgb": [
+      196,
+      66,
+      64
+    ]
+  },
+  "light maroon": {
+    "rgb": [
+      162,
+      72,
+      87
+    ]
+  },
+  "dusty purple": {
+    "rgb": [
+      130,
+      95,
+      135
+    ]
+  },
+  "terra cotta": {
+    "rgb": [
+      201,
+      100,
+      59
+    ]
+  },
+  "avocado": {
+    "rgb": [
+      144,
+      177,
+      52
+    ]
+  },
+  "marine blue": {
+    "rgb": [
+      1,
+      56,
+      106
+    ]
+  },
+  "teal green": {
+    "rgb": [
+      37,
+      163,
+      111
+    ]
+  },
+  "slate grey": {
+    "rgb": [
+      89,
+      101,
+      109
+    ]
+  },
+  "lighter green": {
+    "rgb": [
+      117,
+      253,
+      99
+    ]
+  },
+  "electric green": {
+    "rgb": [
+      33,
+      252,
+      13
+    ]
+  },
+  "dusty blue": {
+    "rgb": [
+      90,
+      134,
+      173
+    ]
+  },
+  "golden yellow": {
+    "rgb": [
+      254,
+      198,
+      21
+    ]
+  },
+  "bright yellow": {
+    "rgb": [
+      255,
+      253,
+      1
+    ]
+  },
+  "light lavender": {
+    "rgb": [
+      223,
+      197,
+      254
+    ]
+  },
+  "umber": {
+    "rgb": [
+      178,
+      100,
+      0
+    ]
+  },
+  "poop": {
+    "rgb": [
+      127,
+      94,
+      0
+    ]
+  },
+  "dark peach": {
+    "rgb": [
+      222,
+      126,
+      93
+    ]
+  },
+  "jungle green": {
+    "rgb": [
+      4,
+      130,
+      67
+    ]
+  },
+  "eggshell": {
+    "rgb": [
+      255,
+      255,
+      212
+    ]
+  },
+  "denim": {
+    "rgb": [
+      59,
+      99,
+      140
+    ]
+  },
+  "yellow brown": {
+    "rgb": [
+      183,
+      148,
+      0
+    ]
+  },
+  "dull purple": {
+    "rgb": [
+      132,
+      89,
+      126
+    ]
+  },
+  "chocolate brown": {
+    "rgb": [
+      65,
+      25,
+      0
+    ]
+  },
+  "wine red": {
+    "rgb": [
+      123,
+      3,
+      35
+    ]
+  },
+  "neon blue": {
+    "rgb": [
+      4,
+      217,
+      255
+    ]
+  },
+  "dirty green": {
+    "rgb": [
+      102,
+      126,
+      44
+    ]
+  },
+  "light tan": {
+    "rgb": [
+      251,
+      238,
+      172
+    ]
+  },
+  "ice blue": {
+    "rgb": [
+      215,
+      255,
+      254
+    ]
+  },
+  "cadet blue": {
+    "rgb": [
+      78,
+      116,
+      150
+    ]
+  },
+  "dark mauve": {
+    "rgb": [
+      135,
+      76,
+      98
+    ]
+  },
+  "very light blue": {
+    "rgb": [
+      213,
+      255,
+      255
+    ]
+  },
+  "grey purple": {
+    "rgb": [
+      130,
+      109,
+      140
+    ]
+  },
+  "pastel pink": {
+    "rgb": [
+      255,
+      186,
+      205
+    ]
+  },
+  "very light green": {
+    "rgb": [
+      209,
+      255,
+      189
+    ]
+  },
+  "dark sky blue": {
+    "rgb": [
+      68,
+      142,
+      228
+    ]
+  },
+  "evergreen": {
+    "rgb": [
+      5,
+      71,
+      42
+    ]
+  },
+  "dull pink": {
+    "rgb": [
+      213,
+      134,
+      157
+    ]
+  },
+  "aubergine": {
+    "rgb": [
+      61,
+      7,
+      52
+    ]
+  },
+  "mahogany": {
+    "rgb": [
+      74,
+      1,
+      0
+    ]
+  },
+  "reddish orange": {
+    "rgb": [
+      248,
+      72,
+      28
+    ]
+  },
+  "deep green": {
+    "rgb": [
+      2,
+      89,
+      15
+    ]
+  },
+  "vomit green": {
+    "rgb": [
+      137,
+      162,
+      3
+    ]
+  },
+  "purple pink": {
+    "rgb": [
+      224,
+      63,
+      216
+    ]
+  },
+  "dusty pink": {
+    "rgb": [
+      213,
+      138,
+      148
+    ]
+  },
+  "faded green": {
+    "rgb": [
+      123,
+      178,
+      116
+    ]
+  },
+  "camo green": {
+    "rgb": [
+      82,
+      101,
+      37
+    ]
+  },
+  "pinky purple": {
+    "rgb": [
+      201,
+      76,
+      190
+    ]
+  },
+  "pink purple": {
+    "rgb": [
+      219,
+      75,
+      218
+    ]
+  },
+  "brownish red": {
+    "rgb": [
+      158,
+      54,
+      35
+    ]
+  },
+  "dark rose": {
+    "rgb": [
+      181,
+      72,
+      93
+    ]
+  },
+  "mud": {
+    "rgb": [
+      115,
+      92,
+      18
+    ]
+  },
+  "brownish": {
+    "rgb": [
+      156,
+      109,
+      87
+    ]
+  },
+  "emerald green": {
+    "rgb": [
+      2,
+      143,
+      30
+    ]
+  },
+  "pale brown": {
+    "rgb": [
+      177,
+      145,
+      110
+    ]
+  },
+  "dull blue": {
+    "rgb": [
+      73,
+      117,
+      156
+    ]
+  },
+  "burnt umber": {
+    "rgb": [
+      160,
+      69,
+      14
+    ]
+  },
+  "medium green": {
+    "rgb": [
+      57,
+      173,
+      72
+    ]
+  },
+  "clay": {
+    "rgb": [
+      182,
+      106,
+      80
+    ]
+  },
+  "light aqua": {
+    "rgb": [
+      140,
+      255,
+      219
+    ]
+  },
+  "light olive green": {
+    "rgb": [
+      164,
+      190,
+      92
+    ]
+  },
+  "brownish orange": {
+    "rgb": [
+      203,
+      119,
+      35
+    ]
+  },
+  "dark aqua": {
+    "rgb": [
+      5,
+      105,
+      107
+    ]
+  },
+  "purplish pink": {
+    "rgb": [
+      206,
+      93,
+      174
+    ]
+  },
+  "dark salmon": {
+    "rgb": [
+      200,
+      90,
+      83
+    ]
+  },
+  "greenish grey": {
+    "rgb": [
+      150,
+      174,
+      141
+    ]
+  },
+  "jade": {
+    "rgb": [
+      31,
+      167,
+      116
+    ]
+  },
+  "ugly green": {
+    "rgb": [
+      122,
+      151,
+      3
+    ]
+  },
+  "dark beige": {
+    "rgb": [
+      172,
+      147,
+      98
+    ]
+  },
+  "emerald": {
+    "rgb": [
+      1,
+      160,
+      73
+    ]
+  },
+  "pale red": {
+    "rgb": [
+      217,
+      84,
+      77
+    ]
+  },
+  "light magenta": {
+    "rgb": [
+      250,
+      95,
+      247
+    ]
+  },
+  "sky": {
+    "rgb": [
+      130,
+      202,
+      252
+    ]
+  },
+  "light cyan": {
+    "rgb": [
+      172,
+      255,
+      252
+    ]
+  },
+  "yellow orange": {
+    "rgb": [
+      252,
+      176,
+      1
+    ]
+  },
+  "reddish purple": {
+    "rgb": [
+      145,
+      9,
+      81
+    ]
+  },
+  "reddish pink": {
+    "rgb": [
+      254,
+      44,
+      84
+    ]
+  },
+  "orchid": {
+    "rgb": [
+      200,
+      117,
+      196
+    ]
+  },
+  "dirty yellow": {
+    "rgb": [
+      205,
+      197,
+      10
+    ]
+  },
+  "orange red": {
+    "rgb": [
+      253,
+      65,
+      30
+    ]
+  },
+  "deep red": {
+    "rgb": [
+      154,
+      2,
+      0
+    ]
+  },
+  "orange brown": {
+    "rgb": [
+      190,
+      100,
+      0
+    ]
+  },
+  "cobalt blue": {
+    "rgb": [
+      3,
+      10,
+      167
+    ]
+  },
+  "neon pink": {
+    "rgb": [
+      254,
+      1,
+      154
+    ]
+  },
+  "rose pink": {
+    "rgb": [
+      247,
+      135,
+      154
+    ]
+  },
+  "greyish purple": {
+    "rgb": [
+      136,
+      113,
+      145
+    ]
+  },
+  "raspberry": {
+    "rgb": [
+      176,
+      1,
+      73
+    ]
+  },
+  "aqua green": {
+    "rgb": [
+      18,
+      225,
+      147
+    ]
+  },
+  "salmon pink": {
+    "rgb": [
+      254,
+      123,
+      124
+    ]
+  },
+  "tangerine": {
+    "rgb": [
+      255,
+      148,
+      8
+    ]
+  },
+  "brownish green": {
+    "rgb": [
+      106,
+      110,
+      9
+    ]
+  },
+  "red brown": {
+    "rgb": [
+      139,
+      46,
+      22
+    ]
+  },
+  "greenish brown": {
+    "rgb": [
+      105,
+      97,
+      18
+    ]
+  },
+  "pumpkin": {
+    "rgb": [
+      225,
+      119,
+      1
+    ]
+  },
+  "pine green": {
+    "rgb": [
+      10,
+      72,
+      30
+    ]
+  },
+  "charcoal": {
+    "rgb": [
+      52,
+      56,
+      55
+    ]
+  },
+  "baby pink": {
+    "rgb": [
+      255,
+      183,
+      206
+    ]
+  },
+  "cornflower": {
+    "rgb": [
+      106,
+      121,
+      247
+    ]
+  },
+  "blue violet": {
+    "rgb": [
+      93,
+      6,
+      233
+    ]
+  },
+  "chocolate": {
+    "rgb": [
+      61,
+      28,
+      2
+    ]
+  },
+  "greyish green": {
+    "rgb": [
+      130,
+      166,
+      125
+    ]
+  },
+  "scarlet": {
+    "rgb": [
+      190,
+      1,
+      25
+    ]
+  },
+  "green yellow": {
+    "rgb": [
+      201,
+      255,
+      39
+    ]
+  },
+  "dark olive": {
+    "rgb": [
+      55,
+      62,
+      2
+    ]
+  },
+  "sienna": {
+    "rgb": [
+      169,
+      86,
+      30
+    ]
+  },
+  "pastel purple": {
+    "rgb": [
+      202,
+      160,
+      255
+    ]
+  },
+  "terracotta": {
+    "rgb": [
+      202,
+      102,
+      65
+    ]
+  },
+  "aqua blue": {
+    "rgb": [
+      2,
+      216,
+      233
+    ]
+  },
+  "sage green": {
+    "rgb": [
+      136,
+      179,
+      120
+    ]
+  },
+  "blood red": {
+    "rgb": [
+      152,
+      0,
+      2
+    ]
+  },
+  "deep pink": {
+    "rgb": [
+      203,
+      1,
+      98
+    ]
+  },
+  "grass": {
+    "rgb": [
+      92,
+      172,
+      45
+    ]
+  },
+  "moss": {
+    "rgb": [
+      118,
+      153,
+      88
+    ]
+  },
+  "pastel blue": {
+    "rgb": [
+      162,
+      191,
+      254
+    ]
+  },
+  "bluish green": {
+    "rgb": [
+      16,
+      166,
+      116
+    ]
+  },
+  "green blue": {
+    "rgb": [
+      6,
+      180,
+      139
+    ]
+  },
+  "dark tan": {
+    "rgb": [
+      175,
+      136,
+      74
+    ]
+  },
+  "greenish blue": {
+    "rgb": [
+      11,
+      139,
+      135
+    ]
+  },
+  "pale orange": {
+    "rgb": [
+      255,
+      167,
+      86
+    ]
+  },
+  "vomit": {
+    "rgb": [
+      162,
+      164,
+      21
+    ]
+  },
+  "forrest green": {
+    "rgb": [
+      21,
+      68,
+      6
+    ]
+  },
+  "dark lavender": {
+    "rgb": [
+      133,
+      103,
+      152
+    ]
+  },
+  "dark violet": {
+    "rgb": [
+      52,
+      1,
+      63
+    ]
+  },
+  "purple blue": {
+    "rgb": [
+      99,
+      45,
+      233
+    ]
+  },
+  "dark cyan": {
+    "rgb": [
+      10,
+      136,
+      138
+    ]
+  },
+  "olive drab": {
+    "rgb": [
+      111,
+      118,
+      50
+    ]
+  },
+  "pinkish": {
+    "rgb": [
+      212,
+      106,
+      126
+    ]
+  },
+  "cobalt": {
+    "rgb": [
+      30,
+      72,
+      143
+    ]
+  },
+  "neon purple": {
+    "rgb": [
+      188,
+      19,
+      254
+    ]
+  },
+  "light turquoise": {
+    "rgb": [
+      126,
+      244,
+      204
+    ]
+  },
+  "apple green": {
+    "rgb": [
+      118,
+      205,
+      38
+    ]
+  },
+  "dull green": {
+    "rgb": [
+      116,
+      166,
+      98
+    ]
+  },
+  "wine": {
+    "rgb": [
+      128,
+      1,
+      63
+    ]
+  },
+  "powder blue": {
+    "rgb": [
+      177,
+      209,
+      252
+    ]
+  },
+  "off white": {
+    "rgb": [
+      255,
+      255,
+      228
+    ]
+  },
+  "electric blue": {
+    "rgb": [
+      6,
+      82,
+      255
+    ]
+  },
+  "dark turquoise": {
+    "rgb": [
+      4,
+      92,
+      90
+    ]
+  },
+  "blue purple": {
+    "rgb": [
+      87,
+      41,
+      206
+    ]
+  },
+  "azure": {
+    "rgb": [
+      6,
+      154,
+      243
+    ]
+  },
+  "bright red": {
+    "rgb": [
+      255,
+      0,
+      13
+    ]
+  },
+  "pinkish red": {
+    "rgb": [
+      241,
+      12,
+      69
+    ]
+  },
+  "cornflower blue": {
+    "rgb": [
+      81,
+      112,
+      215
+    ]
+  },
+  "light olive": {
+    "rgb": [
+      172,
+      191,
+      105
+    ]
+  },
+  "grape": {
+    "rgb": [
+      108,
+      52,
+      97
+    ]
+  },
+  "greyish blue": {
+    "rgb": [
+      94,
+      129,
+      157
+    ]
+  },
+  "purplish blue": {
+    "rgb": [
+      96,
+      30,
+      249
+    ]
+  },
+  "yellowish green": {
+    "rgb": [
+      176,
+      221,
+      22
+    ]
+  },
+  "greenish yellow": {
+    "rgb": [
+      205,
+      253,
+      2
+    ]
+  },
+  "medium blue": {
+    "rgb": [
+      44,
+      111,
+      187
+    ]
+  },
+  "dusty rose": {
+    "rgb": [
+      192,
+      115,
+      122
+    ]
+  },
+  "light violet": {
+    "rgb": [
+      214,
+      180,
+      252
+    ]
+  },
+  "midnight blue": {
+    "rgb": [
+      2,
+      0,
+      53
+    ]
+  },
+  "bluish purple": {
+    "rgb": [
+      112,
+      59,
+      231
+    ]
+  },
+  "red orange": {
+    "rgb": [
+      253,
+      60,
+      6
+    ]
+  },
+  "dark magenta": {
+    "rgb": [
+      150,
+      0,
+      86
+    ]
+  },
+  "greenish": {
+    "rgb": [
+      64,
+      163,
+      104
+    ]
+  },
+  "ocean blue": {
+    "rgb": [
+      3,
+      113,
+      156
+    ]
+  },
+  "coral": {
+    "rgb": [
+      252,
+      90,
+      80
+    ]
+  },
+  "cream": {
+    "rgb": [
+      255,
+      255,
+      194
+    ]
+  },
+  "reddish brown": {
+    "rgb": [
+      127,
+      43,
+      10
+    ]
+  },
+  "burnt sienna": {
+    "rgb": [
+      176,
+      78,
+      15
+    ]
+  },
+  "brick": {
+    "rgb": [
+      160,
+      54,
+      35
+    ]
+  },
+  "sage": {
+    "rgb": [
+      135,
+      174,
+      115
+    ]
+  },
+  "grey green": {
+    "rgb": [
+      120,
+      155,
+      115
+    ]
+  },
+  "white": {
+    "rgb": [
+      255,
+      255,
+      255
+    ]
+  },
+  "robin's egg blue": {
+    "rgb": [
+      152,
+      239,
+      249
+    ]
+  },
+  "moss green": {
+    "rgb": [
+      101,
+      139,
+      56
+    ]
+  },
+  "steel blue": {
+    "rgb": [
+      90,
+      125,
+      154
+    ]
+  },
+  "eggplant": {
+    "rgb": [
+      56,
+      8,
+      53
+    ]
+  },
+  "light yellow": {
+    "rgb": [
+      255,
+      254,
+      122
+    ]
+  },
+  "leaf green": {
+    "rgb": [
+      92,
+      169,
+      4
+    ]
+  },
+  "light grey": {
+    "rgb": [
+      216,
+      220,
+      214
+    ]
+  },
+  "puke": {
+    "rgb": [
+      165,
+      165,
+      2
+    ]
+  },
+  "pinkish purple": {
+    "rgb": [
+      214,
+      72,
+      215
+    ]
+  },
+  "sea blue": {
+    "rgb": [
+      4,
+      116,
+      149
+    ]
+  },
+  "pale purple": {
+    "rgb": [
+      183,
+      144,
+      212
+    ]
+  },
+  "slate blue": {
+    "rgb": [
+      91,
+      124,
+      153
+    ]
+  },
+  "blue grey": {
+    "rgb": [
+      96,
+      124,
+      142
+    ]
+  },
+  "hunter green": {
+    "rgb": [
+      11,
+      64,
+      8
+    ]
+  },
+  "fuchsia": {
+    "rgb": [
+      237,
+      13,
+      217
+    ]
+  },
+  "crimson": {
+    "rgb": [
+      140,
+      0,
+      15
+    ]
+  },
+  "pale yellow": {
+    "rgb": [
+      255,
+      255,
+      132
+    ]
+  },
+  "ochre": {
+    "rgb": [
+      191,
+      144,
+      5
+    ]
+  },
+  "mustard yellow": {
+    "rgb": [
+      210,
+      189,
+      10
+    ]
+  },
+  "light red": {
+    "rgb": [
+      255,
+      71,
+      76
+    ]
+  },
+  "cerulean": {
+    "rgb": [
+      4,
+      133,
+      209
+    ]
+  },
+  "pale pink": {
+    "rgb": [
+      255,
+      207,
+      220
+    ]
+  },
+  "deep blue": {
+    "rgb": [
+      4,
+      2,
+      115
+    ]
+  },
+  "rust": {
+    "rgb": [
+      168,
+      60,
+      9
+    ]
+  },
+  "light teal": {
+    "rgb": [
+      144,
+      228,
+      193
+    ]
+  },
+  "slate": {
+    "rgb": [
+      81,
+      101,
+      114
+    ]
+  },
+  "goldenrod": {
+    "rgb": [
+      250,
+      194,
+      5
+    ]
+  },
+  "dark yellow": {
+    "rgb": [
+      213,
+      182,
+      10
+    ]
+  },
+  "dark grey": {
+    "rgb": [
+      54,
+      55,
+      55
+    ]
+  },
+  "army green": {
+    "rgb": [
+      75,
+      93,
+      22
+    ]
+  },
+  "grey blue": {
+    "rgb": [
+      107,
+      139,
+      164
+    ]
+  },
+  "seafoam": {
+    "rgb": [
+      128,
+      249,
+      173
+    ]
+  },
+  "puce": {
+    "rgb": [
+      165,
+      126,
+      82
+    ]
+  },
+  "spring green": {
+    "rgb": [
+      169,
+      249,
+      113
+    ]
+  },
+  "dark orange": {
+    "rgb": [
+      198,
+      81,
+      2
+    ]
+  },
+  "sand": {
+    "rgb": [
+      226,
+      202,
+      118
+    ]
+  },
+  "pastel green": {
+    "rgb": [
+      176,
+      255,
+      157
+    ]
+  },
+  "mint": {
+    "rgb": [
+      159,
+      254,
+      176
+    ]
+  },
+  "light orange": {
+    "rgb": [
+      253,
+      170,
+      72
+    ]
+  },
+  "bright pink": {
+    "rgb": [
+      254,
+      1,
+      177
+    ]
+  },
+  "chartreuse": {
+    "rgb": [
+      193,
+      248,
+      10
+    ]
+  },
+  "deep purple": {
+    "rgb": [
+      54,
+      1,
+      63
+    ]
+  },
+  "dark brown": {
+    "rgb": [
+      52,
+      28,
+      2
+    ]
+  },
+  "taupe": {
+    "rgb": [
+      185,
+      162,
+      129
+    ]
+  },
+  "pea green": {
+    "rgb": [
+      142,
+      171,
+      18
+    ]
+  },
+  "puke green": {
+    "rgb": [
+      154,
+      174,
+      7
+    ]
+  },
+  "kelly green": {
+    "rgb": [
+      2,
+      171,
+      46
+    ]
+  },
+  "seafoam green": {
+    "rgb": [
+      122,
+      249,
+      171
+    ]
+  },
+  "blue green": {
+    "rgb": [
+      19,
+      126,
+      109
+    ]
+  },
+  "khaki": {
+    "rgb": [
+      170,
+      166,
+      98
+    ]
+  },
+  "burgundy": {
+    "rgb": [
+      97,
+      0,
+      35
+    ]
+  },
+  "dark teal": {
+    "rgb": [
+      1,
+      77,
+      78
+    ]
+  },
+  "brick red": {
+    "rgb": [
+      143,
+      20,
+      2
+    ]
+  },
+  "royal purple": {
+    "rgb": [
+      75,
+      0,
+      110
+    ]
+  },
+  "plum": {
+    "rgb": [
+      88,
+      15,
+      65
+    ]
+  },
+  "mint green": {
+    "rgb": [
+      143,
+      255,
+      159
+    ]
+  },
+  "gold": {
+    "rgb": [
+      219,
+      180,
+      12
+    ]
+  },
+  "baby blue": {
+    "rgb": [
+      162,
+      207,
+      254
+    ]
+  },
+  "yellow green": {
+    "rgb": [
+      192,
+      251,
+      45
+    ]
+  },
+  "bright purple": {
+    "rgb": [
+      190,
+      3,
+      253
+    ]
+  },
+  "dark red": {
+    "rgb": [
+      132,
+      0,
+      0
+    ]
+  },
+  "pale blue": {
+    "rgb": [
+      208,
+      254,
+      254
+    ]
+  },
+  "grass green": {
+    "rgb": [
+      63,
+      155,
+      11
+    ]
+  },
+  "navy": {
+    "rgb": [
+      1,
+      21,
+      62
+    ]
+  },
+  "aquamarine": {
+    "rgb": [
+      4,
+      216,
+      178
+    ]
+  },
+  "burnt orange": {
+    "rgb": [
+      192,
+      78,
+      1
+    ]
+  },
+  "neon green": {
+    "rgb": [
+      12,
+      255,
+      12
+    ]
+  },
+  "bright blue": {
+    "rgb": [
+      1,
+      101,
+      252
+    ]
+  },
+  "rose": {
+    "rgb": [
+      207,
+      98,
+      117
+    ]
+  },
+  "light pink": {
+    "rgb": [
+      255,
+      209,
+      223
+    ]
+  },
+  "mustard": {
+    "rgb": [
+      206,
+      179,
+      1
+    ]
+  },
+  "indigo": {
+    "rgb": [
+      56,
+      2,
+      130
+    ]
+  },
+  "lime": {
+    "rgb": [
+      170,
+      255,
+      50
+    ]
+  },
+  "sea green": {
+    "rgb": [
+      83,
+      252,
+      161
+    ]
+  },
+  "periwinkle": {
+    "rgb": [
+      142,
+      130,
+      254
+    ]
+  },
+  "dark pink": {
+    "rgb": [
+      203,
+      65,
+      107
+    ]
+  },
+  "olive green": {
+    "rgb": [
+      103,
+      122,
+      4
+    ]
+  },
+  "peach": {
+    "rgb": [
+      255,
+      176,
+      124
+    ]
+  },
+  "pale green": {
+    "rgb": [
+      199,
+      253,
+      181
+    ]
+  },
+  "light brown": {
+    "rgb": [
+      173,
+      129,
+      80
+    ]
+  },
+  "hot pink": {
+    "rgb": [
+      255,
+      2,
+      141
+    ]
+  },
+  "black": {
+    "rgb": [
+      0,
+      0,
+      0
+    ]
+  },
+  "lilac": {
+    "rgb": [
+      206,
+      162,
+      253
+    ]
+  },
+  "navy blue": {
+    "rgb": [
+      0,
+      17,
+      70
+    ]
+  },
+  "royal blue": {
+    "rgb": [
+      5,
+      4,
+      170
+    ]
+  },
+  "beige": {
+    "rgb": [
+      230,
+      218,
+      166
+    ]
+  },
+  "salmon": {
+    "rgb": [
+      255,
+      121,
+      108
+    ]
+  },
+  "olive": {
+    "rgb": [
+      110,
+      117,
+      14
+    ]
+  },
+  "maroon": {
+    "rgb": [
+      101,
+      0,
+      33
+    ]
+  },
+  "bright green": {
+    "rgb": [
+      1,
+      255,
+      7
+    ]
+  },
+  "dark purple": {
+    "rgb": [
+      53,
+      6,
+      62
+    ]
+  },
+  "mauve": {
+    "rgb": [
+      174,
+      113,
+      129
+    ]
+  },
+  "forest green": {
+    "rgb": [
+      6,
+      71,
+      12
+    ]
+  },
+  "aqua": {
+    "rgb": [
+      19,
+      234,
+      201
+    ]
+  },
+  "cyan": {
+    "rgb": [
+      0,
+      255,
+      255
+    ]
+  },
+  "tan": {
+    "rgb": [
+      209,
+      178,
+      111
+    ]
+  },
+  "dark blue": {
+    "rgb": [
+      0,
+      3,
+      91
+    ]
+  },
+  "lavender": {
+    "rgb": [
+      199,
+      159,
+      239
+    ]
+  },
+  "turquoise": {
+    "rgb": [
+      6,
+      194,
+      172
+    ]
+  },
+  "dark green": {
+    "rgb": [
+      3,
+      53,
+      0
+    ]
+  },
+  "violet": {
+    "rgb": [
+      154,
+      14,
+      234
+    ]
+  },
+  "light purple": {
+    "rgb": [
+      191,
+      119,
+      246
+    ]
+  },
+  "lime green": {
+    "rgb": [
+      137,
+      254,
+      5
+    ]
+  },
+  "grey": {
+    "rgb": [
+      146,
+      149,
+      145
+    ]
+  },
+  "sky blue": {
+    "rgb": [
+      117,
+      187,
+      253
+    ]
+  },
+  "yellow": {
+    "rgb": [
+      255,
+      255,
+      20
+    ]
+  },
+  "magenta": {
+    "rgb": [
+      194,
+      0,
+      120
+    ]
+  },
+  "light green": {
+    "rgb": [
+      150,
+      249,
+      123
+    ]
+  },
+  "orange": {
+    "rgb": [
+      249,
+      115,
+      6
+    ]
+  },
+  "teal": {
+    "rgb": [
+      2,
+      147,
+      134
+    ]
+  },
+  "light blue": {
+    "rgb": [
+      149,
+      208,
+      252
+    ]
+  },
+  "red": {
+    "rgb": [
+      229,
+      0,
+      0
+    ]
+  },
+  "brown": {
+    "rgb": [
+      101,
+      55,
+      0
+    ]
+  },
+  "pink": {
+    "rgb": [
+      255,
+      129,
+      192
+    ]
+  },
+  "blue": {
+    "rgb": [
+      3,
+      67,
+      223
+    ]
+  },
+  "green": {
+    "rgb": [
+      21,
+      176,
+      26
+    ]
+  },
+  "purple": {
+    "rgb": [
+      126,
+      30,
+      156
+    ]
+  }
+}

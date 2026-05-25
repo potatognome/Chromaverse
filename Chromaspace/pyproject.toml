@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Chromaspace"
+version = "0.3.10"
+description = "Perceptually-structured colour taxonomy with semantic naming, multi-space generation, and JSON export"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Daniel Austin <the.potato.gnome@gmail.com>" }
+]
+dependencies = ["numpy", "tUilKit"]
+
+[project.scripts]
+chromaspace = "Chromaspace.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+
+
+
