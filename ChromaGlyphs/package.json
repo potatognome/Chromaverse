@@ -1,0 +1,45 @@
+{
+  "name": "chromaglyphs",
+  "version": "0.1.0",
+  "description": "Compact colour-glyph generation, encoding, and runtime API for ChromaTutor",
+  "author": "Daniel Austin <the.potato.gnome@gmail.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src/schemas"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "jest",
+    "lint": "eslint src tests --ext .ts",
+    "lint:fix": "eslint src tests --ext .ts --fix"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "ajv-formats": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.15.21",
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
+    "eslint": "^9.27.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.4",
+    "typescript": "^5.8.3"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/tests/**/*.test.ts"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.ts"
+    ]
+  }
+}

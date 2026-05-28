@@ -1,0 +1,164 @@
+{
+    "INFO": {
+        "PROJECT_NAME": "ChromaTutor",
+        "PROJECT_FOLDER": "ChromaTutor",
+        "PROJECT_DESCRIPTION": "A Chroma-native instructional LMS and procedural interpreter for the Prismata ecosystem",
+        "AUTHOR": "Daniel Austin <the.potato.gnome@gmail.com>",
+        "VERSION": "0.1.0",
+        "MAIN_ENTRY_POINT": "src/ChromaTutor/main.py",
+        "LICENSE": "$PROJECT_LICENSE",
+        "BUILD_TYPE": "$PROJECT_BUILD_TYPE",
+        "COLOUR_FSTR": "!project"
+    },
+    "ROOTS": {
+        "PROJECT": "C:/Repository/Daniel/dev_local/Core/Chromaverse/ChromaTutor",
+        "WORKSPACE": "C:/Repository/Daniel/dev_local",
+        "TUILKit": "C:/Repository/Daniel/dev_local/Core/tUilKit"
+    },
+    "ROOT_MODES": {
+        "CONFIG": "workspace",
+        "LOGS": "workspace",
+        "INPUTS": "workspace",
+        "OUTPUTS": "workspace",
+        "TESTS_CONFIG": "project",
+        "TESTS_LOGS": "project",
+        "TESTS_INPUTS": "project",
+        "TESTS_OUTPUTS": "project"
+    },
+    "PATHS": {
+        "CONFIG": ".projects_config/",
+        "LOGS": ".logs/ChromaTutor/",
+        "INPUTS": ".projects_data/inputData//ChromaTutor/",
+        "OUTPUTS": ".projects_data/outputData//ChromaTutor/",
+        "TESTS_CONFIG": "tests/.config/",
+        "TESTS_LOGS": "tests/.logs/",
+        "TESTS_INPUTS": "tests/.inputData/",
+        "TESTS_OUTPUTS": "tests/.outputData/",
+        "GLOBAL_SHARED.d": ".workspace/.projects_config/GLOBAL_SHARED.d/"
+    },
+    "ALT_CONFIG": {
+        "FILE_PATHS": [],
+        "ENABLED": false
+    },
+    "LOG_FILES": {
+        "DEBUG": "ChromaTutor_DEBUG.log",
+        "WARNING": "ChromaTutor_WARNING.log",
+        "DATABASE": "ChromaTutor_DATABASE.log",
+        "WARN": "ChromaTutor_WARN.log",
+        "DATA": "ChromaTutor_DATA.log",
+        "MASTER": "ChromaTutor_MASTER.log",
+        "SESSION": "ChromaTutor_SESSION.log",
+        "RUNTIME": "ChromaTutor_RUNTIME.log",
+        "TRY": "ChromaTutor_TRY.log",
+        "INIT": "ChromaTutor_INIT.log",
+        "FS": "ChromaTutor_FS.log",
+        "CONFIG_READ": "ChromaTutor_CONFIG_READ.log",
+        "ERROR": "ChromaTutor_ERROR.log"
+    },
+    "SECONDARY": {
+        "FILE": "ChromaTutor_SECONDARY.json"
+    },
+    "LOG_CATEGORIES": {
+        "debug": [
+            "MASTER",
+            "SESSION",
+            "RUNTIME",
+            "DEBUG"
+        ],
+        "warning": [
+            "MASTER",
+            "SESSION",
+            "RUNTIME",
+            "WARNING"
+        ],
+        "database": [
+            "MASTER",
+            "SESSION",
+            "RUNTIME",
+            "DATABASE"
+        ],
+        "warn": [
+            "MASTER",
+            "SESSION",
+            "RUNTIME",
+            "WARN"
+        ],
+        "data": [
+            "MASTER",
+            "SESSION",
+            "RUNTIME",
+            "DATA"
+        ],
+        "default": [
+            "MASTER",
+            "SESSION"
+        ],
+        "runtime": [
+            "MASTER",
+            "SESSION",
+            "RUNTIME"
+        ],
+        "error": [
+            "MASTER",
+            "SESSION",
+            "ERROR"
+        ],
+        "init": [
+            "MASTER",
+            "SESSION",
+            "INIT"
+        ],
+        "fs": [
+            "MASTER",
+            "SESSION",
+            "FS"
+        ],
+        "config_read": [
+            "MASTER",
+            "SESSION",
+            "CONFIG_READ"
+        ],
+        "try": [
+            "MASTER",
+            "SESSION",
+            "TRY"
+        ],
+        "all": [
+            "MASTER",
+            "SESSION",
+            "RUNTIME",
+            "TRY",
+            "INIT",
+            "FS",
+            "CONFIG_READ",
+            "ERROR"
+        ]
+    },
+    "PROJECT_NAME": "ChromaTutor",
+    "PROJECT_DESCRIPTION": "A tUilKit-enabled tutoring application scaffold for the Chroma ecosystem",
+    "AUTHOR": "Daniel Austin <the.potato.gnome@gmail.com>",
+    "VERSION": "0.1.0",
+    "LICENSE_TYPE": "MIT",
+    "BUILD_TYPE": "New",
+    "MAIN_ENTRY_POINT": "src/ChromaTutor/main.py",
+    "PROJECT_FOLDER": "ChromaTutor",
+    "PROJECT_CLASSIFICATION": {
+        "project_type": "tenant",
+        "role": "instructional_lms",
+        "core_function": "procedural_interpreter",
+        "neural_analog": "Premotor Cortex",
+        "project_interfaces": {
+            "cli": true,
+            "cli_args": true,
+            "cli_menu": false,
+            "cli_menu_args": false,
+            "cli_invisible": false,
+            "config_driven_cli": true,
+            "compositor": true,
+            "tui": false,
+            "api": true,
+            "service": false,
+            "logging_only": false
+        }
+    }
+}

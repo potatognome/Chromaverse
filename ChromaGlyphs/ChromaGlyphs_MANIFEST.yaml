@@ -1,0 +1,19 @@
+name: ChromaGlyphs
+schema_version: '1.0'
+layer: presentation
+description: 'Compact colour-glyph generation, encoding, and runtime API for ChromaTutor'
+capabilities:
+  - glyph-generation
+  - encode-decode
+  - svg-rendering
+  - validation
+provides:
+  - ChromaGlyph format (cg1)
+  - TypeScript SDK
+  - JSON Schema
+depends_on:
+  - ChromaTutor (consumer)
+protocols: []
+working_hours: 24/7
+inbox: []
+outbox: []

@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chromatutor"
+version = "0.1.0"
+description = "A Chroma-native instructional LMS and procedural interpreter for the Prismata ecosystem"
+readme = "README.md"
+requires-python = ">=3.7"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Daniel Austin <the.potato.gnome@gmail.com>" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "tUilKit>=0.6.0",
+    "pyyaml",
+]
+
+[project.scripts]
+chromatutor = "ChromaTutor.main:main"

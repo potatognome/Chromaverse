@@ -1,0 +1,16 @@
+name: ChromaTutor
+schema_version: '1.0'
+layer: cognition
+description: ChromaTutor is Prismata's instructional LMS and procedural interpreter, transforming stepwise instructions into glyph-ready, teachable action plans.
+capabilities:
+- procedural_instruction_interpretation
+- instructional_linting
+- action_sequence_structuring
+- chromaglyph_synthesis
+- visual_training_reconstruction
+provides: []
+depends_on: []
+protocols: []
+working_hours: 24/7
+inbox: []
+outbox: []
