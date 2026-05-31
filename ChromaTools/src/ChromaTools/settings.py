@@ -36,4 +36,3 @@ def load_config() -> dict:
 
 
 CONFIG = load_config()
-

@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import Callable, Iterable, Optional
 
 from ChromaTools.catalog import AppRecord, load_app_catalog, resolve_app
-from ChromaTools.config import CONFIG, PROJECT_ROOT
+from ChromaTools.settings import CONFIG, PROJECT_ROOT
 
 try:
     from tUilKit import get_logger as _get_logger
@@ -164,4 +164,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
