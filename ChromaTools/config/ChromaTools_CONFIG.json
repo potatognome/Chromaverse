@@ -1,0 +1,110 @@
+{
+  "INFO": {
+    "PROJECT_NAME": "ChromaTools",
+    "PROJECT_FOLDER": "ChromaTools",
+    "PROJECT_DESCRIPTION": "Shared CLI utility hub and launcher for the Chromaverse projects",
+    "AUTHOR": "Daniel Austin <the.potato.gnome@gmail.com>",
+    "VERSION": "0.1.0",
+    "MAIN_ENTRY_POINT": "ChromaTools.main:main",
+    "COLOUR_FSTR": "!project",
+    "LICENSE": "MIT",
+    "BUILD_TYPE": "utility"
+  },
+  "ROOTS": {
+    "PROJECT": "ChromaTools",
+    "WORKSPACE": ".."
+  },
+  "ROOT_MODES": {
+    "CONFIG": "project",
+    "LOGS": "project",
+    "OUTPUTS": "project"
+  },
+  "PATHS": {
+    "CONFIG": "config/",
+    "LOGS": ".logs/ChromaTools/",
+    "OUTPUTS": ".data/outputData/"
+  },
+  "ALT_CONFIG": {
+    "FILE_PATHS": [],
+    "ENABLED": false
+  },
+  "LOG_FILES": {
+    "MASTER": "ChromaTools_MASTER.log",
+    "SESSION": "ChromaTools_SESSION.log",
+    "RUNTIME": "ChromaTools_RUNTIME.log",
+    "ERROR": "ChromaTools_ERROR.log"
+  },
+  "LOG_CATEGORIES": {
+    "default": ["MASTER", "SESSION"],
+    "runtime": ["MASTER", "SESSION", "RUNTIME"],
+    "error": ["MASTER", "SESSION", "ERROR"],
+    "all": ["MASTER", "SESSION", "RUNTIME", "ERROR"]
+  },
+  "CLI_DEFAULTS": {
+    "CLEAR_SCREEN": true,
+    "SHOW_DISABLED_APPS": true
+  },
+  "APPS": {
+    "chromaspace": {
+      "name": "Chromaspace",
+      "type": "python-cli",
+      "enabled": true,
+      "description": "Perceptually-structured colour taxonomy with semantic naming, multi-space generation, and JSON export",
+      "project_path": "../Chromaspace",
+      "config_path": "../Chromaspace/config/Chromaspace_CONFIG.json",
+      "entry_point": "Chromaspace.main:main",
+      "launch_command": ["chromaspace"]
+    },
+    "chromagrams": {
+      "name": "Chromagrams",
+      "type": "python-library",
+      "enabled": true,
+      "description": "Temporal animation engine for Chromaspace",
+      "project_path": "../Chromagrams",
+      "config_path": "../Chromagrams/config/Chromagrams_CONFIG.json",
+      "entry_point": "Chromagrams",
+      "launch_command": []
+    },
+    "chromaglyphs": {
+      "name": "ChromaGlyphs",
+      "type": "typescript-library",
+      "enabled": true,
+      "description": "Compact colour-glyph generation, encoding, and runtime API",
+      "project_path": "../ChromaGlyphs",
+      "config_path": "../ChromaGlyphs/config/CHROMAGLYPHS_CONFIG.json",
+      "entry_point": "src/index.ts",
+      "launch_command": []
+    },
+    "chromatutor": {
+      "name": "ChromaTutor",
+      "type": "python-cli",
+      "enabled": true,
+      "description": "Tutor-facing Chromaverse application shell",
+      "project_path": "../ChromaTutor",
+      "config_path": "../ChromaTutor/config/ChromaTutor_CONFIG.json",
+      "entry_point": "ChromaTutor.main:main",
+      "launch_command": ["chromatutor"]
+    },
+    "chromaemitters": {
+      "name": "ChromaEmitters",
+      "type": "python-library",
+      "enabled": true,
+      "description": "Colour-driven LED and terminal emitter integration for Chromaspace",
+      "project_path": "../ChromaEmitters",
+      "config_path": "../ChromaEmitters/config/ChromaEmitters_CONFIG.json",
+      "entry_point": "ChromaEmitters",
+      "launch_command": []
+    },
+    "chromaschemes": {
+      "name": "ChromaSchemes",
+      "type": "python-library",
+      "enabled": true,
+      "description": "Geometric colour-scheme engine for the Chroma ecosystem",
+      "project_path": "../ChromaSchemes",
+      "config_path": "../ChromaSchemes/config/ChromaSchemes_CONFIG.json",
+      "entry_point": "ChromaSchemes",
+      "launch_command": []
+    }
+  }
+}
+

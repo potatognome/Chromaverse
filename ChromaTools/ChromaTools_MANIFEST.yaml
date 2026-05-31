@@ -1,0 +1,17 @@
+name: ChromaTools
+schema_version: '1.0'
+layer: foundation
+description: Shared Chromaverse CLI hub and project launcher.
+capabilities:
+  - list_apps
+  - inspect_config
+  - launch_configured_apps
+provides:
+  - chromatools_cli
+depends_on:
+  - tUilKit
+protocols: []
+working_hours: 24/7
+inbox: []
+outbox: []
+

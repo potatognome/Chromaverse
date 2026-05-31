@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ChromaTools"
+version = "0.1.0"
+description = "Shared CLI utility hub for the Chromaverse projects"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Daniel Austin", email = "the.potato.gnome@gmail.com" }
+]
+dependencies = ["tUilKit"]
+
+[project.scripts]
+chromatools = "ChromaTools.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
