@@ -1,4 +1,4 @@
-{
+﻿{
     "INFO":  {
                  "PROJECT_NAME":  "Chromaschemes",
                  "PROJECT_FOLDER":  "Chromaschemes",
@@ -11,9 +11,9 @@
                  "BUILD_TYPE":  "$PROJECT_BUILD_TYPE"
              },
     "ROOTS":  {
-                  "PROJECT":  "C:/Repository/Daniel/dev_local/Core/ChromaSchemes",
+                  "PROJECT":  "C:/Repository/Daniel/dev_local/Prismata/Projects/Core/Chromaverse/ChromaSchemes",
                   "WORKSPACE":  "C:/Repository/Daniel/dev_local",
-                  "TUILKit":  "C:/Repository/Daniel/dev_local/Core/tUilKit"
+                  "TUILKit":  "C:/Repository/Daniel/dev_local/Prismata/Projects/Core/tUilKit"
               },
     "ROOT_MODES":  {
                        "ROOT_MODES: project":  "Paths are relative to the project root.",

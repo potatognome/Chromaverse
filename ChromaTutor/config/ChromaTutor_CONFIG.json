@@ -1,4 +1,4 @@
-{
+﻿{
     "INFO": {
         "PROJECT_NAME": "ChromaTutor",
         "PROJECT_FOLDER": "ChromaTutor",
@@ -11,9 +11,9 @@
         "COLOUR_FSTR": "!project"
     },
     "ROOTS": {
-        "PROJECT": "C:/Repository/Daniel/dev_local/Core/Chromaverse/ChromaTutor",
+        "PROJECT": "C:/Repository/Daniel/dev_local/Prismata/Projects/Core/Chromaverse/ChromaTutor",
         "WORKSPACE": "C:/Repository/Daniel/dev_local",
-        "TUILKit": "C:/Repository/Daniel/dev_local/Core/tUilKit"
+        "TUILKit": "C:/Repository/Daniel/dev_local/Prismata/Projects/Core/tUilKit"
     },
     "ROOT_MODES": {
         "CONFIG": "workspace",

@@ -1,7 +1,7 @@
-{
+﻿{
     "INFO":  {
                  "PROJECT_NAME":  "Chromaspace",
-                 "PROJECT_FOLDER":  "/Core/Chromaspace/",
+                 "PROJECT_FOLDER":  "/Prismata/Projects/Core/Chromaverse/Chromaspace/",
                  "PROJECT_DESCRIPTION":  "Perceptually-structured colour taxonomy with semantic naming, multi-space generation, and JSON export",
                  "AUTHOR":  "Daniel Austin \u003cthe.potato.gnome@gmail.com\u003e",
                  "VERSION":  "0.3.10",
@@ -13,8 +13,8 @@
              },
     "ROOTS":  {
                   "WORKSPACE":  "C:/Repository/Daniel/dev_local",
-                  "PROJECT":  "C:/Repository/Daniel/dev_local/Core/Chromaspace",
-                  "TUILKit":  "C:/Repository/Daniel/dev_local/Core/tUilKit"
+                  "PROJECT":  "C:/Repository/Daniel/dev_local/Prismata/Projects/Core/Chromaverse/Chromaspace",
+                  "TUILKit":  "C:/Repository/Daniel/dev_local/Prismata/Projects/Core/tUilKit"
               },
     "ROOT_MODES":  {
                        "CONFIG":  "workspace",
