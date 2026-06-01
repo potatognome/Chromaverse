@@ -174,6 +174,41 @@ def display_status():
                        log_files=list(LOG_FILES.values()))
 ```
 
+## Compositor Imports (v1.0+)
+
+The compositor stack lives entirely in `tUilKit.output` and is **independent of the factory/logging subsystem**.
+It requires no config file and no pre-seeding.
+
+```python
+# Core compositor imports
+from tUilKit.output.backend.ansi_backend import AnsiRenderBackend
+from tUilKit.output.compositor.compositor import Compositor
+from tUilKit.output.window.window_manager import WindowManager
+from tUilKit.output.widgets.widget import Widget
+from tUilKit.output.draw.draw_context import DrawContext, Rect
+from tUilKit.output.backend.backend import Style
+
+# Minimal setup
+backend = AnsiRenderBackend()
+comp    = Compositor(backend, width=80, height=24)
+wm      = WindowManager()
+wid     = wm.create_window(x=2, y=2, width=40, height=10, title=" Title ")
+
+backend.hide_cursor()
+comp.render_frame(wm.list_windows_in_z_order())
+backend.show_cursor()
+```
+
+For headless / test rendering, implement `RenderBackendInterface` without ANSI output:
+
+```python
+from tUilKit.output.backend.backend import RenderBackendInterface, Style
+
+class StringCaptureBackend(RenderBackendInterface):
+    # (see tUilKit_Comprehensive_Usage_Guide.md for full implementation)
+    ...
+```
+
 ## Advanced Import Patterns
 
 ### Submodule-Specific Imports
@@ -335,4 +370,4 @@ file_system = FileSystemManager()
 - Building tUilKit apps: `.github/copilot-instructions.d/tuilkit_enabled_apps_guidelines.md`
 
 ---
-Last updated: 2026-01-21
+Last updated: 2026-05-08
