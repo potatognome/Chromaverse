@@ -1,11 +1,23 @@
+﻿id: prismata.core.ChromaSchemes
 name: ChromaSchemes
-schema_version: '1.0'
-layer: foundation
-description: ''
+version: 0.1.0
+description: >
+  Shared project manifest for ChromaSchemes.
 capabilities: []
-provides: []
-depends_on: []
-protocols: []
-working_hours: 24/7
-inbox: []
-outbox: []
+interfaces:
+  exposes: []
+  consumes:
+    - schema
+    - manifest
+dependencies:
+  - tUilKit
+tags:
+  - core
+  - chromaschemes
+metadata:
+  area: Core
+  source_path: Core/Chromaverse/ChromaSchemes
+  destination_path: Projects/Core/Chromaverse/ChromaSchemes
+  migration_phase: phase-1-core-foundation
+  history_strategy: subtree-merge
+  packaging: pyproject

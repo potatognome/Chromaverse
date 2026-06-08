@@ -1,11 +1,23 @@
+﻿id: prismata.core.ChromaEmitters
 name: ChromaEmitters
-schema_version: '1.0'
-layer: foundation
-description: ''
+version: 0.1.0
+description: >
+  Shared project manifest for ChromaEmitters.
 capabilities: []
-provides: []
-depends_on: []
-protocols: []
-working_hours: 24/7
-inbox: []
-outbox: []
+interfaces:
+  exposes: []
+  consumes:
+    - schema
+    - manifest
+dependencies:
+  - tUilKit
+tags:
+  - core
+  - chromaemitters
+metadata:
+  area: Core
+  source_path: Core/Chromaverse/ChromaEmitters
+  destination_path: Projects/Core/Chromaverse/ChromaEmitters
+  migration_phase: phase-1-core-foundation
+  history_strategy: subtree-merge
+  packaging: pyproject

@@ -1,70 +1,97 @@
 {
-  "INFO": {
-    "PROJECT_NAME": "ChromaGlyphs",
-    "PROJECT_FOLDER": "ChromaGlyphs",
-    "PROJECT_DESCRIPTION": "Compact colour-glyph generation, encoding, and runtime API for ChromaTutor",
-    "AUTHOR": "Daniel Austin <the.potato.gnome@gmail.com>",
-    "VERSION": "0.1.0",
-    "MAIN_ENTRY_POINT": "src/index.ts",
-    "COLOUR_FSTR": "!project",
-    "LICENSE": "MIT",
-    "BUILD_TYPE": "library"
-  },
-  "ROOTS": {
-    "PROJECT": "ChromaGlyphs",
-    "WORKSPACE": ".."
-  },
-  "ROOT_MODES": {
-    "ROOT_MODES: project": "Paths are relative to the project root.",
-    "ROOT_MODES: workspace": "Paths are relative to the workspace root.",
-    "LOGS": "project",
-    "INPUTS": "project",
-    "OUTPUTS": "project",
-    "TESTS_LOGS": "project",
-    "TESTS_INPUTS": "project",
-    "TESTS_OUTPUTS": "project"
-  },
-  "PATHS": {
-    "LOGS": ".logs/ChromaGlyphs/",
-    "INPUTS": ".data/inputData/",
-    "OUTPUTS": ".data/outputData/",
-    "TESTS_LOGS": "tests/.logs/",
-    "TESTS_INPUTS": "tests/.inputData/",
-    "TESTS_OUTPUTS": "tests/.outputData/"
-  },
-  "ALT_CONFIG": {
-    "FILE_PATHS": [],
-    "ENABLED": false
-  },
-  "LOG_FILES": {
-    "DEBUG": "ChromaGlyphs_DEBUG.log",
-    "WARNING": "ChromaGlyphs_WARNING.log",
-    "MASTER": "ChromaGlyphs_MASTER.log",
-    "SESSION": "ChromaGlyphs_SESSION.log",
-    "RUNTIME": "ChromaGlyphs_RUNTIME.log",
-    "ERROR": "ChromaGlyphs_ERROR.log"
-  },
-  "LOG_CATEGORIES": {
-    "debug": ["MASTER", "SESSION", "DEBUG"],
-    "warning": ["MASTER", "SESSION", "WARNING"],
-    "default": ["MASTER", "SESSION"],
-    "runtime": ["MASTER", "SESSION", "RUNTIME"],
-    "error": ["MASTER", "SESSION", "ERROR"],
-    "all": ["MASTER", "SESSION", "RUNTIME", "DEBUG", "ERROR"]
-  },
-  "SHARED_CONFIG": {
-    "ENABLED": true,
-    "PATH": "GLOBAL_SHARED.d/",
-    "FILES": {
-      "COLOURS": "COLOURS.json"
+    "INFO": {
+        "PROJECT_NAME": "ChromaGlyphs",
+        "PROJECT_FOLDER": "ChromaGlyphs",
+        "PROJECT_DESCRIPTION": "Compact colour-glyph generation, encoding, and runtime API for ChromaTutor",
+        "AUTHOR": "Daniel Austin <the.potato.gnome@gmail.com>",
+        "VERSION": "0.1.0",
+        "MAIN_ENTRY_POINT": "src/index.ts",
+        "COLOUR_FSTR": "!project",
+        "LICENSE": "MIT",
+        "BUILD_TYPE": "library"
+    },
+    "ROOTS": {
+        "PROJECT": "ChromaGlyphs",
+        "WORKSPACE": ".."
+    },
+    "ROOT_MODES": {
+        "ROOT_MODES: project": "Paths are relative to the project root.",
+        "ROOT_MODES: workspace": "Paths are relative to the workspace root.",
+        "LOGS": "project",
+        "INPUTS": "project",
+        "OUTPUTS": "project",
+        "TESTS_LOGS": "project",
+        "TESTS_INPUTS": "project",
+        "TESTS_OUTPUTS": "project",
+        "LOG_PATHS": "workspace"
+    },
+    "PATHS": {
+        "LOGS": ".logs/ChromaGlyphs/",
+        "INPUTS": ".data/inputData/",
+        "OUTPUTS": ".data/outputData/",
+        "TESTS_LOGS": "tests/.logs/",
+        "TESTS_INPUTS": "tests/.inputData/",
+        "TESTS_OUTPUTS": "tests/.outputData/",
+        "LOG_PATHS": ".logs/ChromaGlyphs/"
+    },
+    "ALT_CONFIG": {
+        "FILE_PATHS": [],
+        "ENABLED": false
+    },
+    "LOG_FILES": {
+        "DEBUG": "ChromaGlyphs_DEBUG.log",
+        "WARNING": "ChromaGlyphs_WARNING.log",
+        "MASTER": "ChromaGlyphs_MASTER.log",
+        "SESSION": "ChromaGlyphs_SESSION.log",
+        "RUNTIME": "ChromaGlyphs_RUNTIME.log",
+        "ERROR": "ChromaGlyphs_ERROR.log"
+    },
+    "LOG_CATEGORIES": {
+        "debug": [
+            "MASTER",
+            "SESSION",
+            "DEBUG"
+        ],
+        "warning": [
+            "MASTER",
+            "SESSION",
+            "WARNING"
+        ],
+        "default": [
+            "MASTER",
+            "SESSION"
+        ],
+        "runtime": [
+            "MASTER",
+            "SESSION",
+            "RUNTIME"
+        ],
+        "error": [
+            "MASTER",
+            "SESSION",
+            "ERROR"
+        ],
+        "all": [
+            "MASTER",
+            "SESSION",
+            "RUNTIME",
+            "DEBUG",
+            "ERROR"
+        ]
+    },
+    "SHARED_CONFIG": {
+        "ENABLED": true,
+        "PATH": "GLOBAL_SHARED.d/",
+        "FILES": {
+            "COLOURS": "COLOURS.json"
+        }
+    },
+    "GLYPH_DEFAULTS": {
+        "MAX_PALETTE_SIZE": 16,
+        "MIN_PALETTE_SIZE": 1,
+        "DEFAULT_SWATCH_SIZE": 40,
+        "DEFAULT_LAYOUT": "row",
+        "DEFAULT_GAP": 4,
+        "FORMAT_VERSION": "cg1"
     }
-  },
-  "GLYPH_DEFAULTS": {
-    "MAX_PALETTE_SIZE": 16,
-    "MIN_PALETTE_SIZE": 1,
-    "DEFAULT_SWATCH_SIZE": 40,
-    "DEFAULT_LAYOUT": "row",
-    "DEFAULT_GAP": 4,
-    "FORMAT_VERSION": "cg1"
-  }
 }

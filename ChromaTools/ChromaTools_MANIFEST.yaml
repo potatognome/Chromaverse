@@ -1,17 +1,23 @@
+﻿id: prismata.core.ChromaTools
 name: ChromaTools
-schema_version: '1.0'
-layer: foundation
-description: Shared Chromaverse CLI hub and project launcher.
-capabilities:
-  - list_apps
-  - inspect_config
-  - launch_configured_apps
-provides:
-  - chromatools_cli
-depends_on:
+version: 0.1.0
+description: >
+  Shared project manifest for ChromaTools.
+capabilities: []
+interfaces:
+  exposes: []
+  consumes:
+    - schema
+    - manifest
+dependencies:
   - tUilKit
-protocols: []
-working_hours: 24/7
-inbox: []
-outbox: []
-
+tags:
+  - core
+  - chromatools
+metadata:
+  area: Core
+  source_path: Core/Chromaverse/ChromaTools
+  destination_path: Projects/Core/Chromaverse/ChromaTools
+  migration_phase: phase-1-core-foundation
+  history_strategy: subtree-merge
+  packaging: pyproject

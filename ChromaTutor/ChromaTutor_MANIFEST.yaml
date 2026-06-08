@@ -1,8 +1,8 @@
-﻿id: prismata.core.ChromaGlyphs
-name: ChromaGlyphs
+﻿id: prismata.core.ChromaTutor
+name: ChromaTutor
 version: 0.1.0
 description: >
-  Shared project manifest for ChromaGlyphs.
+  Shared project manifest for ChromaTutor.
 capabilities: []
 interfaces:
   exposes: []
@@ -13,11 +13,11 @@ dependencies:
   - tUilKit
 tags:
   - core
-  - chromaglyphs
+  - chromatutor
 metadata:
   area: Core
-  source_path: Core/Chromaverse/ChromaGlyphs
-  destination_path: Projects/Core/Chromaverse/ChromaGlyphs
+  source_path: Core/Chromaverse/ChromaTutor
+  destination_path: Projects/Core/Chromaverse/ChromaTutor
   migration_phase: phase-1-core-foundation
   history_strategy: subtree-merge
   packaging: pyproject
