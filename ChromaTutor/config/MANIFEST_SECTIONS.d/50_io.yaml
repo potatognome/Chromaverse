@@ -1,6 +1,0 @@
-_META:
-  SORT_ORDER: 50
-  description: "Message channels — what this project accepts (inbox) and emits (outbox)."
-
-inbox: []
-outbox: []

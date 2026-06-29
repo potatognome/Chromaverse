@@ -15,15 +15,12 @@
         "WORKSPACE": ".."
     },
     "ROOT_MODES": {
-        "ROOT_MODES: project": "Paths are relative to the project root.",
-        "ROOT_MODES: workspace": "Paths are relative to the workspace root.",
-        "LOGS": "project",
-        "INPUTS": "project",
-        "OUTPUTS": "project",
-        "TESTS_LOGS": "project",
-        "TESTS_INPUTS": "project",
-        "TESTS_OUTPUTS": "project",
-        "LOG_PATHS": "workspace"
+        "LOGS": "workspace",
+        "INPUTS": "workspace",
+        "OUTPUTS": "workspace",
+        "TESTS_LOGS": "workspace",
+        "TESTS_INPUTS": "workspace",
+        "TESTS_OUTPUTS": "workspace"
     },
     "PATHS": {
         "LOGS": ".logs/ChromaGlyphs/",

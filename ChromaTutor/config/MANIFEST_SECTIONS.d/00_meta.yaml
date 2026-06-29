@@ -1,6 +1,0 @@
-_META:
-  SORT_ORDER: 0
-  description: "Core identity fields: name and schema version."
-
-name: $PROJECT_NAME
-schema_version: "1.0"

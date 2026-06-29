@@ -1,5 +1,0 @@
-_META:
-  SORT_ORDER: 30
-  description: "Projects this project depends on."
-
-depends_on: []

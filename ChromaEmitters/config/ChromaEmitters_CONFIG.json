@@ -7,12 +7,12 @@
                  "VERSION":  "0.3.0",
                  "MAIN_ENTRY_POINT":  "src/ChromaEmitters/main.py",
                  "COLOUR_FSTR":  "!project",
-                 "LICENSE":  "$PROJECT_LICENSE",
+                 "LICENSE":  "MIT",
                  "BUILD_TYPE":  "$PROJECT_BUILD_TYPE"
              },
     "ROOTS":  {
                   "PROJECT":  "C:/Repository/Daniel/dev_local/Prismata/Projects/Core/Chromaverse/ChromaEmitters",
-                  "WORKSPACE":  "C:/Repository/Daniel/dev_local",
+                  "WORKSPACE":  "C:/Repository/Daniel/dev_local/Prismata/",
                   "TUILKit":  "C:/Repository/Daniel/dev_local/Prismata/Projects/Core/tUilKit"
               },
     "ROOT_MODES":  {

@@ -38,10 +38,8 @@
                   "GLOBAL_SHARED.d":  ".workspace/.projects_config/GLOBAL_SHARED.d/"
               },
     "ALT_CONFIG":  {
-                       "FILE_PATHS":  [
-
-                                      ],
-                       "ENABLED":  false
+                       "FILE_PATHS":  [ ],
+                       "ENABLED":  true
                    },
     "LOG_FILES":  {
                       "MASTER":  "Chromaspace_MASTER.log",
@@ -52,9 +50,6 @@
                       "FS":  "Chromaspace_FS.log",
                       "CONFIG_READ":  "Chromaspace_CONFIG_READ.log",
                       "ERROR":  "Chromaspace_ERROR.log"
-                  },
-    "SECONDARY":  {
-                      "FILE":  "CHROMASPACE.d/Chromaspace_SECONDARY.json"
                   },
     "LOG_CATEGORIES":  {
                            "default":  [
