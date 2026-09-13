@@ -1,5 +1,7 @@
-"""Chromaschemes public package."""
+"""ChromaSchemes public package for deterministic scheme generation."""
 
-from .generators.orbit import OrbitSchemeGenerator
+from __future__ import annotations
 
-__all__ = ["OrbitSchemeGenerator"]
+from ChromaSchemes import ChromaSchemesEngine
+
+__all__ = ["ChromaSchemesEngine"]

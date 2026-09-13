@@ -1,0 +1,44 @@
+colourSet:
+  - id: "c0"
+    origin: "base"
+    rgb: { r: 255, g: 120, b: 200 }
+  - id: "c1"
+    origin: "base"
+    rgb: { r: 120, g: 200, b: 255 }
+  - id: "c2"
+    origin: "base"
+    rgb: { r: 200, g: 255, b: 120 }
+  - id: "c3"
+    origin: "base"
+    rgb: { r: 255, g: 200, b: 120 }
+  - id: "c4"
+    origin: "derived"
+    rgb: { r: 230, g: 150, b: 255 }
+roles:
+  primary_surface:
+    layers:
+      bg: { colourRef: "c0" }
+  secondary_surface:
+    layers:
+      bg: { colourRef: "c1" }
+  tertiary_surface:
+    layers:
+      bg: { colourRef: "c2" }
+  accent_surface:
+    layers:
+      bg: { colourRef: "c3" }
+  border_fg:
+    layers:
+      fg: { colourRef: "c4" }
+geometry:
+  baseGeometry: "quadratic"
+  overlays:
+    - type: "harmonic"
+      params: { rotation: 45 }
+preview:
+  model: "MultiPanePreviewModel"
+  panes:
+    - paneId: "pane_0"
+      layout: "fractal_quadrant"
+      border: { colourRef: "c4" }
+      fill: { colourRef: "c0" }
