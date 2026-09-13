@@ -1,0 +1,18 @@
+$id: "prismata://meta/canonical/chromascheme.output"
+title: "ChromaSchemeOutput"
+description: "Extensible colourSet + universal role bindings + geometry metadata."
+type: object
+required:
+  - colourSet
+  - roles
+  - geometry
+  - preview
+properties:
+  colourSet:
+    type: array
+  roles:
+    type: object
+  geometry:
+    type: object
+  preview:
+    type: object
