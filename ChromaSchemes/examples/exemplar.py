@@ -57,9 +57,15 @@ if config_loader is not None:
     try:
         CONFIG = config_loader.load_config(str(CONFIG_FILE))
     except Exception:
-        CONFIG = json.loads(CONFIG_FILE.read_text(encoding="utf-8-sig"))
+        try:
+            CONFIG = json.loads(CONFIG_FILE.read_text(encoding="utf-8-sig"))
+        except Exception:
+            CONFIG = {}
 else:
-    CONFIG = json.loads(CONFIG_FILE.read_text(encoding="utf-8-sig"))
+    try:
+        CONFIG = json.loads(CONFIG_FILE.read_text(encoding="utf-8-sig"))
+    except Exception:
+        CONFIG = {}
 
 
 def _log(key: str, message: str) -> None:

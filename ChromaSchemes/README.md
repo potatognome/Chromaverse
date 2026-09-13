@@ -16,7 +16,7 @@ ChromaSchemes is the deterministic colour-scheme engine for Chromaverse.
 
 ```python
 from pathlib import Path
-from core import ChromaSchemesEngine
+from ChromaSchemes import ChromaSchemesEngine
 
 engine = ChromaSchemesEngine()
 payload = {
