@@ -5,8 +5,8 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
-from geometry import GeometryInterpreter, OverlayProcessor
-from output import ChromaSchemeEmitter
+from ChromaSchemes.geometry import GeometryInterpreter, OverlayProcessor
+from ChromaSchemes.output import ChromaSchemeEmitter
 
 from .colour_generator import ColourGenerator
 from .colour_set_builder import ColourSetBuilder

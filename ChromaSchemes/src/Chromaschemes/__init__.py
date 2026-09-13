@@ -5,10 +5,10 @@ from __future__ import annotations
 from pathlib import Path
 import sys
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
+REPO_ROOT = Path(__file__).resolve().parents[3]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
-from core import ChromaSchemesEngine  # noqa: E402
+from ChromaSchemes import ChromaSchemesEngine  # noqa: E402
 
 __all__ = ["ChromaSchemesEngine"]

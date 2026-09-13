@@ -44,5 +44,5 @@ class ChromaSpaceAdapter:
 
     @staticmethod
     def oklch_to_rgb(L: float, C: float, H: float) -> tuple[int, int, int]:
-        rgb = oklch_to_rgb(H, C, L)
+        rgb = oklch_to_rgb(L, C, H)
         return int(rgb[0]), int(rgb[1]), int(rgb[2])

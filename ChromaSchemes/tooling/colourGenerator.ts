@@ -16,7 +16,7 @@ export class ColourGenerator implements IColourGenerator {
       oklch: {
         l: Number(luminanceValues[idx].toFixed(6)),
         c: Number(chromaValues[idx].toFixed(6)),
-        h: Number((((baseHue + offset) % 360) + 360).toFixed(6)),
+        h: Number(((baseHue + offset) % 360).toFixed(6)),
       },
     }));
   }
