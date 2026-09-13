@@ -12,8 +12,12 @@ CHROMASPACE_SRC = REPO_ROOT / "Chromaspace" / "src"
 if CHROMASPACE_SRC.exists() and str(CHROMASPACE_SRC) not in sys.path:
     sys.path.insert(0, str(CHROMASPACE_SRC))
 
-from Chromaspace.colour_spaces.hsv import hsv_to_rgb  # noqa: E402
-from Chromaspace.colour_spaces.oklch import to_rgb as oklch_to_rgb  # noqa: E402
+try:
+    from Chromaspace.colour_spaces.hsv import hsv_to_rgb  # type: ignore  # noqa: E402
+    from Chromaspace.colour_spaces.oklch import to_rgb as oklch_to_rgb  # type: ignore  # noqa: E402
+except Exception:
+    hsv_to_rgb = None
+    oklch_to_rgb = None
 
 
 class ChromaSpaceAdapter:
@@ -34,8 +38,14 @@ class ChromaSpaceAdapter:
 
     @staticmethod
     def hsv_to_rgb(h: float, s: float, v: float) -> tuple[int, int, int]:
-        out = hsv_to_rgb(h % 360.0, min(1.0, max(0.0, s)), min(1.0, max(0.0, v)))
-        return int(out[0]), int(out[1]), int(out[2])
+        h_norm = h % 360.0
+        s_norm = min(1.0, max(0.0, s))
+        v_norm = min(1.0, max(0.0, v))
+        if hsv_to_rgb is not None:
+            out = hsv_to_rgb(h_norm, s_norm, v_norm)
+            return int(out[0]), int(out[1]), int(out[2])
+        r, g, b = colorsys.hsv_to_rgb(h_norm / 360.0, s_norm, v_norm)
+        return int(round(r * 255)), int(round(g * 255)), int(round(b * 255))
 
     @staticmethod
     def hsv_to_oklch(h: float, s: float, v: float) -> tuple[float, float, float]:
@@ -44,5 +54,7 @@ class ChromaSpaceAdapter:
 
     @staticmethod
     def oklch_to_rgb(L: float, C: float, H: float) -> tuple[int, int, int]:
-        rgb = oklch_to_rgb(L, C, H)
-        return int(rgb[0]), int(rgb[1]), int(rgb[2])
+        if oklch_to_rgb is not None:
+            rgb = oklch_to_rgb(L, C, H)
+            return int(rgb[0]), int(rgb[1]), int(rgb[2])
+        return ChromaSpaceAdapter.hsv_to_rgb(H, C, L)

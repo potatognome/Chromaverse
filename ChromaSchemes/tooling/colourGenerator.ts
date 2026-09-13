@@ -34,15 +34,15 @@ export class ColourGenerator implements IColourGenerator {
       const hue = (baseHue + offset) % 360;
       const rgb = this.hsvToRgb(hue, chromaValues[idx], luminanceValues[idx]);
       return {
-      id: `c${idx}`,
-      origin: idx < 4 ? 'base' : 'derived',
-      rgb,
-      oklch: {
-        l: Number(luminanceValues[idx].toFixed(6)),
-        c: Number(chromaValues[idx].toFixed(6)),
-        h: Number(hue.toFixed(6)),
-      },
-    };
+        id: `c${idx}`,
+        origin: idx < 4 ? 'base' : 'derived',
+        rgb,
+        oklch: {
+          l: Number(luminanceValues[idx].toFixed(6)),
+          c: Number(chromaValues[idx].toFixed(6)),
+          h: Number(hue.toFixed(6)),
+        },
+      };
     });
   }
 }
