@@ -1,4 +1,4 @@
-# src/colour_system/colour_methods/lab.py
+"""CIE Lab colour-space adapter for Chromaspace."""
 
 import math
 
@@ -6,6 +6,7 @@ from ..interfaces import ColourSpaceInterface
 from ..registry import register_colour_space
 
 def lab_to_xyz(L, a, b):
+    """Convert CIE Lab coordinates to XYZ using a D65 reference white."""
     # D65 reference white
     Xn, Yn, Zn = 95.047, 100.000, 108.883
 
@@ -25,6 +26,7 @@ def lab_to_xyz(L, a, b):
     return X, Y, Z
 
 def xyz_to_rgb(X, Y, Z):
+    """Convert XYZ tristimulus values to sRGB."""
     X /= 100
     Y /= 100
     Z /= 100
@@ -45,11 +47,7 @@ def xyz_to_rgb(X, Y, Z):
     )
 
 def to_rgb(h, c, l):
-    """
-    h: hue angle 0–360
-    c: chroma band value
-    l: lightness band value
-    """
+    """Convert semantic Lab inputs into an RGB triple."""
     L = l * 100
     a = math.cos(math.radians(h)) * c * 100
     b = math.sin(math.radians(h)) * c * 100

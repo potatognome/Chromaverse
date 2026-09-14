@@ -23,6 +23,7 @@ OVERRIDE_DIR = CONFIG_ROOT / "emitters.d"
 
 
 def _merge_dict(base: dict, patch: dict) -> dict:
+    """Recursively merge one configuration dictionary into another."""
     for key, value in patch.items():
         if isinstance(value, dict) and isinstance(base.get(key), dict):
             base[key] = _merge_dict(base[key], value)
@@ -32,6 +33,7 @@ def _merge_dict(base: dict, patch: dict) -> dict:
 
 
 def _load_base_config() -> dict:
+    """Load the primary emitter configuration using tUilKit when available."""
     if _ConfigLoader is not None:
         loader = _ConfigLoader(config_path=str(BASE_CONFIG_PATH))
         if isinstance(loader.global_config, dict) and loader.global_config:
@@ -42,6 +44,7 @@ def _load_base_config() -> dict:
 
 
 def _load_override(path: Path) -> dict:
+    """Load a JSON or YAML override fragment from disk."""
     suffix = path.suffix.lower()
     if suffix == ".json":
         with path.open("r", encoding="utf-8") as handle:
@@ -60,6 +63,7 @@ def _load_override(path: Path) -> dict:
 
 
 def load_emitter_config() -> dict:
+    """Load the emitter config and apply any override fragments."""
     config = _load_base_config()
 
     if OVERRIDE_DIR.exists():
@@ -76,6 +80,7 @@ def load_emitter_config() -> dict:
 
 
 def get_emitter_settings(config: dict, emitter_name: str) -> dict:
+    """Return the settings mapping for a named emitter."""
     emitters = config.get("emitters", {})
     settings = emitters.get(emitter_name, {})
     return settings if isinstance(settings, dict) else {}

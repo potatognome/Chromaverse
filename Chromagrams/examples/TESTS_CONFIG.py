@@ -43,6 +43,7 @@ def _resolve(cfg: Dict, mode_key: str, path_key: str, fallback: str) -> Path:
 
 
 def main() -> int:
+    """Resolve Chromagrams example paths and write test_paths.json."""
     cfg = _load_config()
 
     # Calculate tUilKit config path

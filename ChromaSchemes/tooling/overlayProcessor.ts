@@ -1,6 +1,8 @@
 import { IOverlayProcessor } from './interfaces';
 
+/** Apply overlay transformations to hue, chroma, and luminance sequences. */
 export class OverlayProcessor implements IOverlayProcessor {
+  /** Apply supported overlay transformations in sequence. */
   apply(
     hues: number[],
     chromaValues: number[],

@@ -38,6 +38,7 @@ logger = _get_logger() if _get_logger is not None else _FallbackLogger()
 
 
 def startup(config: Optional[dict] = None) -> dict:
+    """Initialise the CLI and return the active configuration payload."""
     active_config = config or CONFIG
     clear_screen = bool(active_config.get("CLI_DEFAULTS", {}).get("CLEAR_SCREEN", True))
     if clear_screen:
@@ -47,6 +48,7 @@ def startup(config: Optional[dict] = None) -> dict:
 
 
 def render_menu(output_func: Callable[[str], None]) -> None:
+    """Render the top-level ChromaTools menu to the provided output hook."""
     output_func("\n=== ChromaTools ===")
     output_func("  [1] List Chroma apps")
     output_func("  [2] Inspect app details")
@@ -56,6 +58,7 @@ def render_menu(output_func: Callable[[str], None]) -> None:
 
 
 def list_apps(apps: Iterable[AppRecord], output_func: Callable[[str], None]) -> None:
+    """Print the available application catalogue entries."""
     for index, app in enumerate(apps, start=1):
         command_state = "launchable" if app.launchable else "catalogue-only"
         output_func(f"{index}. {app.name} [{app.app_type}] - {command_state}")
@@ -64,6 +67,7 @@ def list_apps(apps: Iterable[AppRecord], output_func: Callable[[str], None]) -> 
 
 
 def show_app_details(app: AppRecord, output_func: Callable[[str], None]) -> None:
+    """Display the resolved metadata for a single application record."""
     output_func(f"Name: {app.name}")
     output_func(f"Key: {app.key}")
     output_func(f"Type: {app.app_type}")
@@ -78,6 +82,7 @@ def show_app_details(app: AppRecord, output_func: Callable[[str], None]) -> None
 
 
 def show_config_summary(config: dict, apps: Iterable[AppRecord], output_func: Callable[[str], None]) -> None:
+    """Summarise the current project configuration and app registry state."""
     info = config.get("INFO", {})
     output_func(f"Project: {info.get('PROJECT_NAME', 'ChromaTools')}")
     output_func(f"Version: {info.get('VERSION', '0.1.0')}")
@@ -88,6 +93,7 @@ def show_config_summary(config: dict, apps: Iterable[AppRecord], output_func: Ca
 
 
 def launch_app(app: AppRecord, output_func: Callable[[str], None]) -> bool:
+    """Launch a configured application command and report success or failure."""
     if not app.launch_command:
         output_func(f"{app.name} has no launch command configured.")
         return False
@@ -130,6 +136,7 @@ def menu(
     input_func: Callable[[str], str] = input,
     output_func: Callable[[str], None] = print,
 ) -> int:
+    """Run the interactive ChromaTools menu loop."""
     active_config = config or CONFIG
     apps = load_app_catalog(active_config, PROJECT_ROOT)
 
@@ -158,6 +165,7 @@ def menu(
 
 
 def main() -> int:
+    """Entry point for the ChromaTools CLI."""
     config = startup()
     return menu(config=config)
 

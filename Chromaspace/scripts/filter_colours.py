@@ -1,5 +1,7 @@
 
 
+"""Filter Chromaspace colour records by band and output options."""
+
 import argparse
 import os
 from pathlib import Path
@@ -21,6 +23,7 @@ SAT_BANDS = get_sat_bands()
 LUM_BANDS = get_lum_bands()
 
 def parse_band_arg(arg, band_type=None):
+    """Parse band selections from names, commas, spaces, or numeric indices."""
     # Accept comma or space separated, e.g. "washed,soft" or "washed soft"
     if not arg:
         return []
@@ -45,6 +48,7 @@ def parse_band_arg(arg, band_type=None):
     return items
 
 def filter_colours(colours, only=None, except_=None, sats=None, lums=None):
+    """Filter colour records by explicit include or exclude band selections."""
     if only:
         sats, lums = only
     elif except_:
@@ -67,6 +71,7 @@ def filter_colours(colours, only=None, except_=None, sats=None, lums=None):
     return filtered
 
 def output_colours(colours, output_opts):
+    """Project colour records into the requested output shape."""
     results = []
     for c in colours:
         out = {}
@@ -89,6 +94,7 @@ def output_colours(colours, output_opts):
 
 
 def main():
+    """Run the colour filtering CLI."""
     parser = argparse.ArgumentParser(description='Filter colour_system.json by bands and output options.')
     parser.add_argument('--ONLY', nargs=2, metavar=('SAT','LUM'), help='Only include these SAT and LUM bands (comma, space, or number 1-5)')
     parser.add_argument('--EXCEPT', nargs=2, metavar=('SAT','LUM'), help='Exclude these SAT and LUM bands (comma, space, or number 1-5)')

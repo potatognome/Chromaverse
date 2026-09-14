@@ -1,6 +1,8 @@
 
 
 
+"""Fetch XKCD colour names and save the lookup table to JSON."""
+
 import json
 import os
 from pathlib import Path
@@ -16,6 +18,7 @@ from Chromaspace.config import _config
 from Chromaspace.cli_utils import ensure_output_dir, save_json
 
 def hex_to_rgb(hex_str):
+    """Convert a hex colour string to an RGB list."""
     hex_str = hex_str.lstrip('#')
     return [int(hex_str[i:i+2], 16) for i in (0, 2, 4)]
 

@@ -1,4 +1,6 @@
 
+"""Render the Chromaspace saturation and luminance wheel previews."""
+
 import argparse
 import os
 from pathlib import Path
@@ -14,6 +16,7 @@ from Chromaspace.cli_utils import get_sat_bands, get_lum_bands, ensure_output_di
 
 
 def main():
+    """Run the wheel rendering CLI."""
     parser = argparse.ArgumentParser(description="Render all sat/lum wheels as HTML files.")
     parser.add_argument('--output', default=None, help='Output directory for HTML files')
     args = parser.parse_args()

@@ -265,6 +265,7 @@ def _section_pulse() -> None:
 # ---------------------------------------------------------------------------
 
 def main() -> None:
+    """Run the Chromagrams exemplar walkthrough."""
     _log("!info", "═══════════════════════════════════════════════════════")
     _log("!info", "  Chromagrams Exemplar")
     _log("!info", "═══════════════════════════════════════════════════════")
@@ -278,4 +279,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

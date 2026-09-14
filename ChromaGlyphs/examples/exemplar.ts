@@ -13,6 +13,9 @@ import { generateGlyph, encode, decode, validate, renderSVG, ChromaGlyphError } 
 // Helpers
 // ---------------------------------------------------------------------------
 
+/**
+ * Print a colour-keyed exemplar log line.
+ */
 function log(key: string, msg: string): void {
   const icons: Record<string, string> = {
     '!info': 'ℹ️ ',
@@ -29,6 +32,9 @@ function log(key: string, msg: string): void {
   console.log(`${icon} [${key}] ${msg}`);
 }
 
+/**
+ * Print a visual separator for an exemplar section.
+ */
 function section(title: string): void {
   console.log();
   console.log('─'.repeat(60));
@@ -40,6 +46,9 @@ function section(title: string): void {
 // Demo sections
 // ---------------------------------------------------------------------------
 
+/**
+ * Demonstrate glyph generation across normal palette sizes.
+ */
 function demoGenerate(): void {
   section('1. generateGlyph – normal cases');
 
@@ -59,6 +68,9 @@ function demoGenerate(): void {
   log('!done', `Max-size glyph (16 colours) id=${g3.meta.id}`);
 }
 
+/**
+ * Demonstrate encode/decode round-trips for glyph tokens.
+ */
 function demoEncodeDecode(): void {
   section('2. encode → decode round-trip');
 
@@ -74,6 +86,9 @@ function demoEncodeDecode(): void {
   log(match ? '!pass' : '!fail', `Round-trip ${match ? 'PASSED' : 'FAILED'}`);
 }
 
+/**
+ * Demonstrate glyph validation for valid and invalid payloads.
+ */
 function demoValidation(): void {
   section('3. validate');
 
@@ -87,6 +102,9 @@ function demoValidation(): void {
   log(r2.valid ? '!fail' : '!pass', `Invalid hex detected: errors=${r2.errors.join('; ')}`);
 }
 
+/**
+ * Demonstrate SVG rendering for row and grid layouts.
+ */
 function demoRendering(): void {
   section('4. renderSVG');
 
@@ -99,6 +117,9 @@ function demoRendering(): void {
   log('!data', `Grid SVG length: ${svgGrid.length} chars`);
 }
 
+/**
+ * Exercise malformed and adversarial glyph inputs.
+ */
 function demoEdgeCases(): void {
   section('5. Edge cases and adversarial inputs');
 
@@ -150,6 +171,9 @@ function demoEdgeCases(): void {
 // Menu
 // ---------------------------------------------------------------------------
 
+/**
+ * Print the interactive exemplar menu.
+ */
 function printMenu(): void {
   console.log();
   log('!info', '1. Generate glyphs');
@@ -161,6 +185,9 @@ function printMenu(): void {
   log('!info', '0. Exit');
 }
 
+/**
+ * Run the exemplar in interactive or batch mode.
+ */
 async function main(): Promise<number> {
   console.log('═'.repeat(60));
   console.log('  ChromaGlyphs Exemplar');

@@ -90,6 +90,7 @@ LOG_TARGETS = _log_targets()
 
 
 def log_line(msg: str, key: str = "!info") -> None:
+    """Emit a colour-logged exemplar message."""
     try:
         logger.colour_log(key, msg, log_files=LOG_TARGETS, time_stamp=True)
     except Exception:
@@ -97,6 +98,7 @@ def log_line(msg: str, key: str = "!info") -> None:
 
 
 def draw_header() -> None:
+    """Render the exemplar title banner."""
     title = f"{CONFIG.get('INFO', {}).get('PROJECT_NAME', 'Chromaspace')} Exemplar"
     try:
         logger.apply_border(
@@ -114,6 +116,7 @@ def draw_header() -> None:
 
 
 def show_config_and_paths() -> None:
+    """Print the primary config file and resolved path roots."""
     log_line("Config and Paths", key="!proc")
     log_line(f"Primary config: {CONFIG_FILE}", key="!data")
     for key_name, value in CONFIG.get("ROOT_MODES", {}).items():
@@ -133,6 +136,7 @@ def show_config_and_paths() -> None:
 
 
 def run_module_demo() -> None:
+    """Demonstrate the colour generator and hue ordering helpers."""
     log_line("Module demo", key="!proc")
 
     from Chromaspace.generator import generate_colour_entries
@@ -148,6 +152,7 @@ def run_module_demo() -> None:
 
 
 def run_edge_cases() -> None:
+    """Exercise malformed and out-of-range colour inputs."""
     log_line("Edge-case checks", key="!proc")
 
     from Chromaspace.generator import generate_colour
@@ -179,6 +184,7 @@ def run_edge_cases() -> None:
 
 
 def menu_loop() -> None:
+    """Run the interactive exemplar menu."""
     while True:
         print()
         log_line("1. Config and path report", key="!list")
@@ -200,6 +206,7 @@ def menu_loop() -> None:
 
 
 def main() -> int:
+    """Run the Chromaspace exemplar walkthrough."""
     draw_header()
     log_line("Loaded tUilKit factories in exemplar mode.", key="!done")
     menu_loop()

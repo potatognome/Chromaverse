@@ -1,3 +1,5 @@
+"""Generate HTML previews for Chromaspace colour data."""
+
 import json
 import argparse
 import os
@@ -51,10 +53,12 @@ HTML_TEMPLATE = '''
 '''
 
 def rgb_str(rgb):
+    """Format an RGB triple as a CSS rgb() string."""
     return f"rgb({rgb[0]}, {rgb[1]}, {rgb[2]})"
 
 
 def format_xkcd_value(xkcd_match):
+    """Format an XKCD match payload for display."""
     if not xkcd_match:
         return ""
     if isinstance(xkcd_match, dict):
@@ -66,6 +70,7 @@ def format_xkcd_value(xkcd_match):
     return str(xkcd_match)
 
 def make_table_rows(colours):
+    """Build HTML table rows for a colour list."""
     rows = []
     for c in colours:
         rgb = c['rgb']
@@ -85,6 +90,7 @@ def make_table_rows(colours):
     return '\n'.join(rows)
 
 def make_wheel_svg(colours):
+    """Build an SVG wheel representation for a colour list."""
     # Place each colour on a wheel by its hue (if available), else just spread evenly
     cx, cy, r = 210, 210, 180
     points = []
@@ -102,6 +108,7 @@ def make_wheel_svg(colours):
     return '\n'.join(points)
 
 def main():
+    """Run the colour preview HTML generator."""
     parser = argparse.ArgumentParser(description='Preview a set of colours as HTML table and wheel.')
     parser.add_argument('input', nargs='?', default=None, help='Input JSON file (filtered set)')
     parser.add_argument('--output', default=None, help='Output HTML file (default: config or same as input, .html)')

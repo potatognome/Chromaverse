@@ -1,4 +1,6 @@
 
+"""Render Chromaspace tone-grid HTML previews from configured hue bands."""
+
 import argparse
 import os
 from pathlib import Path
@@ -14,6 +16,7 @@ from Chromaspace.cli_utils import get_hue_anchors, get_hue_variants, ensure_outp
 
 
 def main():
+    """Run the tone-grid HTML preview generator."""
     parser = argparse.ArgumentParser(description="Render all hue squares as HTML files.")
     parser.add_argument('--output', default=None, help='Output directory for HTML files')
     args = parser.parse_args()

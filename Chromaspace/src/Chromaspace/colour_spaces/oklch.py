@@ -1,4 +1,4 @@
-# src/colour_system/colour_methods/oklch.py
+"""OKLCh colour-space adapter for Chromaspace."""
 
 import math
 
@@ -6,11 +6,13 @@ from ..interfaces import ColourSpaceInterface
 from ..registry import register_colour_space
 
 def oklch_to_oklab(L, C, H):
+    """Convert OKLCh coordinates to OKLab coordinates."""
     a = C * math.cos(math.radians(H))
     b = C * math.sin(math.radians(H))
     return L, a, b
 
 def oklab_to_linear_srgb(L, a, b):
+    """Convert OKLab coordinates to linear sRGB."""
     # OKLab → linear RGB matrix
     l_ = L + 0.3963377774 * a + 0.2158037573 * b
     m_ = L - 0.1055613458 * a - 0.0638541728 * b
@@ -27,16 +29,13 @@ def oklab_to_linear_srgb(L, a, b):
     return r, g, b
 
 def linear_to_srgb(x):
+    """Apply the sRGB transfer curve to a linear channel value."""
     if x <= 0.0031308:
         return 12.92 * x
     return 1.055 * (x ** (1/2.4)) - 0.055
 
 def to_rgb(h, c, l):
-    """
-    h: hue angle 0–360
-    c: chroma band value (0–1)
-    l: lightness band value (0–1)
-    """
+    """Convert semantic OKLCh inputs into an RGB triple."""
     L = l
     C = c
     H = h

@@ -64,6 +64,7 @@ def _resolve(cfg: Dict[str, Any], mode_key: str, path_keys: Iterable[str], fallb
 
 
 def main() -> int:
+    """Resolve test-suite paths and write test_paths.json."""
     config_file = _find_primary_config(CONFIG_DIR)
     cfg = _load_config(config_file)
 

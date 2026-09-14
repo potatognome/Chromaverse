@@ -9,10 +9,12 @@ from Dev.Chromaspace.src.Chromaspace.registry import (
 
 
 def ensure_emitters_registered() -> None:
+    """Import built-in emitters so registry decorators can register them."""
     from ..tapo.tapo_emitter import TapoEmitter  # noqa: F401
     from ..terminal.terminal_emitter import TerminalEmitter  # noqa: F401
 
 
 def get_registered_emitters():
+    """Return all registered emitter modules."""
     ensure_emitters_registered()
     return get_all(MODULE_TYPE_EMITTER)

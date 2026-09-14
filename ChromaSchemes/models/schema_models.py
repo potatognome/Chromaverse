@@ -8,6 +8,8 @@ from typing import Any
 
 @dataclass(frozen=True)
 class ChromaSchemeInput:
+    """Normalized input payload for ChromaSchemes generation."""
+
     base_hex: str
     geometry_model: str
     overlays: list[dict[str, Any]] = field(default_factory=list)
@@ -16,6 +18,8 @@ class ChromaSchemeInput:
 
 @dataclass(frozen=True)
 class ChromaSchemeOutput:
+    """Structured output payload returned by the scheme engine."""
+
     colourSet: list[dict[str, Any]]
     roles: dict[str, Any]
     geometry: dict[str, Any]

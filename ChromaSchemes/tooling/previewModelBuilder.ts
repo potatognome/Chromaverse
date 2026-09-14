@@ -1,6 +1,8 @@
 import { IPreviewModelBuilder } from './interfaces';
 
+/** Build preview metadata for the scheme renderer. */
 export class PreviewModelBuilder implements IPreviewModelBuilder {
+  /** Build a four-pane preview model from the colour set and role map. */
   build(colourSet: Array<Record<string, unknown>>, roles: Record<string, unknown>) {
     const borderRef =
       (roles.border_fg as { layers?: { fg?: { colourRef?: string } } } | undefined)?.layers?.fg?.colourRef ?? 'c0';

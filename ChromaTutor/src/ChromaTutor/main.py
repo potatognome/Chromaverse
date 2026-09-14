@@ -50,6 +50,7 @@ def _load_input(args: argparse.Namespace) -> tuple[str, str]:
 
 
 def main() -> None:
+    """Run the ChromaTutor CLI pipeline."""
     parser = _build_parser()
     args = parser.parse_args()
 

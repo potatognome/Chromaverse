@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Writes JSON files and other structured outputs for Chromaspace."""
+"""Export Chromaspace colour data to JSON and related file outputs."""
 import json
 
 try:
@@ -22,6 +22,7 @@ LOG_FILES = _app_config.get(
 
 
 def export_to_json(colours, path):
+    """Write the generated colour payload to a JSON file."""
     import os
     out_dir = os.path.dirname(path) or "."
     if file_system is not None:

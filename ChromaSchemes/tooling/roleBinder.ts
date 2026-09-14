@@ -14,7 +14,9 @@ const UNIVERSAL_ROLES = [
   'neutral_bg',
 ];
 
+/** Bind generated colours to the predefined semantic roles. */
 export class RoleBinder implements IRoleBinder {
+  /** Bind colours to the predefined ChromaSchemes semantic roles. */
   bind(colourSet: Array<Record<string, unknown>>) {
     return UNIVERSAL_ROLES.reduce<Record<string, unknown>>((acc, role, idx) => {
       const ref = String(colourSet[idx % colourSet.length]?.id ?? 'c0');

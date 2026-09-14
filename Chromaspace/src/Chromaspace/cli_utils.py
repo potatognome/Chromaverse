@@ -1,18 +1,22 @@
+"""Shared CLI and JSON helpers for Chromaspace scripts."""
+
 # Shared JSON file helpers
 import json
 def load_json(path, encoding='utf-8'):
+    """Load JSON from disk using the requested text encoding."""
     with open(path, 'r', encoding=encoding) as f:
         return json.load(f)
 
 def save_json(obj, path, encoding='utf-8', **kwargs):
+    """Persist an object as pretty-printed JSON."""
     with open(path, 'w', encoding=encoding) as f:
         json.dump(obj, f, indent=2, ensure_ascii=False, **kwargs)
-"""Shared CLI utilities for colour_system scripts."""
 import os
 from .config import _config, COLOUR_SYSTEM_SUFFIX
 
 # Band/variant parsing helpers
 def parse_band_arg(arg, all_bands):
+    """Parse a comma-separated band selection into configured band names."""
     if not arg:
         return all_bands
     items = [x.strip() for x in arg.split(",") if x.strip()]
@@ -67,6 +71,7 @@ def append_suffix_to_folder(folder, suffix=COLOUR_SYSTEM_SUFFIX):
 
 
 def get_output_folder(key, default=None, with_system_suffix=False):
+    """Resolve an output folder from config, optionally applying a suffix."""
     folder = _config["PATHS"]["FOLDERS"].get(key, default)
     if with_system_suffix:
         return append_suffix_to_folder(folder)
@@ -74,6 +79,7 @@ def get_output_folder(key, default=None, with_system_suffix=False):
 
 
 def get_output_file(key, default=None, with_system_suffix=False):
+    """Resolve an output file from config, optionally applying a suffix."""
     filename = _config["PATHS"]["FILES"].get(key, default)
     if with_system_suffix:
         return append_suffix_to_filename(filename)
@@ -81,13 +87,17 @@ def get_output_file(key, default=None, with_system_suffix=False):
 
 # Config-driven band/variant access
 def get_hue_anchors():
+    """Return the configured hue anchors."""
     return _config["HUE_ANCHORS"]
 
 def get_hue_variants():
+    """Return the configured hue variants."""
     return _config["HUE_VARIANTS"]
 
 def get_sat_bands():
+    """Return the configured saturation band names."""
     return [name for name, value in _config["SAT_BANDS"]]
 
 def get_lum_bands():
+    """Return the configured luminance band names."""
     return [name for name, value in _config["LUM_BANDS"]]

@@ -9,6 +9,8 @@ from typing import Iterable, Optional
 
 @dataclass(frozen=True)
 class AppRecord:
+    """Resolved application catalogue entry."""
+
     key: str
     name: str
     app_type: str
@@ -21,10 +23,12 @@ class AppRecord:
 
     @property
     def launchable(self) -> bool:
+        """Return whether the app can be launched from the catalogue."""
         return self.enabled and bool(self.launch_command)
 
 
 def _resolve_path(project_root: Path, raw_path: str) -> Path:
+    """Resolve a config path relative to the project root when needed."""
     candidate = Path(raw_path)
     if candidate.is_absolute():
         return candidate
@@ -32,6 +36,7 @@ def _resolve_path(project_root: Path, raw_path: str) -> Path:
 
 
 def load_app_catalog(config: dict, project_root: Path) -> list[AppRecord]:
+    """Build the ordered application catalogue from configuration data."""
     apps = []
     for key, data in sorted(config.get("APPS", {}).items()):
         apps.append(
@@ -51,6 +56,7 @@ def load_app_catalog(config: dict, project_root: Path) -> list[AppRecord]:
 
 
 def resolve_app(selection: str, apps: Iterable[AppRecord]) -> Optional[AppRecord]:
+    """Resolve an app by numeric index, key, or name."""
     choices = list(apps)
     value = selection.strip()
     if not value:
@@ -66,4 +72,3 @@ def resolve_app(selection: str, apps: Iterable[AppRecord]) -> Optional[AppRecord
         if lowered in {app.key.lower(), app.name.lower()}:
             return app
     return None
-

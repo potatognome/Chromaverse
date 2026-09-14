@@ -50,6 +50,7 @@ except Exception:
 
 
 def _resolve(mode_key: str, path_key: str, fallback: str) -> Path:
+    """Resolve a project or workspace-relative path from config."""
     mode = str(CONFIG.get("ROOT_MODES", {}).get(mode_key, "project")).lower().strip()
     base = WORKSPACE_ROOT if mode == "workspace" else PROJECT_ROOT
     rel = str(CONFIG.get("PATHS", {}).get(path_key, fallback))
@@ -57,6 +58,7 @@ def _resolve(mode_key: str, path_key: str, fallback: str) -> Path:
 
 
 def _pick(mapping: dict, keys: Iterable[str], default: str) -> str:
+    """Return the first non-empty string value found for the given keys."""
     for key in keys:
         value = mapping.get(key)
         if isinstance(value, str) and value.strip():
@@ -65,6 +67,7 @@ def _pick(mapping: dict, keys: Iterable[str], default: str) -> str:
 
 
 def _resolve_any(mode_keys: Iterable[str], path_keys: Iterable[str], fallback: str) -> Path:
+    """Resolve a path using any matching mode or path key."""
     modes = CONFIG.get("ROOT_MODES", {}) if isinstance(CONFIG.get("ROOT_MODES"), dict) else {}
     paths = CONFIG.get("PATHS", {}) if isinstance(CONFIG.get("PATHS"), dict) else {}
     mode = _pick(modes, mode_keys, "project").lower().strip()
@@ -74,6 +77,7 @@ def _resolve_any(mode_keys: Iterable[str], path_keys: Iterable[str], fallback: s
 
 
 def _log_targets() -> list[str]:
+    """Build the list of log file targets for the exemplar run."""
     log_root = _resolve_any(("LOGS", "LOG_PATHS"), ("LOGS", "LOG_PATHS"), ".logs/ChromaEmitters/")
     log_root.mkdir(parents=True, exist_ok=True)
     out: list[str] = []
@@ -90,6 +94,7 @@ LOG_TARGETS = _log_targets()
 
 
 def log_line(msg: str, key: str = "!info") -> None:
+    """Emit a colour-logged exemplar message."""
     try:
         logger.colour_log(key, msg, log_files=LOG_TARGETS, time_stamp=True)
     except Exception:
@@ -97,6 +102,7 @@ def log_line(msg: str, key: str = "!info") -> None:
 
 
 def draw_header() -> None:
+    """Render the exemplar title banner."""
     title = f"{CONFIG.get('INFO', {}).get('PROJECT_NAME', 'ChromaEmitters')} Exemplar"
     try:
         logger.apply_border(
@@ -114,6 +120,7 @@ def draw_header() -> None:
 
 
 def show_config_and_paths() -> None:
+    """Print the primary config file and resolved path roots."""
     log_line("Config and Paths", key="!proc")
     log_line(f"Primary config: {CONFIG_FILE}", key="!data")
     for key_name, value in CONFIG.get("ROOT_MODES", {}).items():
@@ -133,6 +140,7 @@ def show_config_and_paths() -> None:
 
 
 def run_module_demo() -> None:
+    """Demonstrate the emitter configuration and sample frame logging."""
     log_line("Module demo", key="!proc")
 
     emitters = CONFIG.get("emitters", {}) if isinstance(CONFIG.get("emitters", {}), dict) else {}
@@ -150,6 +158,7 @@ def run_module_demo() -> None:
 
 
 def run_edge_cases() -> None:
+    """Exercise malformed config and missing emitter scenarios."""
     log_line("Edge-case checks", key="!proc")
 
     emitters = CONFIG.get("emitters", {}) if isinstance(CONFIG.get("emitters", {}), dict) else {}
@@ -171,6 +180,7 @@ def run_edge_cases() -> None:
 
 
 def menu_loop() -> None:
+    """Run the interactive exemplar menu."""
     while True:
         print()
         log_line("1. Config and path report", key="!list")
@@ -192,6 +202,7 @@ def menu_loop() -> None:
 
 
 def main() -> int:
+    """Entry point for the ChromaEmitters exemplar."""
     draw_header()
     log_line("Loaded tUilKit factories in exemplar mode.", key="!done")
     menu_loop()

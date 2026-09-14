@@ -23,6 +23,8 @@ _REGISTRY_LOG_FILES = [
 
 @dataclass(frozen=True)
 class RegistryRecord:
+    """Immutable snapshot of a registry entry."""
+
     module_type: str
     name: str
     version: str
@@ -37,6 +39,7 @@ class ChromacoreRegistry:
     """Typed module registry with deterministic lookups and metadata."""
 
     def __init__(self) -> None:
+        """Initialise an empty registry for every supported module type."""
         self._tables: Dict[str, Dict[str, Dict[str, Any]]] = {
             module_type: {} for module_type in ALL_MODULE_TYPES
         }
@@ -44,10 +47,12 @@ class ChromacoreRegistry:
         self._lock = RLock()
 
     def _validate_module_type(self, module_type: str) -> None:
+        """Ensure the requested module type is supported."""
         if module_type not in self._tables:
             raise ValueError(f"Unsupported module_type: {module_type}")
 
     def _log_event(self, level: str, message: str) -> None:
+        """Send a registry event to the optional structured logger."""
         if _LOGGER is None:
             return
         try:
@@ -70,6 +75,7 @@ class ChromacoreRegistry:
         config_schema: str,
         priority: Optional[int],
     ) -> int:
+        """Validate registry metadata and normalise the priority value."""
         if not isinstance(name, str) or not name.strip():
             raise ValueError("name must be a non-empty string")
         if not isinstance(version, str) or not version.strip():
@@ -88,6 +94,7 @@ class ChromacoreRegistry:
         return priority
 
     def _ensure_mutable(self) -> None:
+        """Raise when the registry has been frozen."""
         if self._frozen:
             raise RuntimeError("Registry is frozen and cannot be modified")
 
@@ -101,6 +108,7 @@ class ChromacoreRegistry:
         config_schema: str,
         priority: Optional[int] = None,
     ) -> Any:
+        """Register a factory under a module type and name."""
         with self._lock:
             self._ensure_mutable()
             self._validate_module_type(module_type)
@@ -132,6 +140,7 @@ class ChromacoreRegistry:
             return factory
 
     def get(self, module_type: str, name: str) -> Optional[Any]:
+        """Resolve a registered factory by module type and name."""
         with self._lock:
             self._validate_module_type(module_type)
             record = self._tables[module_type].get(name)
@@ -140,6 +149,7 @@ class ChromacoreRegistry:
             return record["factory"]
 
     def get_all(self, module_type: str) -> List[Any]:
+        """Return all enabled factories for a module type."""
         with self._lock:
             self._validate_module_type(module_type)
             records = [
@@ -151,6 +161,7 @@ class ChromacoreRegistry:
             return [item["factory"] for item in records]
 
     def find(self, module_type: str, capability: str) -> List[Any]:
+        """Return enabled factories that advertise a capability."""
         with self._lock:
             self._validate_module_type(module_type)
             records = [
@@ -162,6 +173,7 @@ class ChromacoreRegistry:
             return [item["factory"] for item in records]
 
     def disable(self, module_type: str, name: str) -> None:
+        """Disable a registered factory without removing its metadata."""
         with self._lock:
             self._ensure_mutable()
             self._validate_module_type(module_type)
@@ -171,6 +183,7 @@ class ChromacoreRegistry:
             self._log_event("info", f"registry disable {module_type}:{name}")
 
     def metadata(self, module_type: str, name: str) -> RegistryRecord:
+        """Return the metadata snapshot for a registered factory."""
         with self._lock:
             self._validate_module_type(module_type)
             if name not in self._tables[module_type]:
@@ -188,6 +201,7 @@ class ChromacoreRegistry:
             )
 
     def freeze(self) -> None:
+        """Prevent any further registry mutations."""
         with self._lock:
             self._frozen = True
             self._log_event("info", "registry freeze")

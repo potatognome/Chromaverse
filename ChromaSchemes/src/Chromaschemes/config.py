@@ -16,6 +16,7 @@ OVERRIDE_DIR = CONFIG_ROOT / "CHROMASCHEMES.d"
 
 
 def _merge_dict(base: dict, patch: dict) -> dict:
+    """Merge nested configuration fragments into the base config."""
     for key, value in patch.items():
         if isinstance(value, dict) and isinstance(base.get(key), dict):
             base[key] = _merge_dict(base[key], value)
@@ -25,6 +26,7 @@ def _merge_dict(base: dict, patch: dict) -> dict:
 
 
 def load_config() -> dict:
+    """Load the active ChromaSchemes configuration from disk."""
     config_path = next((path for path in CONFIG_CANDIDATES if path.exists()), None)
     if config_path is None:
         print("[Chromaschemes.config] Warning: no config file found; returning empty config.")

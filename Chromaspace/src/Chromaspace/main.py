@@ -101,6 +101,7 @@ def _run_script(script_name):
 
 
 def main():
+    """Launch the interactive Chromaspace CLI."""
     global_config = startup()
     menu(global_config)
 

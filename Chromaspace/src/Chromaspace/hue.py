@@ -4,12 +4,12 @@ from .config import HUE_ANCHORS, HUE_VARIANTS, _bands
 
 
 def get_hue_angle_step():
-    """Return the spacing between hue anchors around the colour wheel."""
+    """Return the angular spacing between configured hue anchors."""
     return 360.0 / len(HUE_ANCHORS)
 
 
 def get_hue_anchor_angles():
-    """Return base hue angles for each anchor, with optional config override."""
+    """Resolve the base angle for each hue anchor."""
     configured_angles = _bands.get("HUE_ANCHOR_BASE_ANGLES")
     if configured_angles:
         if isinstance(configured_angles, dict):
@@ -61,6 +61,7 @@ def get_variant_offsets():
 
 
 def get_hue_angle(anchor, variant, hue_offset=0):
+    """Return the final hue angle for an anchor/variant pair."""
     anchor_angles = get_hue_anchor_angles()
     variant_offsets = get_variant_offsets()
     base = anchor_angles[anchor]
@@ -79,4 +80,5 @@ def get_sorted_hues():
 
 
 def get_hue_label(anchor, variant):
+    """Return a stable label for a hue anchor and variant."""
     return f"{anchor}-{variant}"

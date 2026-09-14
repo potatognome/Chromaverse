@@ -1,6 +1,8 @@
 import { IGeometryInterpreter } from './interfaces';
 
+/** Translate named geometry models into hue offset sequences. */
 export class GeometryInterpreter implements IGeometryInterpreter {
+  /** Resolve hue offsets for a named geometry model. */
   interpret(model: string, desiredCount: number, params: Record<string, unknown> = {}): number[] {
     if (model === 'custom') {
       const offsets = params.offsets;

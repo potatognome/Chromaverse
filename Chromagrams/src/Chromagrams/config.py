@@ -22,6 +22,7 @@ def _merge_dict(base: dict, patch: dict) -> dict:
 
 
 def load_config() -> dict:
+    """Load the Chromagrams config and apply JSON overrides."""
     with BASE_CONFIG_PATH.open("r", encoding="utf-8") as handle:
         config = json.load(handle)
 

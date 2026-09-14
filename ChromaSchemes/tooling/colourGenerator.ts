@@ -1,6 +1,8 @@
 import { IColourGenerator } from './interfaces';
 
+/** Build RGB and OKLCh colour records from semantic band inputs. */
 export class ColourGenerator implements IColourGenerator {
+  /** Convert HSV-style inputs to RGB. */
   private hsvToRgb(h: number, s: number, v: number): { r: number; g: number; b: number } {
     const hue = ((h % 360) + 360) % 360;
     const sat = Math.max(0, Math.min(1, s));
@@ -26,6 +28,7 @@ export class ColourGenerator implements IColourGenerator {
     };
   }
 
+  /** Generate the colour set for the provided hue and band sequences. */
   generate(baseHex: string, hueOffsets: number[], chromaValues: number[], luminanceValues: number[]) {
     const base = parseInt(baseHex.replace('#', ''), 16);
     const baseHue = ((base % 360) + 360) % 360;

@@ -13,6 +13,7 @@ OVERRIDE_DIR = CONFIG_ROOT / "CHROMATOOLS.d"
 
 
 def _merge_dict(base: dict, patch: dict) -> dict:
+    """Recursively merge one configuration mapping into another."""
     for key, value in patch.items():
         if isinstance(value, dict) and isinstance(base.get(key), dict):
             base[key] = _merge_dict(base[key], value)
@@ -22,12 +23,14 @@ def _merge_dict(base: dict, patch: dict) -> dict:
 
 
 def _load_json(path: Path) -> dict:
+    """Load a JSON file and return an object mapping when possible."""
     with path.open("r", encoding="utf-8") as handle:
         data = json.load(handle)
     return data if isinstance(data, dict) else {}
 
 
 def load_config() -> dict:
+    """Load the base ChromaTools config and any override fragments."""
     config = _load_json(BASE_CONFIG_PATH)
     if OVERRIDE_DIR.exists():
         for path in sorted(OVERRIDE_DIR.glob("*.json")):

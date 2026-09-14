@@ -96,6 +96,7 @@ def _resolve_any(mode_keys: Iterable[str], path_keys: Iterable[str], fallback: s
 
 
 def show_config_and_paths() -> None:
+    """Report the active config file and resolved project paths."""
     _log("!proc", "Config and path inspection")
     _log("!path", f"Primary config file: {CONFIG_FILE}")
 
@@ -130,6 +131,7 @@ def _generate_payload(geometry_model: str, desired_colour_count: int) -> dict:
 
 
 def run_engine_demos() -> None:
+    """Exercise the scheme engine across representative geometry models."""
     _log("!proc", "Engine demonstrations")
     engine = ChromaSchemesEngine()
 
@@ -140,6 +142,7 @@ def run_engine_demos() -> None:
 
 
 def run_edge_cases() -> None:
+    """Stress the engine with long, empty, and invalid payload variants."""
     _log("!proc", "Edge-case stress checks")
     engine = ChromaSchemesEngine()
 
@@ -166,6 +169,7 @@ def run_edge_cases() -> None:
 
 
 def emit_sample_file() -> None:
+    """Generate a sample scheme file under the repository samples folder."""
     _log("!proc", "Emit sample scheme output")
     engine = ChromaSchemesEngine()
     output_path = PROJECT_ROOT / "samples" / "generated.exemplar.scheme.yaml"
@@ -174,6 +178,7 @@ def emit_sample_file() -> None:
 
 
 def menu_loop() -> None:
+    """Drive the interactive exemplar menu."""
     while True:
         _log("!list", "1. Config and path report")
         _log("!list", "2. Engine demos")
@@ -198,6 +203,7 @@ def menu_loop() -> None:
 
 
 def main() -> int:
+    """Entry point for the ChromaSchemes exemplar."""
     _log("!info", "═══════════════════════════════════════════════════════")
     _log("!info", " ChromaSchemes Exemplar")
     _log("!info", "═══════════════════════════════════════════════════════")

@@ -26,6 +26,7 @@ GREY_VARIANT = _bands["GREY_VARIANT"]
 COLOUR_METHOD = _bands.get("COLOUR_METHOD", "hsv")
 
 def generate_colour(h, s, lum_value, method):
+    """Convert a hue, saturation, and luminance value into a colour record."""
     rgb = to_rgb(h, s, lum_value, method=method)
     return {
         "hue": h,
@@ -35,6 +36,7 @@ def generate_colour(h, s, lum_value, method):
     }
 
 def generate_colour_entries():
+    """Generate every configured colour entry for the active colour system."""
     colours = []
     # Regular hues (skip sat=0 to avoid duplicate greys)
     for anchor, variant, h in get_sorted_hues():

@@ -13,6 +13,7 @@ def _format_xkcd_match(xkcd_match):
     return str(xkcd_match)
 
 def swatch_cell(rgb, label, hsv, xkcd_match=None, extra=None):
+    """Render a single table cell for a colour swatch."""
     style = (
         "background: rgb({0}, {1}, {2}); width: 88px; min-width: 88px; "
         "height: 32px; text-align: center; border: 1px solid #ccc;"
@@ -29,6 +30,7 @@ def swatch_cell(rgb, label, hsv, xkcd_match=None, extra=None):
     )
 
 def build_html_table(rows, header=None, row_labels=None, title=None):
+    """Render a complete HTML table from row and header data."""
     html = (
         "<table style='border-collapse:collapse; margin:1em 0;'>"
         "<style>th, td { min-width: 140px; padding: 6px 10px; }</style>"

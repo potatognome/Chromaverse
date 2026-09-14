@@ -1,3 +1,5 @@
+"""Render Chromaspace hue-square HTML previews from configured bands."""
+
 import os
 import argparse
 import sys
@@ -23,6 +25,7 @@ from Chromaspace.cli_utils import (
 )
 
 def main():
+    """Run the hue-square HTML preview generator."""
     parser = argparse.ArgumentParser(description="Render configurable hue squares as HTML.")
     parser.add_argument('--hue_anchors', default=None, help='Comma-separated anchor names or indices (e.g. red,blue or 0,2)')
     parser.add_argument('--variant', default=None, help='Variant(s): cool, warm, or both (comma-separated)')

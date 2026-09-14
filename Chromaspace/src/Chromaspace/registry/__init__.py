@@ -19,6 +19,7 @@ from .registry import REGISTRY
 
 
 def register(module_type, name, version, factory, capabilities, config_schema, priority=None):
+    """Register a factory through the shared registry singleton."""
     return REGISTRY.register(
         module_type=module_type,
         name=name,
@@ -31,26 +32,32 @@ def register(module_type, name, version, factory, capabilities, config_schema, p
 
 
 def get(module_type, name):
+    """Return a registered factory by module type and name."""
     return REGISTRY.get(module_type=module_type, name=name)
 
 
 def get_all(module_type):
+    """Return all enabled factories for a module type."""
     return REGISTRY.get_all(module_type=module_type)
 
 
 def find(module_type, capability):
+    """Return all enabled factories that support a capability."""
     return REGISTRY.find(module_type=module_type, capability=capability)
 
 
 def disable(module_type, name):
+    """Disable a registered factory by module type and name."""
     return REGISTRY.disable(module_type=module_type, name=name)
 
 
 def metadata(module_type, name):
+    """Return registry metadata for a factory."""
     return REGISTRY.metadata(module_type=module_type, name=name)
 
 
 def freeze():
+    """Freeze the registry against further mutation."""
     return REGISTRY.freeze()
 
 
