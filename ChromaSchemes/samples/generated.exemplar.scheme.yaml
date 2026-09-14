@@ -1,0 +1,223 @@
+colourSet:
+  -
+    id: "c0"
+    origin: "base"
+    rgb:
+      r: 163
+      g: 138
+      b: 134
+    oklch:
+      l: 0.64
+      c: 0.0576
+      h: 9.444444
+    originMetadata:
+      hueOffset: 45.0
+  -
+    id: "c1"
+    origin: "base"
+    rgb:
+      r: 149
+      g: 170
+      b: 138
+    oklch:
+      l: 0.666667
+      c: 0.0608
+      h: 99.444444
+    originMetadata:
+      hueOffset: 135.0
+  -
+    id: "c2"
+    origin: "base"
+    rgb:
+      r: 141
+      g: 171
+      b: 177
+    oklch:
+      l: 0.693333
+      c: 0.064
+      h: 189.444444
+    originMetadata:
+      hueOffset: 225.0
+  -
+    id: "c3"
+    origin: "base"
+    rgb:
+      r: 170
+      g: 145
+      b: 184
+    oklch:
+      l: 0.72
+      c: 0.0672
+      h: 279.444444
+    originMetadata:
+      hueOffset: 315.0
+  -
+    id: "c4"
+    origin: "derived"
+    rgb:
+      r: 163
+      g: 133
+      b: 127
+    oklch:
+      l: 0.64
+      c: 0.0704
+      h: 9.444444
+    originMetadata:
+      hueOffset: 45.0
+  -
+    id: "c5"
+    origin: "derived"
+    rgb:
+      r: 144
+      g: 170
+      b: 131
+    oklch:
+      l: 0.666667
+      c: 0.0736
+      h: 99.444444
+    originMetadata:
+      hueOffset: 135.0
+  -
+    id: "c6"
+    origin: "derived"
+    rgb:
+      r: 134
+      g: 170
+      b: 177
+    oklch:
+      l: 0.693333
+      c: 0.0768
+      h: 189.444444
+    originMetadata:
+      hueOffset: 225.0
+  -
+    id: "c7"
+    origin: "derived"
+    rgb:
+      r: 168
+      g: 138
+      b: 184
+    oklch:
+      l: 0.72
+      c: 0.08
+      h: 279.444444
+    originMetadata:
+      hueOffset: 315.0
+roles:
+  primary_surface:
+    layers:
+      bg:
+        colourRef: "c0"
+  secondary_surface:
+    layers:
+      bg:
+        colourRef: "c1"
+  tertiary_surface:
+    layers:
+      bg:
+        colourRef: "c2"
+  accent_surface:
+    layers:
+      bg:
+        colourRef: "c3"
+  border_fg:
+    layers:
+      fg:
+        colourRef: "c4"
+  menu_fg:
+    layers:
+      fg:
+        colourRef: "c5"
+  menu_bg:
+    layers:
+      bg:
+        colourRef: "c6"
+  interactive_fg:
+    layers:
+      fg:
+        colourRef: "c7"
+  interactive_bg:
+    layers:
+      bg:
+        colourRef: "c0"
+  neutral_fg:
+    layers:
+      fg:
+        colourRef: "c1"
+  neutral_bg:
+    layers:
+      bg:
+        colourRef: "c2"
+geometry:
+  baseGeometry: "quadratic"
+  overlays:
+    -
+      type: "harmonic"
+      params:
+        rotation: 45
+    -
+      type: "luminance_wheel"
+      params:
+        amplitude: 0.08
+    -
+      type: "chroma_spiral"
+      params:
+        step: 0.01
+  expressions:
+    parageometric: true
+    offsets:
+      - 45.0
+      - 135.0
+      - 225.0
+      - 315.0
+      - 45.0
+      - 135.0
+      - 225.0
+      - 315.0
+preview:
+  model: "MultiPanePreviewModel"
+  panes:
+    -
+      paneId: "pane_0"
+      layout: "fractal_quadrant"
+      roleUsageHints:
+        backgroundRole: "primary_surface"
+        interactiveRole: "interactive_bg"
+        textRole: "menu_fg"
+      border:
+        colourRef: "c4"
+      fill:
+        colourRef: "c0"
+    -
+      paneId: "pane_1"
+      layout: "fractal_quadrant"
+      roleUsageHints:
+        backgroundRole: "secondary_surface"
+        interactiveRole: "interactive_bg"
+        textRole: "menu_fg"
+      border:
+        colourRef: "c4"
+      fill:
+        colourRef: "c1"
+    -
+      paneId: "pane_2"
+      layout: "fractal_quadrant"
+      roleUsageHints:
+        backgroundRole: "tertiary_surface"
+        interactiveRole: "interactive_bg"
+        textRole: "menu_fg"
+      border:
+        colourRef: "c4"
+      fill:
+        colourRef: "c2"
+    -
+      paneId: "pane_3"
+      layout: "fractal_quadrant"
+      roleUsageHints:
+        backgroundRole: "accent_surface"
+        interactiveRole: "interactive_bg"
+        textRole: "menu_fg"
+      border:
+        colourRef: "c4"
+      fill:
+        colourRef: "c3"

@@ -39,7 +39,7 @@ try:
     from tUilKit.utils.config import ConfigLoader
     from tUilKit.utils.output import ColourManager, Logger
 
-    TUILKIT_CONFIG = Path(PATHS.get("tuilkit_config_file", str(WORKSPACE_ROOT / "Core" / "tUilKit" / "config" / "tUilKit_CONFIG.json")))
+    TUILKIT_CONFIG = Path(PATHS.get("tuilkit_config_file", str(WORKSPACE_ROOT / "tUilKit" / "config" / "tUilKit_CONFIG.json")))
     config_loader = ConfigLoader(config_path=str(TUILKIT_CONFIG))
     colour_manager = ColourManager(config_loader.load_colour_config())
     logger = Logger(colour_manager)

@@ -11,15 +11,11 @@
                  "BUILD_TYPE":  "$PROJECT_BUILD_TYPE"
              },
     "ROOTS":  {
-                  "PROJECT":  "C:/Repository/Daniel/dev_local/Prismata/Projects/Core/Chromaverse/ChromaSchemes",
-                  "WORKSPACE":  "C:/Repository/Daniel/dev_local",
-                  "TUILKit":  "C:/Repository/Daniel/dev_local/Prismata/Projects/Core/tUilKit"
+                  "PROJECT":  "C:/Repository/Daniel/dev_local/Chromaverse/ChromaSchemes",
+                  "WORKSPACE":  "C:/Repository/Daniel/dev_local/Prismata/.workspace",
+                  "TUILKit":  "C:/Repository/Daniel/dev_local//tUilKit"
               },
     "ROOT_MODES":  {
-                       "ROOT_MODES: project":  "Paths are relative to the project root.",
-                       "ROOT_MODES: workspace":  "Paths are relative to the workspace root.",
-                       "TEST_CONFIG":  "project",
-                       "TEST_LOGS":  "workspace",
                        "CONFIG":  "workspace",
                        "LOGS":  "workspace",
                        "INPUTS":  "workspace",
@@ -44,7 +40,7 @@
                        "FILE_PATHS":  [
 
                                       ],
-                       "ENABLED":  false
+                       "ENABLED":  true
                    },
     "LOG_FILES":  {
                       "DEBUG":  "Chromaschemes_DEBUG.log",
