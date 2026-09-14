@@ -22,3 +22,15 @@ tests/.config/
 .env
 .venv
 *.bak*
+
+# Inherited from tUilKit .gitignore (common entries)
+*.pyc
+*.pyo
+*.pycache/
+.pytest_cache/
+
+venv/
+env/
+
+*.env
+.env.*

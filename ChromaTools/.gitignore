@@ -5,3 +5,18 @@ build/
 dist/
 *.egg-info/
 
+# Node modules
+node_modules/
+
+# Inherited from tUilKit .gitignore (minimal subset)
+*.pyc
+*.pyo
+*.pycache/
+.pytest_cache/
+
+venv/
+env/
+
+*.env
+.env.*
+
