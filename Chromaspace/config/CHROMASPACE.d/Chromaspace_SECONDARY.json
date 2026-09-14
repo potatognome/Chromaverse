@@ -1,4 +1,5 @@
 {
+  "version": "0.3.10",
   "COLOUR_FSTR": "!project",
   "COLOUR_SYSTEM_POINTER": {
     "COLOUR_SYSTEM_NAME": "1x45x4x4-oklch",

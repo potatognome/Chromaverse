@@ -1,3 +1,21 @@
+/**
+ * RoleBinder – maps colour-set entries onto universal scheme roles.
+ *
+ * Description:
+ *   Binds palette entries to the shared role vocabulary used by the preview
+ *   and emitter stages.
+ *
+ * Inputs:
+ *   - bind(colourSet)
+ *     * colourSet: array of normalised colour-set entries.
+ *
+ * Outputs:
+ *   A role map keyed by role name with foreground/background layer refs.
+ *
+ * Example:
+ *   const binder = new RoleBinder();
+ *   const roles = binder.bind(colourSet);
+ */
 import { IRoleBinder } from './interfaces';
 
 const UNIVERSAL_ROLES = [

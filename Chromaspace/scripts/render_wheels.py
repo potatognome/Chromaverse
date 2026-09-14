@@ -1,4 +1,20 @@
 
+"""Render all Chromaspace hue wheels as HTML output.
+
+Description:
+    Produces saturation and luminance wheel previews using the configured band
+    lists and writes them to the chosen output directory.
+
+Inputs:
+    CLI options:
+    - --output: optional output directory override.
+
+Outputs:
+    HTML files for the generated hue-wheel previews.
+
+Example:
+    python scripts/render_wheels.py
+"""
 import argparse
 import os
 from pathlib import Path

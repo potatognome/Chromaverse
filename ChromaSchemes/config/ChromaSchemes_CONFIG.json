@@ -1,4 +1,5 @@
-﻿{
+{
+    "version": "0.3.0",
     "INFO":  {
                  "PROJECT_NAME":  "Chromaschemes",
                  "PROJECT_FOLDER":  "Chromaschemes",

@@ -1,4 +1,5 @@
-﻿{
+{
+    "version": "0.3.10",
     "INFO":  {
                  "PROJECT_NAME":  "Chromaspace",
                  "PROJECT_FOLDER":  "/Prismata/Projects/Core/Chromaverse/Chromaspace/",

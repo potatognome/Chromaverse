@@ -1,3 +1,20 @@
+"""Render a Chromaspace colour-set preview as HTML.
+
+Description:
+    Loads colour records from JSON, builds a swatch table and wheel preview,
+    and writes the result to an HTML file.
+
+Inputs:
+    CLI options:
+    - input: optional JSON source file.
+    - --output: optional HTML output path.
+
+Outputs:
+    A rendered HTML preview file containing the colour table and wheel.
+
+Example:
+    python scripts/preview_colours.py filtered.json --output preview.html
+"""
 import json
 import argparse
 import os

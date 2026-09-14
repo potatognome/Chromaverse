@@ -1,5 +1,25 @@
 # src/colour_system/colour_methods/lab.py
 
+"""CIE Lab conversion helpers and registry-backed adapter.
+
+Description:
+    Converts Lab-style hue, chroma, and lightness inputs into RGB output and
+    exposes the conversion through the colour-space registry.
+
+Inputs:
+    - lab_to_xyz(L, a, b): Lab coordinates.
+    - xyz_to_rgb(X, Y, Z): XYZ coordinates.
+    - to_rgb(h, c, l): semantic Lab inputs used by the module adapter.
+    - LabColourSpace.to_rgb(h, s, l): adapter entry point for registry callers.
+
+Outputs:
+    RGB tuples, or the registered LabColourSpace instance for dependency
+    injection.
+
+Example:
+    from Chromaspace.colour_spaces.lab import LabColourSpace
+    rgb = LabColourSpace().to_rgb(120, 0.2, 0.7)
+"""
 import math
 
 from ..interfaces import ColourSpaceInterface

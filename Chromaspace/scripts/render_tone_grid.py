@@ -1,4 +1,20 @@
 
+"""Render saturation and luminance wheel previews for Chromaspace.
+
+Description:
+    Generates the saturation and luminance wheel HTML files for every band in
+    the active Chromaspace configuration.
+
+Inputs:
+    CLI options:
+    - --output: optional output directory override.
+
+Outputs:
+    HTML files for each saturation wheel and luminance wheel combination.
+
+Example:
+    python scripts/render_tone_grid.py --output output/html
+"""
 import argparse
 import os
 from pathlib import Path

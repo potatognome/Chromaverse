@@ -1,4 +1,28 @@
 # Shared JSON file helpers
+"""Shared CLI utilities for Chromaspace colour-system scripts.
+
+Description:
+    Provides JSON I/O, band parsing, and output-path helpers used by the
+    Chromaspace command-line scripts.
+
+Inputs:
+    - load_json(path, encoding='utf-8'): reads a JSON file from disk.
+    - save_json(obj, path, encoding='utf-8', **kwargs): writes JSON output.
+    - parse_band_arg(arg, all_bands): accepts a comma-separated band selector.
+    - ensure_output_dir(path): creates the parent output directory when needed.
+    - get_output_folder(key, default=None, with_system_suffix=False): resolves a folder from config.
+    - get_output_file(key, default=None, with_system_suffix=False): resolves a filename from config.
+    - get_hue_anchors(), get_hue_variants(), get_sat_bands(), get_lum_bands(): return config-driven band lists.
+
+Outputs:
+    Helper return values, JSON files, or created directories depending on the
+    helper invoked.
+
+Example:
+    from Chromaspace.cli_utils import ensure_output_dir, save_json
+    ensure_output_dir("output/preview.json")
+    save_json({"version": "0.3.10"}, "output/preview.json")
+"""
 import json
 def load_json(path, encoding='utf-8'):
     with open(path, 'r', encoding=encoding) as f:
@@ -7,7 +31,6 @@ def load_json(path, encoding='utf-8'):
 def save_json(obj, path, encoding='utf-8', **kwargs):
     with open(path, 'w', encoding=encoding) as f:
         json.dump(obj, f, indent=2, ensure_ascii=False, **kwargs)
-"""Shared CLI utilities for colour_system scripts."""
 import os
 from .config import _config, COLOUR_SYSTEM_SUFFIX
 

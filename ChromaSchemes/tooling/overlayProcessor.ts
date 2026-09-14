@@ -1,3 +1,24 @@
+/**
+ * OverlayProcessor – applies overlay transformations to colour vectors.
+ *
+ * Description:
+ *   Adjusts hue, chroma, and luminance arrays according to the requested
+ *   overlay operations.
+ *
+ * Inputs:
+ *   - apply(hues, chromaValues, luminanceValues, overlays)
+ *     * hues: base hue offsets.
+ *     * chromaValues: base chroma values.
+ *     * luminanceValues: base luminance values.
+ *     * overlays: overlay descriptors and optional parameters.
+ *
+ * Outputs:
+ *   A transformed hue/chroma/luminance bundle.
+ *
+ * Example:
+ *   const processor = new OverlayProcessor();
+ *   const next = processor.apply([0, 120], [0.2, 0.18], [0.8, 0.75], []);
+ */
 import { IOverlayProcessor } from './interfaces';
 
 export class OverlayProcessor implements IOverlayProcessor {

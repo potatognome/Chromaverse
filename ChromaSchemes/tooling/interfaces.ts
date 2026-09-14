@@ -1,3 +1,22 @@
+/**
+ * ChromaSchemes tooling interface contracts.
+ *
+ * Description:
+ *   Declares the public TypeScript interfaces that connect the geometry,
+ *   colour-generation, overlay, role-binding, preview, and emitter stages.
+ *
+ * Inputs:
+ *   See each interface method signature for the accepted values.
+ *
+ * Outputs:
+ *   The interfaces describe hue arrays, colour records, preview models,
+ *   bindings, and emitted file paths.
+ *
+ * Example:
+ *   class CustomGenerator implements IColourGenerator {
+ *     generate(baseHex, hueOffsets, chromaValues, luminanceValues) { ... }
+ *   }
+ */
 export interface IGeometryInterpreter {
   interpret(model: string, desiredCount: number, params?: Record<string, unknown>): number[];
 }

@@ -1,3 +1,23 @@
+"""Render configurable hue-square previews for Chromaspace.
+
+Description:
+    Builds one HTML page per selected hue anchor and variant combination using
+    the Chromaspace visualisation helpers.
+
+Inputs:
+    CLI options:
+    - --hue_anchors: comma-separated anchors or indices.
+    - --variant: one or more hue variants.
+    - --sat_bands / --lum_bands: optional band filters.
+    - --hsl_offsets: manual global HSL override.
+    - --output: destination HTML file name.
+
+Outputs:
+    A rendered HTML file containing the configured hue-square matrix.
+
+Example:
+    python scripts/render_hue_squares.py --variant cool,warm
+"""
 import os
 import argparse
 import sys

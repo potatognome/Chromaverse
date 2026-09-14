@@ -1,5 +1,23 @@
 # src/colour_system/colour_engine.py
 
+"""Colour-space dispatch helpers for Chromaspace.
+
+Description:
+    Routes semantic hue, saturation, and luminance values through the
+    registered colour-space adapter selected by name.
+
+Inputs:
+    - to_rgb(h, s, lum_value, method='hsv'): numeric colour coordinates plus
+      the adapter name.
+
+Outputs:
+    A three-item RGB list, or a ValueError/TypeError when the requested
+    adapter is unavailable or invalid.
+
+Example:
+    from Chromaspace.colour_engine import to_rgb
+    rgb = to_rgb(210, 0.5, 0.7, method="oklch")
+"""
 from . import colour_spaces  # noqa: F401
 from .registry import MODULE_TYPE_COLOUR_SPACE, get
 

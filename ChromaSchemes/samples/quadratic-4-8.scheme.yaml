@@ -1,3 +1,4 @@
+version: 0.3.0
 colourSet:
   - id: "c0"
     origin: "base"

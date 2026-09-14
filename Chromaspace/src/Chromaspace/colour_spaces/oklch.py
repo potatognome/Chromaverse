@@ -1,5 +1,26 @@
 # src/colour_system/colour_methods/oklch.py
 
+"""OKLCh conversion helpers and registry-backed adapter.
+
+Description:
+    Converts OKLCh hue, chroma, and lightness inputs into RGB output and
+    registers the adapter with the Chromaspace colour-space registry.
+
+Inputs:
+    - oklch_to_oklab(L, C, H): OKLCh coordinates.
+    - oklab_to_linear_srgb(L, a, b): OKLab coordinates.
+    - linear_to_srgb(x): linear RGB channel value.
+    - to_rgb(h, c, l): semantic OKLCh inputs used by the module adapter.
+    - OklchColourSpace.to_rgb(h, s, l): adapter entry point for registry callers.
+
+Outputs:
+    RGB tuples, or the registered OklchColourSpace instance for dependency
+    injection.
+
+Example:
+    from Chromaspace.colour_spaces.oklch import to_rgb
+    rgb = to_rgb(280, 0.18, 0.72)
+"""
 import math
 
 from ..interfaces import ColourSpaceInterface

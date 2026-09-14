@@ -1,3 +1,22 @@
+/**
+ * PreviewModelBuilder – builds preview-ready model payloads.
+ *
+ * Description:
+ *   Converts colour-set and role-binding data into the preview model consumed
+ *   by the UI renderer.
+ *
+ * Inputs:
+ *   - build(colourSet, roles)
+ *     * colourSet: normalised colour entries.
+ *     * roles: resolved role-binding map.
+ *
+ * Outputs:
+ *   A preview model object with pane definitions and colour references.
+ *
+ * Example:
+ *   const builder = new PreviewModelBuilder();
+ *   const preview = builder.build(colourSet, roles);
+ */
 import { IPreviewModelBuilder } from './interfaces';
 
 export class PreviewModelBuilder implements IPreviewModelBuilder {

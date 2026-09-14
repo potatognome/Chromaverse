@@ -1,5 +1,26 @@
 
 
+"""Filter generated Chromaspace colour sets from the command line.
+
+Description:
+    Loads the configured colour-system JSON, applies band-based filters, and
+    prints or writes the filtered records.
+
+Inputs:
+    CLI options:
+    - --ONLY SAT LUM: keep only the selected saturation and luminance bands.
+    - --EXCEPT SAT LUM: exclude the selected saturation and luminance bands.
+    - --SAT / --LUM: include only specific bands by name or index.
+    - --OUTPUT: choose which fields are emitted.
+    - --FILE: write the result to a JSON file.
+
+Outputs:
+    A filtered colour list printed to stdout, or a JSON file written under the
+    configured output directory.
+
+Example:
+    python scripts/filter_colours.py --ONLY soft bright --FILE filtered
+"""
 import argparse
 import os
 from pathlib import Path

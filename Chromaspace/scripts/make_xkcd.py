@@ -1,6 +1,22 @@
 
 
 
+"""Download the XKCD colour list and write it to Chromaspace JSON.
+
+Description:
+    Fetches the public XKCD colour table, converts each hex colour to RGB, and
+    stores the result using the configured output path.
+
+Inputs:
+    No positional arguments. The module reads the Chromaspace config and uses
+    the remote XKCD colour feed.
+
+Outputs:
+    A JSON file mapping XKCD colour names to RGB arrays.
+
+Example:
+    python scripts/make_xkcd.py
+"""
 import json
 import os
 from pathlib import Path

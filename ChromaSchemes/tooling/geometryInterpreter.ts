@@ -1,3 +1,23 @@
+/**
+ * GeometryInterpreter – converts scheme geometry models into hue offsets.
+ *
+ * Description:
+ *   Implements the geometry contract for translating named models into
+ *   deterministic hue sequences.
+ *
+ * Inputs:
+ *   - interpret(model, desiredCount, params?)
+ *     * model: geometry model name.
+ *     * desiredCount: number of requested offsets.
+ *     * params: optional geometry parameters such as custom offsets.
+ *
+ * Outputs:
+ *   A numeric hue-offset array.
+ *
+ * Example:
+ *   const interpreter = new GeometryInterpreter();
+ *   const offsets = interpreter.interpret('quadratic', 4);
+ */
 import { IGeometryInterpreter } from './interfaces';
 
 export class GeometryInterpreter implements IGeometryInterpreter {

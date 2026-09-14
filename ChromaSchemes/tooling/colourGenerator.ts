@@ -1,3 +1,24 @@
+/**
+ * ColourGenerator – converts geometry output into colour records.
+ *
+ * Description:
+ *   Implements the colour-generation contract used by the ChromaSchemes
+ *   tooling pipeline.
+ *
+ * Inputs:
+ *   - generate(baseHex, hueOffsets, chromaValues, luminanceValues)
+ *     * baseHex: base colour hex string.
+ *     * hueOffsets: hue adjustments in degrees.
+ *     * chromaValues: per-swatch chroma inputs.
+ *     * luminanceValues: per-swatch luminance inputs.
+ *
+ * Outputs:
+ *   An array of colour records containing RGB and OKLCh values.
+ *
+ * Example:
+ *   const generator = new ColourGenerator();
+ *   const colours = generator.generate('#ff8800', [0, 120], [0.2, 0.18], [0.8, 0.75]);
+ */
 import { IColourGenerator } from './interfaces';
 
 export class ColourGenerator implements IColourGenerator {

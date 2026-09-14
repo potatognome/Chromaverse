@@ -1,3 +1,4 @@
+version: 0.3.0
 $id: "chromaverse://chromascheme/input"
 title: "ChromaSchemeInput"
 description: "Input parameters for generating a ChromaScheme."
