@@ -1,18 +1,20 @@
 """Shared CLI and JSON helpers for Chromaspace scripts."""
 
-# Shared JSON file helpers
 import json
+import os
+
+from .config import _config, COLOUR_SYSTEM_SUFFIX
+
+
 def load_json(path, encoding='utf-8'):
     """Load JSON from disk using the requested text encoding."""
     with open(path, 'r', encoding=encoding) as f:
         return json.load(f)
 
 def save_json(obj, path, encoding='utf-8', **kwargs):
-    """Persist an object as pretty-printed JSON."""
+    """Persist an object as JSON with pretty-printing and any extra json.dump options."""
     with open(path, 'w', encoding=encoding) as f:
         json.dump(obj, f, indent=2, ensure_ascii=False, **kwargs)
-import os
-from .config import _config, COLOUR_SYSTEM_SUFFIX
 
 # Band/variant parsing helpers
 def parse_band_arg(arg, all_bands):

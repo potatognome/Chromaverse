@@ -1,5 +1,3 @@
-
-
 """Filter Chromaspace colour records by band and output options."""
 
 import argparse

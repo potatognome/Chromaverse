@@ -2,7 +2,7 @@ import { promises as fs } from 'node:fs';
 
 import { IChromaSchemeEmitter } from './interfaces';
 
-/** Serialise scheme payloads to disk. */
+/** Disk-backed emitter for generated scheme payloads. */
 export class ChromaSchemeEmitter implements IChromaSchemeEmitter {
   /** Serialise a scheme payload to disk as formatted JSON. */
   async emit(payload: Record<string, unknown>, targetPath: string): Promise<string> {

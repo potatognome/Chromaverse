@@ -47,7 +47,12 @@ def xyz_to_rgb(X, Y, Z):
     )
 
 def to_rgb(h, c, l):
-    """Convert semantic Lab inputs into an RGB triple."""
+    """Convert semantic Lab inputs into an RGB triple.
+
+    h: hue angle 0–360
+    c: chroma band value
+    l: lightness band value scaled to 0–100 before conversion
+    """
     L = l * 100
     a = math.cos(math.radians(h)) * c * 100
     b = math.sin(math.radians(h)) * c * 100

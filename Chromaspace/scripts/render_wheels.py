@@ -1,4 +1,3 @@
-
 """Render the Chromaspace saturation and luminance wheel previews."""
 
 import argparse

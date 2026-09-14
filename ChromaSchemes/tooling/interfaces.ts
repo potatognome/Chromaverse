@@ -31,7 +31,7 @@ export interface IColourGenerator {
 
 /** Colour-set builder contract for normalising generated records. */
 export interface IColourSetBuilder {
-  /** Normalize generated colour records into a colour set. */
+  /** Normalise generated colour records into a colour set. */
   build(generatedColours: Array<Record<string, unknown>>): Array<Record<string, unknown>>;
 }
 

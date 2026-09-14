@@ -1,4 +1,3 @@
-
 """Render Chromaspace tone-grid HTML previews from configured hue bands."""
 
 import argparse

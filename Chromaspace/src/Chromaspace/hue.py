@@ -9,7 +9,7 @@ def get_hue_angle_step():
 
 
 def get_hue_anchor_angles():
-    """Resolve the base angle for each hue anchor."""
+    """Return base hue angles for each anchor, applying any configured overrides."""
     configured_angles = _bands.get("HUE_ANCHOR_BASE_ANGLES")
     if configured_angles:
         if isinstance(configured_angles, dict):

@@ -1,8 +1,8 @@
 import { IColourSetBuilder } from './interfaces';
 
-/** Normalize generated colour records into a stable colour-set shape. */
+/** Normalise generated colour records for downstream scheme consumers. */
 export class ColourSetBuilder implements IColourSetBuilder {
-  /** Strip generated colour records down to the canonical colour-set shape. */
+  /** Strip generated colour records down to id/origin/rgb/oklch fields. */
   build(generatedColours: Array<Record<string, unknown>>) {
     return generatedColours.map((entry) => ({
       id: entry.id,

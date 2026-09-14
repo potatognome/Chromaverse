@@ -1,6 +1,3 @@
-
-
-
 """Fetch XKCD colour names and save the lookup table to JSON."""
 
 import json

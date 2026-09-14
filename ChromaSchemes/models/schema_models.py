@@ -8,7 +8,7 @@ from typing import Any
 
 @dataclass(frozen=True)
 class ChromaSchemeInput:
-    """Normalized input payload for ChromaSchemes generation."""
+    """Normalised input payload for ChromaSchemes generation."""
 
     base_hex: str
     geometry_model: str

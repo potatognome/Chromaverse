@@ -35,7 +35,12 @@ def linear_to_srgb(x):
     return 1.055 * (x ** (1/2.4)) - 0.055
 
 def to_rgb(h, c, l):
-    """Convert semantic OKLCh inputs into an RGB triple."""
+    """Convert semantic OKLCh inputs into an RGB triple.
+
+    h: hue angle 0–360
+    c: chroma band value (0–1)
+    l: lightness band value (0–1)
+    """
     L = l
     C = c
     H = h
